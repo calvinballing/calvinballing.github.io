@@ -57,7 +57,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #333;
-  font-family: adelle, Adelle, Georgia;
+  /*font-family: adelle, Adelle, Georgia;*/
   font-weight: 800;
   text-rendering: optimizeLegibility;
 }
