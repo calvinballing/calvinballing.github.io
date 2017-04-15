@@ -18,6 +18,9 @@ ruby RUBY_VERSION
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", group: :jekyll_plugins
 
+#for not needing to refresh so much
+gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
