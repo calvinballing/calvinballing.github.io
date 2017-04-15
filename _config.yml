@@ -30,7 +30,7 @@ exclude:
 
   
 title: Ideas and Such
-author: Jim Hays
+author: Jim
 description: A collection of Media by Jim Hays; recordings and writings.
 url: #place url # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: #place folder name if site is served in subfolder # the subpath of your site, e.g. /blog
