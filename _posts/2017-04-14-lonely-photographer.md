@@ -1,6 +1,6 @@
 ---
 type: audio
-audio-embed: <iframe width="100%" height="450" scrolling="no" frameborder="no" src="/media/LonelyPhotographer.mp3"></iframe>
+audio-embed: <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://soundcloud.com/jim-hays-390633644/lonely-photographer"></iframe>
 homedisplay: iframe
 title:  "The Lonely Photographer"
 date:   2017-04-14 22:34:21 -0400

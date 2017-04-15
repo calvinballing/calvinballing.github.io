@@ -1,6 +1,6 @@
 ---
 type: audio
-audio-embed: <iframe width="100%" height="450" scrolling="no" frameborder="no" src="/media/ValuableHumans.mp3"></iframe>
+audio-embed: <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://soundcloud.com/jim-hays-390633644/valuable-humans-in-transit"></iframe>
 homedisplay: iframe
 title:  "Valuable Humans in Transit"
 date:   2017-04-14 22:34:21 -0400
