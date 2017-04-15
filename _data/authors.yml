@@ -1,10 +1,10 @@
-  id: Jim
-  name: Jim Hays
-  avatar: /profile-pic.jpg
-  bio: I live in Columbus, OH.
-  twitter: https://twitter.com/calvinballing
-  email: calvinballing@gmail.com
-  
-  id: Amanda
-  name: Amanda Hays
-  bio: I live in Columbus, OH.
+id: Jim
+name: Jim Hays
+avatar: /profile-pic.jpg
+bio: I live in Columbus, OH.
+twitter: https://twitter.com/calvinballing
+email: calvinballing@gmail.com
+
+id: Amanda
+name: Amanda Hays
+bio: I live in Columbus, OH.
