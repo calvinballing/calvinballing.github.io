@@ -4,10 +4,10 @@ audio-embed: <iframe width="100%" height="450" scrolling="no" frameborder="no" s
 homedisplay: iframe
 title:  "Valuable Humans in Transit"
 author: Jim
-date:   2017-04-10 22:34:21 -0400
-description: A short story about a super-intelligent AI and imminent destruction of humanity
+date:   2016-10-23 13:57:21 -0500
+description: A short story about a super-intelligent AI and imminent danger for humanity
 tags: [qntm, audio]
 category: [audio]
 ---
 
-A short story about a super-intelligent AI and imminent destruction of humanity, written by [Sam Hughes](https://qntm.org/transit), read by Jim Hays
+A short story about a super-intelligent AI and imminent danger for humanity, written by [Sam Hughes](https://qntm.org/transit), read by Jim Hays
