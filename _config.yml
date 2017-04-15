@@ -18,7 +18,7 @@
 
 # Build settings
 markdown: kramdown
-theme: twister_theme
+#theme: twister_theme
 gems:
   - jekyll-feed
 exclude:
@@ -41,7 +41,7 @@ paginate_path: /page/:num/
 tag_dir: /tag
 category_dir: /category
 author_dir: /author
-author_title_prefix: 'Posted by '
+author_title_prefix: 'By '
 media_folder: /img
 author_default_avatar: /profile-pic.jpg
 #tumblr: "#"
