@@ -1,6 +1,5 @@
-
 ---
-layout: standard
+type: standard
 featimg: metropolitan.jpg
 title: Metropolitan Man Cameo
 homedisplay: featimg
