@@ -61,7 +61,7 @@ module.exports = function(grunt) {
             pages: {
                 options: {
                     remote: 'https://github.com/calvinballing.github.io.git', // change that
-                    branch: 'gh-pages' // adjust here
+                    branch: 'source' // adjust here
                 }
             }
         },
@@ -78,6 +78,7 @@ module.exports = function(grunt) {
 
 
     grunt.loadNpmTasks('grunt-contrib-uglify');
+	grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-autoprefixer');
