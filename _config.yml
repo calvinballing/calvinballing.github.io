@@ -28,6 +28,7 @@ exclude:
   - twister_theme.zip
   
 
+future: true
   
 title: Ideas and Such
 author: Jim
