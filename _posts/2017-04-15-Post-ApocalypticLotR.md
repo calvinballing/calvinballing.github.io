@@ -7,9 +7,7 @@ description: Lord of the Rings
 date:   2017-04-15 23:04:00 -0500
 ---
 
-I'm not the [first](https://www.quora.com/Do-the-Lord-of-the-Rings-novels-and-films-take-place-in-a-post-apocalyptic-setting) [person](https://nerditis.com/2013/10/13/why-lord-of-the-rings-is-a-post-apocalyptic-wasteland/) to interpret the Lord of the Rings with an emphasis on the [post-apocalyptic](http://patricksatters.blogspot.com/2013/05/lord-of-rings-and-other-fantasy-as-post.html) nature.  However, I have not seen the story imagined as as taking place within our own future, [Planet of the Apes](https://en.wikipedia.org/wiki/Planet_of_the_Apes_(1968_film))-style.
-
-It's plausible to construct a frame-story for the Lord of the Rings where the seemingly-magical/fantastic elements have scientific/sociological/technological explanations.  Let's take a few of the specific cases.
+I'm not the [first](https://www.quora.com/Do-the-Lord-of-the-Rings-novels-and-films-take-place-in-a-post-apocalyptic-setting) [person](https://nerditis.com/2013/10/13/why-lord-of-the-rings-is-a-post-apocalyptic-wasteland/) to interpret the Lord of the Rings with an emphasis on the [post-apocalyptic](http://patricksatters.blogspot.com/2013/05/lord-of-rings-and-other-fantasy-as-post.html) nature.  However, I have not seen the story imagined as as taking place within our *own* future, [Planet of the Apes](https://en.wikipedia.org/wiki/Planet_of_the_Apes_(1968_film))-style. It's plausible to construct a frame-story for the Lord of the Rings where the seemingly-magical/fantastic elements have scientific/sociological/technological explanations.  Let's take a few of the specific cases.
 
 Races
 =====
@@ -23,17 +21,14 @@ Saruman, who has worked together with Gandalf, also knows how to use explosives,
 
 Particulars
 ===========
-"Would you look into the mirror?"
----------------------------------
+
+## "Would you look into the mirror?"
 Galadriel has a powerful persona, and if she has access to a hallucinogenic drug, combining that with the [power of suggestion](https://www.aaas.org/abstract/power-suggestion-memory-manipulation) could account for the visions the main characters see.  
 
-Ring Invisibility
------------------
+## Ring Invisibility
 Bilbo potentially has help from Gandalf to pull off his famous party trick.  [Misdirection](http://www.spring.org.uk/2008/08/psychology-of-magic-3-critical.php) is nothing new to magicians.
 
 
 Narrator
 ========
-Finally, keep in mind that we are told these stories from the perspective of unreliable narrators who apparently do believe in magic, and interpret events in light of their beliefs that these things are true.
-
-Thoughts?  What else fits with this intepretation?  What things can't be explained under this narrative?  There's lots more ideas to develop here.
+Finally, keep in mind that we are told these stories from the perspective of unreliable narrators who apparently do believe in magic, and interpret events in light of their beliefs that these things are true. Thoughts?  What else fits with this intepretation?  What things can't be explained under this narrative?  There's lots more ideas to develop here.
