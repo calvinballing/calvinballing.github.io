@@ -1,7 +1,7 @@
 ---
 type: standard
-featimg: metropolitan.jpg
-title: Lord of the Rings re-intepreted as a Post-Apocalyptic Version of our Future
+featimg: sauronCropped.jpg
+title: Lord of the Rings as our Post-Apocalyptic Future
 homedisplay: featimg
 description: Lord of the Rings
 date:   2017-04-15 23:04:00 -0500
@@ -9,7 +9,7 @@ date:   2017-04-15 23:04:00 -0500
 
 I'm not the [first](https://www.quora.com/Do-the-Lord-of-the-Rings-novels-and-films-take-place-in-a-post-apocalyptic-setting) [person](https://nerditis.com/2013/10/13/why-lord-of-the-rings-is-a-post-apocalyptic-wasteland/) to interpret the Lord of the Rings with an emphasis on the [post-apocalyptic](http://patricksatters.blogspot.com/2013/05/lord-of-rings-and-other-fantasy-as-post.html) nature.  However, I have not seen the story imagined as as taking place within our own future, [Planet of the Apes](https://en.wikipedia.org/wiki/Planet_of_the_Apes_(1968_film))-style.
 
-It is plausible to construct a frame-story for the Lord of the Rings in which the seemingly-magical/fantastic elements have scientific/sociological/technological explanations.  Let's take a few of the specific cases.
+It's plausible to construct a frame-story for the Lord of the Rings where the seemingly-magical/fantastic elements have scientific/sociological/technological explanations.  Let's take a few of the specific cases.
 
 Races
 =====
@@ -17,7 +17,7 @@ Why are there different races?  Humanity was just beginning the gene-editing rev
 
 Wizards
 =======
-What do we know of the magic of wizards?  Gandalf really does seem to be quite an impotent wizard.  His wizardry consists of such things as reading books (a rather scientific thing to do), launching fireworks (gunpowder is not such an advanced concept, especially if you are one of the few people who spends time in a library), fighting a Balrog (potentially a pre-arranged stunt), escaping Orthanc with the help of the Eagles (we only have his word to go on here).  Keep in mind that we are told the story from the perspective of an unreliable narrator who certainly does believe in magic, and will interpret events as such.  
+What do we know of the magic of wizards?  Gandalf really does seem to be quite an impotent wizard.  His wizardry consists of such things as reading books (a rather scientific thing to do), launching fireworks (gunpowder is not such an advanced concept, especially if you are one of the few people who spends time in a library), fighting a Balrog (potentially a pre-arranged stunt), escaping Orthanc with the help of the Eagles (we only have his word to go on here).  
 
 Saruman, who has worked together with Gandalf, also knows how to use explosives, and puts them to great effect at Helm's Deep.  
 
@@ -30,3 +30,10 @@ Galadriel has a powerful persona, and if she has access to a hallucinogenic drug
 Ring Invisibility
 -----------------
 Bilbo potentially has help from Gandalf to pull off his famous party trick.  [Misdirection](http://www.spring.org.uk/2008/08/psychology-of-magic-3-critical.php) is nothing new to magicians.
+
+
+Narrator
+========
+Finally, keep in mind that we are told these stories from the perspective of unreliable narrators who apparently do believe in magic, and interpret events in light of their beliefs that these things are true.
+
+Thoughts?  What else fits with this intepretation?  What things can't be explained under this narrative?  There's lots more ideas to develop here.
