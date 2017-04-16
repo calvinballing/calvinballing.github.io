@@ -32,4 +32,4 @@ Bilbo potentially has help from Gandalf to pull off his famous party trick.  [Mi
 
 Narrator
 ========
-Finally, keep in mind that we are told these stories from the perspective of unreliable narrators who apparently do believe in magic, and interpret events in light of their beliefs that these things are true. Thoughts?  What else fits with this intepretation?  What things can't be explained under this narrative?  There's lots more ideas to develop here.
+Finally, keep in mind that we are told these stories from the perspective of unreliable narrators who apparently do believe in magic, and interpret events in light of their beliefs that these things are true. Thoughts?  What else fits with this intepretation?  What things can't be explained under this narrative?  There's lots more ideas to develop here.  Let me know in the Doobly Doo below! 
