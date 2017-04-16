@@ -4,7 +4,7 @@ featimg: sauronCropped.jpg
 title: Lord of the Rings as our Post-Apocalyptic Future
 homedisplay: featimg
 description: Lord of the Rings
-comments:true
+comments: true
 date:   2017-04-15 23:04:00 -0500
 ---
 
