@@ -4,6 +4,7 @@ featimg: metropolitan.jpg
 title: Metropolitan Man Cameo
 homedisplay: featimg
 description: Alexander Wales Eneasz Brodski
+comments:true
 date:   2017-04-21 12:00:21 -0500
 ---
 

@@ -75,6 +75,13 @@
                         {% endif %}
 						-->
                     </article>
+					
+					<!------- Start Attempting Comments -->
+					
+	{% include disqus.html %}
+					
+					<!------- End Attempting Comments -->
+					
                     <div class="post_nav">
                         {% if page.previous.url %}
                         <a class="prev" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-left"></i><span class="short"> prev</span><span class="long">ious post</span></a>
@@ -88,5 +95,6 @@
         </section>
         {% include footer.html %}
         <script src="{{ site.baseurl | replace: '//', '/' }}/js/build/global.min.js"></script>
+		<script id="dsq-count-scr" src="//1000-possible-worlds.disqus.com/count.js" async></script>
     </body>
 </html>

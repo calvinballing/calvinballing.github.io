@@ -4,6 +4,7 @@ featimg: sauronCropped.jpg
 title: Lord of the Rings as our Post-Apocalyptic Future
 homedisplay: featimg
 description: Lord of the Rings
+comments:true
 date:   2017-04-15 23:04:00 -0500
 ---
 
@@ -23,7 +24,7 @@ Particulars
 ===========
 
 ## "Would you look into the mirror?"
-Galadriel has a powerful persona, and if she has access to a hallucinogenic drug, combining that with the [power of suggestion](https://www.aaas.org/abstract/power-suggestion-memory-manipulation) could account for the visions the main characters see.  
+Galadriel has a powerful persona, and if she has access to hallucinogens, combining that with the [power of suggestion](https://www.aaas.org/abstract/power-suggestion-memory-manipulation) could account for the visions the main characters see.  
 
 ## Ring Invisibility
 Bilbo potentially has help from Gandalf to pull off his famous party trick.  [Misdirection](http://www.spring.org.uk/2008/08/psychology-of-magic-3-critical.php) is nothing new to magicians.
