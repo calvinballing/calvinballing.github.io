@@ -2,13 +2,13 @@
     <div class="content">
         <nav id="menu">
             <a class="toggle_link noline"><i class="fa fa-close fa-lg"></i></a>
-            
+            <!--
 			<ul>
                 
 				<li>
                     <a href="{{ site.baseurl | replace: '//', '/' }}/page">Page</a>
                 </li>
-				<!--
+				
                 <li>
                     <a href="{{ site.baseurl | replace: '//', '/' }}/page-full">Full-Width Page</a>
                 </li>
@@ -25,15 +25,20 @@
                         <li><a href="/child3">child</a></li>
                     </ul>
                 </li>
-				-->
+				
             </ul>
-			
+			-->
         </nav>
         <nav class="iconnav">
             <ul>
+			<!--
                 <li class="sicon">
                     <a href='#search'><i class='fa fa-search'></i></a>
                 </li>
+				
+				--------------REMOVE UNTIL SEARCH IS FUNCTIONING----------------
+				
+				-->
                 {% if site.tumblr %}
                     <li class="social">
                         <a href="{{ site.tumblr }}" class="tumblr"><i class="fa fa-tumblr"></i></a>

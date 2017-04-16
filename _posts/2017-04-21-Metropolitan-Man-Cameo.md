@@ -1,0 +1,11 @@
+
+---
+layout: standard
+featimg: metropolitan.jpg
+title: Metropolitan Man Cameo
+homedisplay: featimg
+description: Alexander Wales Eneasz Brodski
+date:   2017-04-21 12:00:21 -0500
+---
+
+I have a bit part in the [audio production of The Metropolitan Man](http://www.hpmorpodcast.com/?page_id=1705), produced by Eneasz Brodski. The story is originally written by Alexander Wales, and can be found on [fanfiction.net](https://www.fanfiction.net/s/10360716/1/The-Metropolitan-Man).  This rationalist fiction wonders what might be going through the mind of Lex Luthor in the Metropolis Universe.  This would be interesting on its own, even if Lex were not a compelling rationalist figure, who invites the reader to consider whether they ought to feel morally compelled to pursue a course of action marking them as a 'super-villan'.
