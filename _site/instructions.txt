@@ -1,2 +1,0 @@
-To find out everything you need to know about how to set up the Twister Theme for jekyll,
-navigate into the Documentation folder and open the index.html file with a modern Browser (aka the newest version of your choice). 
