@@ -16,7 +16,7 @@ Why are there different races?  Humanity was just beginning the gene-editing rev
 
 Wizards
 =======
-What do we know of the magic of wizards?  Gandalf really does seem to be quite an impotent wizard.  His wizardry consists of such things as reading books (a rather scientific thing to do), launching fireworks (gunpowder is not such an advanced concept, especially if you are one of the few people who spends time in a library), fighting a Balrog (potentially a pre-arranged stunt), escaping Orthanc with the help of the Eagles (we only have his word to go on here).  
+What do we know of the magic of wizards?  Gandalf really does seem to be quite the impotent wizard.  His wizardry consists of such things as reading books (a rather scientific thing to do), launching fireworks (gunpowder is not such an advanced concept, especially if you are one of the few people who spends time in a library), fighting a Balrog (potentially a pre-arranged stunt), escaping Orthanc with the help of the Eagles (we only have his word to go on here).  
 
 Saruman, who has worked together with Gandalf, also knows how to use explosives, and puts them to great effect at Helm's Deep.  
 
@@ -29,6 +29,8 @@ Galadriel has a powerful persona, and if she has access to hallucinogens, combin
 ## Ring Invisibility
 Bilbo potentially has help from Gandalf to pull off his famous party trick.  [Misdirection](http://www.spring.org.uk/2008/08/psychology-of-magic-3-critical.php) is nothing new to magicians.
 
+## Eagles
+This theory deals rather nicely with the [Eagles Problem](https://www.youtube.com/watch?v=1yqVD0swvWU).  There are no Giant Flying Sentient Magical Eagles.  Gandalf tells stories about them in an effort to perpetuate the myth of magic and wizardry.  Sam, having grown up on tales of the Eagles from Gandalf, believes in them in a way not entirely dis-similar to modern belief in angels. Upon destroying the one-ring, Sam sees an eagle while trying to navigate his way out of Mordor, and is inspired to try to follow it, to safety, North Star style.  In later re-tellings, the story becomes more and more elaborate, to the point where they were carried out of Mordor by flying eagles.  Why didn't Gandalf suggest having the eagles  dive-bomb the ring into Mount Doom?  Because there never were any such eagles.
 
 Narrator
 ========

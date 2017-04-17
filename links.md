@@ -12,7 +12,7 @@ permalink: /links/
 - [qntm](qntm.com)
 - [Methods of Rationality Podcast](hpmor.com)
 
-## Content creators I Know
+## Content Creators I Know
 
 - [Brad Greco - Misc. Coding Projects](http://bgreco.net) 
 - [Sam McConnell and Amanda Hays - The Broken Book Bible Podcast](http://www.brokenbookpodcast.com/67135) 
