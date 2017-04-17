@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-<title>1000 Possible Worlds - Gallery Alternative </title>
+<title>1000 Possible Worlds - Links </title>
 
 <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
 <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:500,600' rel='stylesheet' type='text/css'>
@@ -183,161 +183,113 @@ ga('send', 'pageview');
 </div>
 
         <section class="margin">
-            <div class="content full">
+            <div class="content">
                 <div class="content_container">
                     <article>
                         
-                            
-                                <img class="featimg" src="/img//galleries/gallery-standard-post/2.jpg" alt="/galleries/gallery-standard-post/2.jpg">
-                            
-                        
 
-                        <h1 class="post_title">
-                            Gallery Alternative
+                        <h1 class="page_title">
+                            Links
                         </h1>
-                        <div class="meta">
-                            
-
-    <span class="author">Posted by
-        
-        
-    </span>
-
- &bull;
-                            <span class="date">
-                                Published on 
-                            </span>
-                        </div>
-                        
                         <div class="post_content">
-                            <p>An alternative to the simple gallery would be this version, which displays the post ins a lightbox.
-The setup basically is the same, the include makes all the difference.</p>
+                            <p>#Links of Interest
+ -<a href="http://waitbutwhy.com">Wait but Why</a> 
+ -<a href="http://mikemchargue.com/">Science Mike</a> 
+ -<a href="http://www.theliturgists.com/podcast/">Liturgists Podcast</a>
+ -<a href="https://www.fanfiction.net/u/4976703/alexanderwales">Alexander Wales</a>
+ -<a href="qntm.com">qntm</a>
+ -<a href="hpmor.com">Methods of Rationality Podcast</a></p>
 
-<p>Galleries are defined in a data-sheet, set type and gallery-id in front matter and include <code class="highlighter-rouge">gallery_lightbox.html</code> within the content.
-<br /></p>
+<p>#Content creators I Know</p>
 
-<h6 id="_datagalleriesyml">_data/galleries.yml</h6>
+<p>-<a href="http://bgreco.net">Brad Greco</a> 
+ -<a href="http://www.brokenbookpodcast.com/67135">The Broken Book Bible Podcast by Sam McConnell and Amanda Hays</a> 
+ -<a href="http://massey-plantinga.com">Peter Plantinga</a> 
+ -<a href="https://www.youtube.com/channel/UCly58gB7268VKzsH4zlMMvQ">Justin Siebert</a>
+ -<a href="etsy.com/shop/renegadesheepdesigns">Alyssa Massey - Renegade Sheep Designs</a></p>
 
-<div class="language-yml highlighter-rouge"><pre class="highlight"><code><span class="pi">-</span> <span class="s">id</span><span class="pi">:</span> <span class="s">gallery</span>
-  <span class="s">imagefolder</span><span class="pi">:</span> <span class="s">/img/galleries/gallery-standard-post</span>
-  <span class="s">images</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s">filename</span><span class="pi">:</span> <span class="s">1.jpg</span>
-    <span class="s">alttext</span><span class="pi">:</span> <span class="s">Bloom Flat</span>
-  <span class="pi">-</span> <span class="s">filename</span><span class="pi">:</span> <span class="s">2.jpg</span>
-    <span class="s">alttext</span><span class="pi">:</span> <span class="s">Bloom</span>
-  <span class="pi">-</span> <span class="s">filename</span><span class="pi">:</span> <span class="s">3.jpg</span>
-    <span class="s">alttext</span><span class="pi">:</span> <span class="s">Blossom in a Star</span>
-  <span class="pi">-</span> <span class="s">filename</span><span class="pi">:</span> <span class="s">4.jpg</span>
-    <span class="s">alttext</span><span class="pi">:</span> <span class="s">Blossom</span>
-  <span class="pi">-</span> <span class="s">filename</span><span class="pi">:</span> <span class="s">5.jpg</span>
-    <span class="s">alttext</span><span class="pi">:</span> <span class="s">Bubbly Bloom</span>
-  <span class="pi">-</span> <span class="s">filename</span><span class="pi">:</span> <span class="s">6.jpg</span>
-    <span class="s">alttext</span><span class="pi">:</span> <span class="s">Rays of Gold</span>
-  <span class="pi">-</span> <span class="s">filename</span><span class="pi">:</span> <span class="s">7.jpg</span>
-    <span class="s">alttext</span><span class="pi">:</span> <span class="s">Exotic</span>
-  <span class="pi">-</span> <span class="s">filename</span><span class="pi">:</span> <span class="s">8.jpg</span>
-    <span class="s">alttext</span><span class="pi">:</span> <span class="s">Filled out</span>
-</code></pre>
-</div>
-<p><br /></p>
-
-<h6 id="front-matter">front matter</h6>
-
-<div class="language-yml highlighter-rouge"><pre class="highlight"><code><span class="nn">---</span>
-<span class="s">layout</span><span class="pi">:</span> <span class="s">post_full</span>
-<span class="s">type</span><span class="pi">:</span> <span class="s">gallery</span>
-<span class="s">gallery-id</span><span class="pi">:</span> <span class="s">gallery</span>
-<span class="nn">---</span>
-</code></pre>
-</div>
-<p><br /></p>
-
-<h6 id="post-content">post content</h6>
-
-<div class="language-liquid highlighter-rouge"><pre class="highlight"><code>
-<span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="na">gallery_lightbox</span><span class="p">.</span><span class="na">html</span><span class="w"> </span><span class="p">%}</span>
-
-</code></pre>
-</div>
-
-<div class="masonry">
-    
-        
-            
-                <a href="/img/galleries/gallery-standard-post/1.jpg" data-imagelightbox="f" class="noline">
-                    <img src="/img/galleries/gallery-standard-post/1.jpg" alt="Bloom Flat" />
-                </a>
-            
-                <a href="/img/galleries/gallery-standard-post/2.jpg" data-imagelightbox="f" class="noline">
-                    <img src="/img/galleries/gallery-standard-post/2.jpg" alt="Bloom" />
-                </a>
-            
-                <a href="/img/galleries/gallery-standard-post/3.jpg" data-imagelightbox="f" class="noline">
-                    <img src="/img/galleries/gallery-standard-post/3.jpg" alt="Blossom in a Star" />
-                </a>
-            
-                <a href="/img/galleries/gallery-standard-post/4.jpg" data-imagelightbox="f" class="noline">
-                    <img src="/img/galleries/gallery-standard-post/4.jpg" alt="Blossom" />
-                </a>
-            
-                <a href="/img/galleries/gallery-standard-post/5.jpg" data-imagelightbox="f" class="noline">
-                    <img src="/img/galleries/gallery-standard-post/5.jpg" alt="Bubbly Bloom" />
-                </a>
-            
-                <a href="/img/galleries/gallery-standard-post/6.jpg" data-imagelightbox="f" class="noline">
-                    <img src="/img/galleries/gallery-standard-post/6.jpg" alt="Rays of Gold" />
-                </a>
-            
-                <a href="/img/galleries/gallery-standard-post/7.jpg" data-imagelightbox="f" class="noline">
-                    <img src="/img/galleries/gallery-standard-post/7.jpg" alt="Exotic" />
-                </a>
-            
-                <a href="/img/galleries/gallery-standard-post/8.jpg" data-imagelightbox="f" class="noline">
-                    <img src="/img/galleries/gallery-standard-post/8.jpg" alt="Filled out" />
-                </a>
-            
-        
-    
-</div>
 
                         </div>
-						<!--	LEAVE TAGS OFF UNTIL FIXED
-                        
-                        <div class="catsandtags">
-                            
-                            <p class="category">
-                                <span class="name">Categories:</span>
-                                
-                            </p>
-                            
-                            
-                            <p class="tags">
-                                <span class="name">Tags:</span>
-                                
-                                    <a href="/tag/gallery">gallery</a>
-                                
-                                    <a href="/tag/image">image</a>
-                                
-                            </p>
-                            
-                        </div>
-                        
-						-->
                     </article>
-					
-					<!------- Start Attempting Comments -->
-					
-	<div id="disqus_thread"></div>
-	<script>
-	          
-					
-					<!------- End Attempting Comments -->
-					
-                    <div class="post_nav">
-                        
-                        
-                    </div>
                 </div>
+                <!--<div class="sidebar">
+    <div class="widget">
+        <h3 class="title">Categories</h3>
+        <ul class="category_list">
+            
+            
+                
+            
+            
+        </ul>
+    </div>
+    <div class="widget">
+        <h3 class="title">Tags</h3>
+        <ul class="tag_list">
+            
+            
+                
+            
+            
+        </ul>
+    </div>
+
+    <div class="widget">
+        <h3 class="title">Authors</h3>
+        <ul class="author_list">
+            
+                <li>
+                    <a href="/author/">
+                        
+                            
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/author/">
+                        
+                            
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/author/">
+                        
+                            
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/author/">
+                        
+                            
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/author/">
+                        
+                            
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/author/">
+                        
+                            
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+</div>
+ Leave out until plugins can be fixed-->
             </div>
         </section>
         <footer>
@@ -348,6 +300,5 @@ The setup basically is the same, the include makes all the difference.</p>
 </footer>
 
         <script src="/js/build/global.min.js"></script>
-		<script id="dsq-count-scr" src="//1000-possible-worlds.disqus.com/count.js" async></script>
     </body>
 </html>
