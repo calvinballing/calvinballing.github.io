@@ -11,6 +11,7 @@ permalink: /links/
 - [Alexander Wales](https://www.fanfiction.net/u/4976703/alexanderwales)
 - [qntm](qntm.com)
 - [Methods of Rationality Podcast](hpmor.com)
+- [Sign up for mobile alerts when the International Space Station is overhead](https://spotthestation.nasa.gov/signup.cfm)
 
 ## Content Creators I Know
 
