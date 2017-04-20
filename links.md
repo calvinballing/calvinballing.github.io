@@ -20,4 +20,4 @@ permalink: /links/
 - [Peter Plantinga - Misc. Coding Projects](http://massey-plantinga.com)
 - [Justin Siebert - MemPhys - High School Physics Videos](https://www.youtube.com/channel/UCly58gB7268VKzsH4zlMMvQ)
 - [Alyssa Massey - Renegade Sheep Designs - Board game Jewelry](etsy.com/shop/renegadesheepdesigns)
- 
+- [Josh Uitvlugt - Just Add Water webcomic](http://www.jaw-comic.com)
