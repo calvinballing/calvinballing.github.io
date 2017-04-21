@@ -3,19 +3,32 @@
 	<channel>
 		<title>1000 Possible Worlds</title>
 		<description>A collection of media by Jim Hays; recordings and writings.</description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Greek to Me</title>
+				
+				
+					<description>&lt;p&gt;In English, the expresion goes &lt;a href=&quot;https://en.wikipedia.org/wiki/Greek_to_me&quot;&gt;“It’s all Greek to me!”&lt;/a&gt;, but in Greek the expression is basically “It’s all Turkish to me!”&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Fri, 21 Apr 2017 08:49:21 -0400</pubDate>
+				<link>http://localhost:4000/inscrutable/</link>
+				<guid isPermaLink="true">http://localhost:4000/inscrutable/</guid>
+			</item>
 		
 			<item>
 				<title>Metropolitan Man Cameo</title>
 				
 				
-					<description>&lt;p&gt;I have a bit part playing the lead juror in &lt;a href=&quot;&quot;&gt;Chapter 13: A Vast and Terryifying Enemy: part 2&lt;/a&gt;http://www.hpmorpodcast.com/wp-content/uploads/episodes/MM_Ep_13.mp3”&amp;gt;) of the &lt;a href=&quot;http://www.hpmorpodcast.com/?page_id=1705&quot;&gt;audio production of The Metropolitan Man&lt;/a&gt;, produced by Eneasz Brodski. The story is originally written by Alexander Wales, and can be found on &lt;a href=&quot;https://www.fanfiction.net/s/10360716/1/The-Metropolitan-Man&quot;&gt;fanfiction.net&lt;/a&gt;.  This rationalist fiction wonders what might be going through the mind of Lex Luthor in the Metropolis Universe.  This would be interesting on its own, even if Lex were not a compelling rationalist figure, who invites the reader to consider whether they ought to feel morally compelled to pursue a course of action marking them as a ‘super-villan’.&lt;/p&gt;
+					<description>&lt;p&gt;I have a bit part playing the lead juror in &lt;a href=&quot;http://www.hpmorpodcast.com/wp-content/uploads/episodes/MM_Ep_13.mp3&quot;&gt;Chapter 13: A Vast and Terryifying Enemy: part 2&lt;/a&gt; of the &lt;a href=&quot;http://www.hpmorpodcast.com/?page_id=1705&quot;&gt;audio production of The Metropolitan Man&lt;/a&gt;, produced by Eneasz Brodski. The story is originally written by Alexander Wales, and can be found on &lt;a href=&quot;https://www.fanfiction.net/s/10360716/1/The-Metropolitan-Man&quot;&gt;fanfiction.net&lt;/a&gt;.  This rationalist fiction wonders what might be going through the mind of Lex Luthor in the Metropolis Universe.  This would be interesting on its own, even if Lex were not a compelling rationalist figure, who invites the reader to consider whether they ought to feel morally compelled to pursue a course of action marking them as a ‘super-villan’.&lt;/p&gt;
 </description>
 				
-				<pubDate>Fri, 21 Apr 2017 13:00:21 -0400</pubDate>
-				<link>/Metropolitan-Man-Cameo/</link>
-				<guid isPermaLink="true">/Metropolitan-Man-Cameo/</guid>
+				<pubDate>Thu, 20 Apr 2017 13:00:21 -0400</pubDate>
+				<link>http://localhost:4000/Metropolitan-Man-Cameo-Copy/</link>
+				<guid isPermaLink="true">http://localhost:4000/Metropolitan-Man-Cameo-Copy/</guid>
 			</item>
 		
 			<item>
@@ -27,8 +40,8 @@
 </description>
 				
 				<pubDate>Sun, 16 Apr 2017 00:04:00 -0400</pubDate>
-				<link>/Post-ApocalypticLotR/</link>
-				<guid isPermaLink="true">/Post-ApocalypticLotR/</guid>
+				<link>http://localhost:4000/Post-ApocalypticLotR/</link>
+				<guid isPermaLink="true">http://localhost:4000/Post-ApocalypticLotR/</guid>
 			</item>
 		
 			<item>
@@ -39,8 +52,8 @@
 </description>
 				
 				<pubDate>Sun, 23 Oct 2016 19:16:21 -0400</pubDate>
-				<link>/lonely-photographer/</link>
-				<guid isPermaLink="true">/lonely-photographer/</guid>
+				<link>http://localhost:4000/lonely-photographer/</link>
+				<guid isPermaLink="true">http://localhost:4000/lonely-photographer/</guid>
 			</item>
 		
 			<item>
@@ -51,8 +64,8 @@
 </description>
 				
 				<pubDate>Sun, 23 Oct 2016 14:57:21 -0400</pubDate>
-				<link>/valuable-humans/</link>
-				<guid isPermaLink="true">/valuable-humans/</guid>
+				<link>http://localhost:4000/valuable-humans/</link>
+				<guid isPermaLink="true">http://localhost:4000/valuable-humans/</guid>
 			</item>
 		
 	</channel>
