@@ -3,21 +3,8 @@
 	<channel>
 		<title>1000 Possible Worlds</title>
 		<description>A collection of media by Jim Hays; recordings and writings.</description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-		
-			<item>
-				<title>Greek to Me</title>
-				
-				
-					<description>&lt;p&gt;In English, the expresion goes &lt;a href=&quot;https://en.wikipedia.org/wiki/Greek_to_me&quot;&gt;“It’s all Greek to me!”&lt;/a&gt;, but in Greek the expression is basically “It’s all Turkish to me!”&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Fri, 21 Apr 2017 08:49:21 -0400</pubDate>
-				<link>/inscrutable/</link>
-				<guid isPermaLink="true">/inscrutable/</guid>
-			</item>
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Metropolitan Man Cameo</title>
@@ -27,8 +14,8 @@
 </description>
 				
 				<pubDate>Thu, 20 Apr 2017 13:00:21 -0400</pubDate>
-				<link>/Metropolitan-Man-Cameo-Copy/</link>
-				<guid isPermaLink="true">/Metropolitan-Man-Cameo-Copy/</guid>
+				<link>http://localhost:4000/Metropolitan-Man-Cameo-Copy/</link>
+				<guid isPermaLink="true">http://localhost:4000/Metropolitan-Man-Cameo-Copy/</guid>
 			</item>
 		
 			<item>
@@ -40,8 +27,8 @@
 </description>
 				
 				<pubDate>Sun, 16 Apr 2017 00:04:00 -0400</pubDate>
-				<link>/Post-ApocalypticLotR/</link>
-				<guid isPermaLink="true">/Post-ApocalypticLotR/</guid>
+				<link>http://localhost:4000/Post-ApocalypticLotR/</link>
+				<guid isPermaLink="true">http://localhost:4000/Post-ApocalypticLotR/</guid>
 			</item>
 		
 			<item>
@@ -52,8 +39,8 @@
 </description>
 				
 				<pubDate>Sun, 23 Oct 2016 19:16:21 -0400</pubDate>
-				<link>/lonely-photographer/</link>
-				<guid isPermaLink="true">/lonely-photographer/</guid>
+				<link>http://localhost:4000/lonely-photographer/</link>
+				<guid isPermaLink="true">http://localhost:4000/lonely-photographer/</guid>
 			</item>
 		
 			<item>
@@ -64,8 +51,34 @@
 </description>
 				
 				<pubDate>Sun, 23 Oct 2016 14:57:21 -0400</pubDate>
-				<link>/valuable-humans/</link>
-				<guid isPermaLink="true">/valuable-humans/</guid>
+				<link>http://localhost:4000/valuable-humans/</link>
+				<guid isPermaLink="true">http://localhost:4000/valuable-humans/</guid>
+			</item>
+		
+			<item>
+				<title>Jabberwocky in Common Words</title>
+				
+				
+					<description>&lt;p&gt;Some time after &lt;a href=&quot;xkcd.com&quot;&gt;xkcd&lt;/a&gt;’s &lt;a href=&quot;https://xkcd.com/1133/&quot;&gt;Up Goer Five&lt;/a&gt; comic using only the ten Hundred most common words, and after the &lt;a href=&quot;https://blog.xkcd.com/2015/05/13/new-book-thing-explainer/&quot;&gt;Thing Explainer&lt;/a&gt; book, came the &lt;a href=&quot;http://splasho.com/upgoer5/&quot;&gt;text editor&lt;/a&gt;.  My own take on using the text editor is below&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 14 Nov 2015 17:26:28 -0500</pubDate>
+				<link>http://localhost:4000/jabberwocky/</link>
+				<guid isPermaLink="true">http://localhost:4000/jabberwocky/</guid>
+			</item>
+		
+			<item>
+				<title>Greek to Me</title>
+				
+				
+					<description>&lt;p&gt;In English, the expresion goes &lt;a href=&quot;https://en.wikipedia.org/wiki/Greek_to_me&quot;&gt;“It’s all Greek to me!”&lt;/a&gt;, but in Greek the expression is basically “It’s all Turkish to me!”&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Mon, 21 Oct 2013 08:49:21 -0400</pubDate>
+				<link>http://localhost:4000/inscrutable/</link>
+				<guid isPermaLink="true">http://localhost:4000/inscrutable/</guid>
 			</item>
 		
 	</channel>
