@@ -59,7 +59,7 @@
 				<title>Jabberwocky in Common Words</title>
 				
 				
-					<description>&lt;p&gt;Some time after &lt;a href=&quot;xkcd.com&quot;&gt;xkcd&lt;/a&gt;’s &lt;a href=&quot;https://xkcd.com/1133/&quot;&gt;Up Goer Five&lt;/a&gt; comic using only the ten Hundred most common words, and after the &lt;a href=&quot;https://blog.xkcd.com/2015/05/13/new-book-thing-explainer/&quot;&gt;Thing Explainer&lt;/a&gt; book, came the &lt;a href=&quot;http://splasho.com/upgoer5/&quot;&gt;text editor&lt;/a&gt;.  My own take on using the text editor is below&lt;/p&gt;
+					<description>&lt;p&gt;First there was &lt;a href=&quot;xkcd.com&quot;&gt;xkcd&lt;/a&gt;’s &lt;a href=&quot;https://xkcd.com/1133/&quot;&gt;Up Goer Five&lt;/a&gt; picture joke using only the ten Hundred words people say the most.  Then came the &lt;a href=&quot;https://blog.xkcd.com/2015/05/13/new-book-thing-explainer/&quot;&gt;Thing Explainer&lt;/a&gt; book. Eventually there was a &lt;a href=&quot;http://splasho.com/upgoer5/&quot;&gt;computer word checker&lt;/a&gt;.  My own take on using the computer word checker is farther down:&lt;/p&gt;
 
 </description>
 				
@@ -79,6 +79,19 @@
 				<pubDate>Mon, 21 Oct 2013 08:49:21 -0400</pubDate>
 				<link>/inscrutable/</link>
 				<guid isPermaLink="true">/inscrutable/</guid>
+			</item>
+		
+			<item>
+				<title>Ambigrams</title>
+				
+				
+					<description>&lt;p&gt;This is a display of rotationally symmetric &lt;a href=&quot;https://en.wikipedia.org/wiki/Ambigram&quot;&gt;ambigrams&lt;/a&gt; I’ve designed for various occasions.  I’ve repeatedly been surprised at ambigrammable word combinations that seemed unlikely or impossible at first blush.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 22 Dec 2012 14:41:45 -0500</pubDate>
+				<link>/ambigrams/</link>
+				<guid isPermaLink="true">/ambigrams/</guid>
 			</item>
 		
 	</channel>

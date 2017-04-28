@@ -23,7 +23,7 @@ permalink: /links/
 - [Sam McConnell and Amanda Hays - The Broken Book Bible Podcast](http://www.brokenbookpodcast.com/67135) 
 - [Peter Plantinga - Misc. Coding Projects](http://massey-plantinga.com)
 - [Justin Siebert - MemPhys - High School Physics Videos](https://www.youtube.com/channel/UCly58gB7268VKzsH4zlMMvQ)
-- [Alyssa Massey - Renegade Sheep Designs - Board game Jewelry](etsy.com/shop/renegadesheepdesigns)
+- [Alyssa Massey - Renegade Sheep Designs - Board game Jewelry](http://www.etsy.com/shop/renegadesheepdesigns)
 - [Josh Uitvlugt - Just Add Water webcomic](http://www.jaw-comic.com)
 - [Kristen Trawczynski - Illustrations](https://www.facebook.com/DragonGogglesIllustration/)
 - [Paul Martin - DIY Electronics Videos](https://www.youtube.com/user/ukrcamilio)

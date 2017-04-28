@@ -17,3 +17,13 @@
     alttext: Exotic
   - filename: 8.jpg
     alttext: Filled out
+
+- id: ambigrams
+  imagefolder: /img/galleries/ambigrams
+  images:
+  - filename: LoriAndJohn.png
+    alttext: Lori and John
+  - filename: Montague.png
+    alttext: Montague
+  - filename: PeterAndAlyssa.png
+    alttext: Peter and Alyssa
