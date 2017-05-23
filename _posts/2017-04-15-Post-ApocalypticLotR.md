@@ -1,6 +1,6 @@
 ---
 type: standard
-featimg: sauronCropped.jpg
+featimg: lotrCropped.jpg
 title: Lord of the Rings as our Post-Apocalyptic Future
 homedisplay: featimg
 description: Lord of the Rings
