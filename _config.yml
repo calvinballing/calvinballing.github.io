@@ -19,7 +19,7 @@
 # Build settings
 markdown: kramdown
 #theme: twister_theme
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
