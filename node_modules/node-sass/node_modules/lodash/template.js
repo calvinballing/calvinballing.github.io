@@ -1,7 +1,7 @@
-var assignInDefaults = require('./_assignInDefaults'),
-    assignInWith = require('./assignInWith'),
+var assignInWith = require('./assignInWith'),
     attempt = require('./attempt'),
     baseValues = require('./_baseValues'),
+    customDefaultsAssignIn = require('./_customDefaultsAssignIn'),
     escapeStringChar = require('./_escapeStringChar'),
     isError = require('./isError'),
     isIterateeCall = require('./_isIterateeCall'),
@@ -26,6 +26,12 @@ var reNoMatch = /($^)/;
 
 /** Used to match unescaped characters in compiled string literals. */
 var reUnescapedString = /['\n\r\u2028\u2029\\]/g;
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
 
 /**
  * Creates a compiled template function that can interpolate data properties
@@ -141,9 +147,9 @@ function template(string, options, guard) {
     options = undefined;
   }
   string = toString(string);
-  options = assignInWith({}, options, settings, assignInDefaults);
+  options = assignInWith({}, options, settings, customDefaultsAssignIn);
 
-  var imports = assignInWith({}, options.imports, settings.imports, assignInDefaults),
+  var imports = assignInWith({}, options.imports, settings.imports, customDefaultsAssignIn),
       importsKeys = keys(imports),
       importsValues = baseValues(imports, importsKeys);
 
@@ -162,7 +168,14 @@ function template(string, options, guard) {
   , 'g');
 
   // Use a sourceURL for easier debugging.
-  var sourceURL = 'sourceURL' in options ? '//# sourceURL=' + options.sourceURL + '\n' : '';
+  // The sourceURL gets injected into the source that's eval-ed, so be careful
+  // with lookup (in case of e.g. prototype pollution), and strip newlines if any.
+  // A newline wouldn't be a valid sourceURL anyway, and it'd enable code injection.
+  var sourceURL = hasOwnProperty.call(options, 'sourceURL')
+    ? ('//# sourceURL=' +
+       (options.sourceURL + '').replace(/[\r\n]/g, ' ') +
+       '\n')
+    : '';
 
   string.replace(reDelimiters, function(match, escapeValue, interpolateValue, esTemplateValue, evaluateValue, offset) {
     interpolateValue || (interpolateValue = esTemplateValue);
@@ -193,7 +206,9 @@ function template(string, options, guard) {
 
   // If `variable` is not specified wrap a with-statement around the generated
   // code to add the data object to the top of the scope chain.
-  var variable = options.variable;
+  // Like with sourceURL, we take care to not check the option's prototype,
+  // as this configuration is a code injection vector.
+  var variable = hasOwnProperty.call(options, 'variable') && options.variable;
   if (!variable) {
     source = 'with (obj) {\n' + source + '\n}\n';
   }
