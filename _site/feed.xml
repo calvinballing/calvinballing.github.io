@@ -3,8 +3,21 @@
 	<channel>
 		<title>1000 Possible Worlds</title>
 		<description>A collection of media by Jim Hays; recordings and writings.</description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Sampling Bias</title>
+				
+				
+					<description>&lt;p&gt;If half of all cars on the road drive 60 miles per hours, and the other half drive 70, then then each driver will encounter one of two scenarios:&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Fri, 27 Sep 2019 19:58:00 -0400</pubDate>
+				<link>http://localhost:4000/sampling/</link>
+				<guid isPermaLink="true">http://localhost:4000/sampling/</guid>
+			</item>
 		
 			<item>
 				<title>Instruments of Destruction</title>
@@ -14,8 +27,8 @@
 </description>
 				
 				<pubDate>Mon, 22 May 2017 11:28:30 -0400</pubDate>
-				<link>/destruction/</link>
-				<guid isPermaLink="true">/destruction/</guid>
+				<link>http://localhost:4000/destruction/</link>
+				<guid isPermaLink="true">http://localhost:4000/destruction/</guid>
 			</item>
 		
 			<item>
@@ -27,8 +40,8 @@
 </description>
 				
 				<pubDate>Thu, 04 May 2017 01:36:00 -0400</pubDate>
-				<link>/visible/</link>
-				<guid isPermaLink="true">/visible/</guid>
+				<link>http://localhost:4000/visible/</link>
+				<guid isPermaLink="true">http://localhost:4000/visible/</guid>
 			</item>
 		
 			<item>
@@ -39,8 +52,8 @@
 </description>
 				
 				<pubDate>Thu, 20 Apr 2017 13:00:21 -0400</pubDate>
-				<link>/Metropolitan-Man-Cameo-Copy/</link>
-				<guid isPermaLink="true">/Metropolitan-Man-Cameo-Copy/</guid>
+				<link>http://localhost:4000/Metropolitan-Man-Cameo-Copy/</link>
+				<guid isPermaLink="true">http://localhost:4000/Metropolitan-Man-Cameo-Copy/</guid>
 			</item>
 		
 			<item>
@@ -52,8 +65,8 @@
 </description>
 				
 				<pubDate>Sun, 16 Apr 2017 00:04:00 -0400</pubDate>
-				<link>/Post-ApocalypticLotR/</link>
-				<guid isPermaLink="true">/Post-ApocalypticLotR/</guid>
+				<link>http://localhost:4000/Post-ApocalypticLotR/</link>
+				<guid isPermaLink="true">http://localhost:4000/Post-ApocalypticLotR/</guid>
 			</item>
 		
 			<item>
@@ -64,8 +77,8 @@
 </description>
 				
 				<pubDate>Sun, 23 Oct 2016 19:16:21 -0400</pubDate>
-				<link>/lonely-photographer/</link>
-				<guid isPermaLink="true">/lonely-photographer/</guid>
+				<link>http://localhost:4000/lonely-photographer/</link>
+				<guid isPermaLink="true">http://localhost:4000/lonely-photographer/</guid>
 			</item>
 		
 			<item>
@@ -76,8 +89,8 @@
 </description>
 				
 				<pubDate>Sun, 23 Oct 2016 14:57:21 -0400</pubDate>
-				<link>/valuable-humans/</link>
-				<guid isPermaLink="true">/valuable-humans/</guid>
+				<link>http://localhost:4000/valuable-humans/</link>
+				<guid isPermaLink="true">http://localhost:4000/valuable-humans/</guid>
 			</item>
 		
 			<item>
@@ -89,8 +102,8 @@
 </description>
 				
 				<pubDate>Sat, 14 Nov 2015 17:26:28 -0500</pubDate>
-				<link>/jabberwocky/</link>
-				<guid isPermaLink="true">/jabberwocky/</guid>
+				<link>http://localhost:4000/jabberwocky/</link>
+				<guid isPermaLink="true">http://localhost:4000/jabberwocky/</guid>
 			</item>
 		
 			<item>
@@ -102,8 +115,8 @@
 </description>
 				
 				<pubDate>Mon, 21 Oct 2013 08:49:21 -0400</pubDate>
-				<link>/inscrutable/</link>
-				<guid isPermaLink="true">/inscrutable/</guid>
+				<link>http://localhost:4000/inscrutable/</link>
+				<guid isPermaLink="true">http://localhost:4000/inscrutable/</guid>
 			</item>
 		
 			<item>
@@ -115,8 +128,8 @@
 </description>
 				
 				<pubDate>Sat, 22 Dec 2012 14:41:45 -0500</pubDate>
-				<link>/ambigrams/</link>
-				<guid isPermaLink="true">/ambigrams/</guid>
+				<link>http://localhost:4000/ambigrams/</link>
+				<guid isPermaLink="true">http://localhost:4000/ambigrams/</guid>
 			</item>
 		
 	</channel>

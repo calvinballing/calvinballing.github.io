@@ -1,183 +1,6 @@
 var Nightmare = require('nightmare');		
-var nightmare = Nightmare({ show: true, height:900, width: 1200});
-//var expect = require('chai').expect;
+var nightmare = Nightmare({ show: true });
 
-
-//var Nightmare = require('nightmare'),
-//  nightmare = Nightmare();
- /**
-nightmare.goto('http://cnn.com')
-  .evaluate(function(){
-    return document.title;
-  })
-  .end()
-  .then(function(title){
-    console.log(title);
-  })
-*/
-nightmare
-	.useragent("Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36")
-	
-  .goto('https://cold.mynha.com')
-  .type('#userNameInput', 'jhays')
-  .type('#passwordInput', '4bt9saspring17')
-  .click('#submitButton')
-  .wait('input[type="text"]')
-    
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .wait(2000)
-  .type('input[type="text"]','Amari Adams')
-  .wait(2000)
-  .wait('search-result a[target="_blank"]')
-  .screenshot('testing/' + Date.now().toString() + '.'+ Math.random() + '.png')
-  
-  
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .wait(2000)
-  .type('input[type="text"]','Adams, Amari')
-  .wait(2000)
-  .wait('search-result a[target="_blank"]')
-  .screenshot('testing/' + Date.now().toString() + '.'+ Math.random() + '.png')
-  
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .wait(2000)
-  .type('input[type="text"]',' Adams, Amari ')
-  .wait(2000)
-  .wait('search-result a[target="_blank"]')
-  .screenshot('testing/' + Date.now().toString() + '.'+ Math.random() + '.png')
-  
-  
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .type('input[type="text"]','Renee')
-  .wait(2000)
-  .wait('search-result a[target="_blank"]')
-  .screenshot('testing/' + Date.now().toString() + '.'+Math.random() +  '.png')
-  
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .type('input[type="text"]','Kie')
-  .wait(2000)
-  .wait('search-result a[target="_blank"]')
-  .screenshot('testing/' + Date.now().toString() + '.'+ Math.random() +  '.png')
-  
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .type('input[type="text"]','400000')
-  .wait(2000)
-  .wait('search-result a[target="_blank"]')
-  .screenshot('testing/' + Date.now().toString() + '.'+ Math.random()+  '.png')
-  
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .type('input[type="text"]','!@#$%$#&$%&*%^&()')
-  .wait(4000)
-  .screenshot('testing/' + Date.now().toString() + '.' + Math.random() +  '.png')
-  
-  
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .type('input[type="text"]','61')
-  .wait(2000)
-  .screenshot('testing/' + Date.now().toString() + '.'+ Math.random()+  '.png')
-  
-  .click('.caret')
-  .wait('li[if-resource-accessible="ui_portal_search:Staff"] a')
-  .click('li[if-resource-accessible="ui_portal_search:Staff"] a')
-  
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .type('input[type="text"]','Jefferson')
-  .wait(2000)
-  .wait('search-result a[target="_blank"]')
-  .screenshot('testing/' + Date.now().toString() + '.' + Math.random() +  '.png')
-  
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .type('input[type="text"]','!@#$%$#&$%&*%^&()')
-  .wait(4000)
-  .screenshot('testing/' + Date.now().toString() + '.' + Math.random() +  '.png')
-  
-  
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .type('input[type="text"]','61')
-  .wait(2000)
-  .screenshot('testing/' + Date.now().toString() + '.'+ Math.random()+  '.png')
-  
-  
-  .click('.caret')
-  .wait('li[if-resource-accessible="ui_portal_search:Parents"] a')
-  .click('li[if-resource-accessible="ui_portal_search:Parents"] a')
-  
-  
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .type('input[type="text"]','Davis')
-  .wait(2000)
-  .wait('search-result a[target="_blank"]')
-  .screenshot('testing/' + Date.now().toString() + '.' + Math.random() +  '.png')
-    
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .type('input[type="text"]','!@#$%$#&$%&*%^&()')
-  .wait(4000)
-  .screenshot('testing/' + Date.now().toString() + '.' + Math.random() +  '.png')
-  
-  
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .type('input[type="text"]','616-35')
-  .wait(2000)
-  .wait('search-result a[target="_blank"]')
-  .screenshot('testing/' + Date.now().toString() + '.'+ Math.random()+  '.png')
-  
-    
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .type('input[type="text"]','616')
-  .wait(2000)
-  .screenshot('testing/' + Date.now().toString() + '.'+ Math.random()+  '.png')
-  
-  
-  .evaluate(function(){
-  document.querySelector('input[type="text"]').value = ''
-  })
-  .type('input[type="text"]','61')
-  .wait(2000)
-  .screenshot('testing/' + Date.now().toString() + '.'+ Math.random()+  '.png')
-  
-  
-  
-  
-  .end()
-  .then(function (result) {
-    console.log(result);
-  })
-  .catch(function (error) {
-    console.error('Search failed:', error);
-  });
-	
-  
-  /**
 nightmare
   .goto('https://duckduckgo.com')
   .type('#search_form_input_homepage', 'github nightmare')
@@ -193,34 +16,13 @@ nightmare
   .catch(function (error) {
     console.error('Search failed:', error);
   });
-  */
+  
 
-
-  //nightmare
-  //.goto('https://cold.mynha.com')
-  //.wait('#zero_click_wrapper .c-info__title a')
-  //.type('#search_form_input_homepage', 'github nightmare')
-  //.click('#search_button_homepage')
-  //.wait('#zero_click_wrapper .c-info__title a')
-  //.evaluate(function () {
-   // return document.querySelector('#zero_click_wrapper .c-info__title a').href;
-  //})
-  //.end()
-  //.then(function (result) {
-  //  console.log(result);
-  //})
- // .catch(function (error) {
- //   console.error('Example Failed', error);
- // });
-  
-  
-  
 /**
  * Module dependencies.
  */
 
 require('mocha-generators').install();
-
 
 var Nightmare = require('nightmare');
 var IPC = require('nightmare/lib/ipc');
@@ -258,7 +60,6 @@ process.setMaxListeners(0);
 
 var base = 'http://localhost:7500/';
 
-/**
 describe('Nightmare', function () {
   before(function (done) {
     server.listen(7500, done);
@@ -2570,14 +2371,6 @@ describe('Nightmare', function () {
   })
 });
 
-**/
-
-
-
-
-
-
-
 /**
  * Generate a URL to a specific fixture.
  *
@@ -2585,15 +2378,14 @@ describe('Nightmare', function () {
  * @returns {String}
  */
 
-//function fixture(path) {
-//  return url.resolve(base, path);
-//}
+function fixture(path) {
+  return url.resolve(base, path);
+}
 
 /**
  * Track deprecation warnings.
  */
 
-/**
 function withDeprecationTracking(constructor) {
   var newConstructor = function() {
     var instance = constructor.apply(this, arguments);
@@ -2621,15 +2413,10 @@ function withDeprecationTracking(constructor) {
   return newConstructor;
 }
 
-**/
-
-
 /**
  * Make plugins resettable for tests
  */
-
- /**
- var _action = Nightmare.action;
+var _action = Nightmare.action;
 var _pluginNames = [];
 var _existingNamespaces = Nightmare.namespaces.slice();
 var _existingChildActions = Object.assign({}, Nightmare.childActions);
@@ -2637,12 +2424,8 @@ Nightmare.action = function (name) {
   _pluginNames.push(name);
   return _action.apply(this, arguments);
 };
-
-**/
 // NOTE: this is somewhat fragile since there's no public API for removing
 // plugins. If you touch `Nightmare.action`, please be sure to update this.
-
-/**
 Nightmare.resetActions = function () {
   _pluginNames.splice(0, _pluginNames.length).forEach((name) => {
     delete this.prototype[name];
@@ -2656,12 +2439,9 @@ Nightmare.resetActions = function () {
   });
 };
 
-*/
 /**
  * Simple assertion for running processes
  */
- 
- /**
 chai.Assertion.addProperty('process', function() {
   var running = true;
   try { process.kill(this._obj, 0); } catch(e) { running = false; }
@@ -2670,4 +2450,3 @@ chai.Assertion.addProperty('process', function() {
     'expected process ##{this} to be running',
     'expected process ##{this} not to be running');
 });
-**/
