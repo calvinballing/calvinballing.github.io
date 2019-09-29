@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 
         sass: {
             options: {
-                outputStyle: 'compressed',
+                outputStyle: 'compressed'
             },
             dist: {
                 files: {
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
             },
             no_dest: {
                 src: 'css/*.css' // globbing is also possible here
-            },
+            }
         },
 
         watch: {
