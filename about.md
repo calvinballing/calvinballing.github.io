@@ -4,10 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I enjoy rationalist fiction.
+I like cycling, cycles, recycling, and the free Encyclopedia that anyone can edit.
 
-I live in Columbus, OH.  I like cycling, cycles, and recycling.
-
-The other cities I've called home are Grand Rapids, Memphis, Boston, and Dayton.
+I live in Columbus, OH now.  The other cities I've called home are Grand Rapids, Memphis, Boston, and Dayton.
 
 I do Quality Assurance Testing.
