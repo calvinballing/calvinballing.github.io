@@ -1,7 +1,7 @@
 ---
 type: standard
 featimg: metropolitan.jpg
-title: Metropolitan Man Cameo
+title: Metro&shy;politan Man Cameo
 homedisplay: featimg
 description: Alexander Wales Eneasz Brodski
 comments: true

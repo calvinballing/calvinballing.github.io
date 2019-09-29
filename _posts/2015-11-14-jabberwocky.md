@@ -1,7 +1,7 @@
 ---
 type: standard
 featimg: JabberwockyCropped.jpg
-title: Jabberwocky in Common Words
+title: Jabber&shy;wocky in Common Words
 homedisplay: featimg
 description: The Jabberwocky Lewis Carroll UpGoer Five Ten Hundred Words xkcd
 comments: true
