@@ -1,6 +1,6 @@
 ---
 type: standard
-featimg: lotrCropped.jpg
+featimg: sauron.jpg
 title: Lord of the Rings as our Post-Apocalyptic Future
 homedisplay: featimg
 description: Lord of the Rings
@@ -34,4 +34,4 @@ This theory deals rather nicely with the [Eagles Problem](https://www.youtube.co
 
 Narrator
 ========
-Finally, keep in mind that we are told these stories from the perspective of unreliable narrators who apparently do believe in magic, and interpret events in light of their beliefs that these things are true. Thoughts?  What else fits with this intepretation?  What things can't be explained under this narrative?  There's lots more ideas to develop here.  Let me know in the Doobly Doo below! 
+Finally, keep in mind that we are told these stories from the perspective of unreliable narrators who apparently do believe in magic, and interpret events in light of their beliefs that these things are true. Thoughts?  What else fits with this intepretation?  What things can't be explained under this narrative?  There's lots more ideas to develop here.
