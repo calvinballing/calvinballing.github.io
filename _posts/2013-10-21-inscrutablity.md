@@ -1,6 +1,6 @@
 ---
 type: standard
-featimg: GeorgianLanguage.png
+featimg: georgian.jpg
 title: Greek to Me
 homedisplay: featimg
 description: Language Chinese Greek Flowchart 
