@@ -2,7 +2,7 @@
 type: gallery
 title: Ambigrams
 gallery-id: ambigrams
-featimg: galleries/ambigrams/LoriAndJohn.png
+featimg: ambigram.png
 description: ambigrams design svg art rotation
 comments: true
 date:   2012-12-22 14:41:45 -0500
