@@ -24,6 +24,7 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
 
   
 
@@ -37,7 +38,7 @@ url: #place url # the base hostname & protocol for your site, e.g. http://exampl
 baseurl: #place folder name if site is served in subfolder # the subpath of your site, e.g. /blog
 
 permalink: /:title/
-paginate: 8
+paginate: 12
 paginate_path: /page/:num/
 tag_dir: /tag
 category_dir: /category
@@ -71,7 +72,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 relative_permalinks: false
-exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_modules, README.md, documentation]
+exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_modules, README.md, documentation, vendor]
 
 # prose.io configurations
 prose:

@@ -7,10 +7,23 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Saga's Start</title>
+				
+				
+					<description>&lt;p&gt;&lt;sup&gt;1&lt;/sup&gt; So started saga: Supreme sentience shaped skies, secular sphere.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 28 Apr 2020 13:45:00 -0400</pubDate>
+				<link>http://localhost:4000/saga/</link>
+				<guid isPermaLink="true">http://localhost:4000/saga/</guid>
+			</item>
+		
+			<item>
 				<title>Everything is Information</title>
 				
 				
-					<description>&lt;p&gt;Hanabi is a cooperative firework-themed board game in which players collectively try to build five piles of cards representing five different colors of fireworks.  Each pile has to be all the same color, and has to start from &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt; and work up to &lt;code class=&quot;highlighter-rouge&quot;&gt;5&lt;/code&gt;.  The twist is that each player holds their cards facing away from them so that every other player knows what they have, except the player holding those cards.  Turns consist of trying to play a card, discarding a card, or giving a hint to another player about their cards in a specified format (e.g. “Here are all your 3s” or “Here are all your green cards”).&lt;/p&gt;
+					<description>&lt;p&gt;Hanabi is a cooperative firework-themed board game in which players collectively try to build five piles of cards representing five different colors of fireworks.  Each pile has to be all the same color, and has to start from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt; and work up to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5&lt;/code&gt;.  The twist is that each player holds their cards facing away from them so that every other player knows what they have, except the player holding those cards.  Turns consist of trying to play a card, discarding a card, or giving a hint to another player about their cards in a specified format (e.g. “Here are all your 3s” or “Here are all your green cards”).&lt;/p&gt;
 
 </description>
 				
