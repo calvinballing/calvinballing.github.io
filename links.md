@@ -7,7 +7,7 @@ permalink: /links/
 ## General Interest Content
 - [Wait but Why](http://waitbutwhy.com) - Longform posts on a variety of topics
 - [Vi Hart](https://www.youtube.com/user/Vihart) - Math YouTube videos
-- [qntm](qntm.com)
+- [qntm](qntm.com) - Blog of a writer & software developer
 - [Slate Star Codex](https://slatestarcodex.com/) - Longform blog posts 
 - [Explorable Explanations by Nicky Case](https://explorabl.es/) - Interactive Learning Tools
 
