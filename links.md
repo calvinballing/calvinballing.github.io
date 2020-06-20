@@ -5,14 +5,17 @@ permalink: /links/
 ---
 
 ## General Interest Content
-- [Wait but Why](http://waitbutwhy.com) 
-- [Science Mike](http://mikemchargue.com/) 
-- [Vi Hart](https://www.youtube.com/user/Vihart)
-- [Liturgists Podcast](http://www.theliturgists.com/podcast/)
-- [Alexander Wales](https://www.fanfiction.net/u/4976703/alexanderwales)
+- [Wait but Why](http://waitbutwhy.com) - Longform posts on a variety of topics
+- [Vi Hart](https://www.youtube.com/user/Vihart) - Math YouTube videos
 - [qntm](qntm.com)
-- [Rationally Speaking](http://rationallyspeakingpodcast.org/)
-- [Stuff Mom Never Told You](www.stuffmomnevertoldyou.com/)
+- [Slate Star Codex](https://slatestarcodex.com/) - Longform blog posts 
+- [Explorable Explanations by Nicky Case](https://explorabl.es/) - Interactive Learning Tools
+
+## Podcasts
+- [Science Mike](http://mikemchargue.com/) - Q&A show on Science, Faith, and Life
+- [The Liturgists](http://www.theliturgists.com/podcast/) - Discussion rooted in art, science, and faith, from a post-faith reconstruction viewpoint
+- [Rationally Speaking](http://rationallyspeakingpodcast.org/) - Challenging Interviews on wide-ranging science and pseudoscience topics
+- [Stuff Mom Never Told You](www.stuffmomnevertoldyou.com/) - Research-based discussion around feminism's impact on everyday life
 
 ## Tools
 - [Word Pattern Matcher Tool](https://www.quinapalus.com/cgi-bin/match?pat=*)
@@ -23,7 +26,7 @@ permalink: /links/
 - [Methods of Rationality Podcast](hpmor.com)
 - [Worth the Candle](https://archiveofourown.org/works/11478249)
 - [Worm](https://parahumans.wordpress.com/)
-- [The Metropolitan Man](https://www.fanfiction.net/s/10360716/1/The-Metropolitan-Man)
+- [Alexander Wales](https://www.fanfiction.net/u/4976703/alexanderwales), especially [The Metropolitan Man](https://www.fanfiction.net/s/10360716/1/The-Metropolitan-Man)
 - [Unsong](http://unsongbook.com/)
 
 ## Friends
