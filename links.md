@@ -9,12 +9,12 @@ permalink: /links/
 - [Vi Hart](https://www.youtube.com/user/Vihart) - Math YouTube videos
 - [qntm](qntm.com) - Blog of a writer & software developer
 - [Slate Star Codex](https://slatestarcodex.com/) - Longform blog posts 
-- [Explorable Explanations by Nicky Case](https://explorabl.es/) - Interactive Learning Tools
+- [Explorable Explanations by Nicky Case](https://explorabl.es/) - Interactive learning tools
 
 ## Podcasts
-- [Science Mike](http://mikemchargue.com/) - Q&A show on Science, Faith, and Life
+- [Science Mike](http://mikemchargue.com/) - Q&A show on science, faith, and life
 - [The Liturgists](http://www.theliturgists.com/podcast/) - Discussion rooted in art, science, and faith, from a post-faith reconstruction viewpoint
-- [Rationally Speaking](http://rationallyspeakingpodcast.org/) - Challenging Interviews on wide-ranging science and pseudoscience topics
+- [Rationally Speaking](http://rationallyspeakingpodcast.org/) - Challenging interviews on wide-ranging science and pseudoscience topics
 - [Stuff Mom Never Told You](www.stuffmomnevertoldyou.com/) - Research-based discussion around feminism's impact on everyday life
 
 ## Tools
@@ -30,12 +30,12 @@ permalink: /links/
 - [Unsong](http://unsongbook.com/)
 
 ## Friends
-- [Brad Greco - Misc. Coding Projects](http://bgreco.net) 
+- [Brad Greco - Misc. coding projects](http://bgreco.net) 
 - [Sam McConnell and Amanda Hays - The Broken Book Bible Podcast](http://www.brokenbookpodcast.com/67135) 
-- [Peter Plantinga - Misc. Coding Projects](http://massey-plantinga.com)
-- [Justin Siebert - MemPhys - High School Physics Videos](https://www.youtube.com/channel/UCly58gB7268VKzsH4zlMMvQ)
-- [Alyssa Massey - Renegade Sheep Designs - Board game Jewelry](http://www.etsy.com/shop/renegadesheepdesigns)
-- [Paul Martin - DIY Electronics Videos](https://www.youtube.com/user/ukrcamilio)
+- [Peter Plantinga - Misc. coding projects](http://massey-plantinga.com)
+- [Justin Siebert - MemPhys - High school physics videos](https://www.youtube.com/channel/UCly58gB7268VKzsH4zlMMvQ)
+- [Alyssa Massey - Renegade sheep designs - Board game jewelry](http://www.etsy.com/shop/renegadesheepdesigns)
+- [Paul Martin - DIY electronics videos](https://www.youtube.com/user/ukrcamilio)
 - [Natalie Hart - Blogger](http://nataliehart.com/)
-- [Kenan Schaefkofer - Online Games](https://games.gc.my/)
-- [Russell Emmer Harms - Misc. Coding Projects](https://russelleh.io/)
+- [Kenan Schaefkofer - Online games](https://games.gc.my/)
+- [Russell Emmer Harms - Misc. coding projects](https://russelleh.io/)
