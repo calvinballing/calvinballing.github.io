@@ -7,6 +7,19 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Photo Scavenger Hunts</title>
+				
+				
+					<description>&lt;p&gt;An outdoor Social Distancing activity some of my housemates and I have been enjoying recently has been to go on photo scavenger hunts around the neighborhood.  For each one we’ve tried something a little different. My favorite so far is probably the Color Wheel Scavenger Hunt.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 20 Jun 2020 15:36:00 -0400</pubDate>
+				<link>http://localhost:4000/scavenger/</link>
+				<guid isPermaLink="true">http://localhost:4000/scavenger/</guid>
+			</item>
+		
+			<item>
 				<title>Saga's Start</title>
 				
 				
