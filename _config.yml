@@ -44,7 +44,7 @@ tag_dir: /tag
 category_dir: /category
 author_dir: /author
 author_title_prefix: 'By '
-media_folder: /img
+media_folder: img
 author_default_avatar: /profile-pic.jpg
 #tumblr: "#"
 #pinterest: "#"
