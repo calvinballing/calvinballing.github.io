@@ -29,14 +29,16 @@
                             {% endif %}
                         {% elsif page.type == "image" or page.type == "gallery" %}
                             {% if page.featimg %}
-                                <img class="featimg" src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ page.featimg }}" alt="{{ page.featimg }}">
+                                {% responsive_image_block %}
+                                    path: {{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{page.featimg}}
+                                    alt: {{page.featimg}}
+                                {% endresponsive_image_block %}
                             {% endif %}
                         {% elsif page.type == "audio" %}
                             {% if page.audio-embed %}
                                 {{ page.audio-embed }}
                             {% endif %}
                         {% endif %}
-
                         <h1 class="post_title">
                             {{ page.title }}
                         </h1>
@@ -55,7 +57,7 @@
                             {{ content }}
                         </div>
                         <!------- LEAVE TAGS OFF UNTIL FIXED
-						
+
 						{% if page.category or page.tags %}
                         <div class="catsandtags">
                             {% if page.category %}
@@ -74,14 +76,14 @@
                             {% endif %}
                         </div>
                         {% endif %}
-						
+
 						---------------------->
                     </article>
-					
+
 					<!------- Start Attempting Comments -->
 					{% include disqus.html %}
 					<!------- End Attempting Comments -->
-					
+
                     <div class="post_nav">
                         {% if page.previous.url %}
                         <a class="prev" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-left"></i><span class="short"> prev</span><span class="long">ious post</span></a>
