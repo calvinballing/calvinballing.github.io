@@ -16,9 +16,11 @@
                 <div class="content_container">
                     <article>
                         {% if page.featimg %}
-                            <img class="featimg" src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ page.featimg }}" alt="{{ page.featimg }}">
+                            {% responsive_image_block %}
+                                path: {{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{page.featimg}}
+                                alt: {{page.featimg}}
+                            {% endresponsive_image_block %}
                         {% endif %}
-
                         <h1 class="page_title">
                             {{ page.title }}
                         </h1>

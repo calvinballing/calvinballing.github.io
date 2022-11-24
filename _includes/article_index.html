@@ -19,7 +19,10 @@
         {% else %}
             {% if post.featimg %}
                 <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
-                    <img src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ post.featimg }}" alt="{{ post.featimg }}">
+                    {% responsive_image_block %}
+                        path: {{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{post.featimg}}
+                        alt: {{post.featimg}}
+                    {% endresponsive_image_block %}
                 </a>
             {% endif %}
         {% endif %}
@@ -33,7 +36,10 @@
         {% else %}
             {% if post.featimg %}
                 <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
-                    <img src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ post.featimg }}" alt="{{ post.featimg }}">
+                    {% responsive_image_block %}
+                        path: {{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{post.featimg}}
+                        alt: {{post.featimg}}
+                    {% endresponsive_image_block %}
                 </a>
             {% endif %}
         {% endif %}
