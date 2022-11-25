@@ -3,8 +3,8 @@
 	<channel>
 		<title>The Corollary Zone</title>
 		<description>A collection of media by Jim Hays; recordings and writings.</description>
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Super Sharp</title>
@@ -15,8 +15,8 @@
 </description>
 				
 				<pubDate>Tue, 08 Nov 2022 12:00:00 -0500</pubDate>
-				<link>/super-sharp/</link>
-				<guid isPermaLink="true">/super-sharp/</guid>
+				<link>http://localhost:4000/super-sharp/</link>
+				<guid isPermaLink="true">http://localhost:4000/super-sharp/</guid>
 			</item>
 		
 			<item>
@@ -28,8 +28,8 @@
 </description>
 				
 				<pubDate>Mon, 10 Oct 2022 22:30:00 -0400</pubDate>
-				<link>/fruit-emoji/</link>
-				<guid isPermaLink="true">/fruit-emoji/</guid>
+				<link>http://localhost:4000/fruit-emoji/</link>
+				<guid isPermaLink="true">http://localhost:4000/fruit-emoji/</guid>
 			</item>
 		
 			<item>
@@ -41,8 +41,8 @@
 </description>
 				
 				<pubDate>Tue, 12 Jul 2022 13:00:00 -0400</pubDate>
-				<link>/squid-game/</link>
-				<guid isPermaLink="true">/squid-game/</guid>
+				<link>http://localhost:4000/squid-game/</link>
+				<guid isPermaLink="true">http://localhost:4000/squid-game/</guid>
 			</item>
 		
 			<item>
@@ -54,8 +54,8 @@
 </description>
 				
 				<pubDate>Fri, 04 Feb 2022 12:00:00 -0500</pubDate>
-				<link>/whodle/</link>
-				<guid isPermaLink="true">/whodle/</guid>
+				<link>http://localhost:4000/whodle/</link>
+				<guid isPermaLink="true">http://localhost:4000/whodle/</guid>
 			</item>
 		
 			<item>
@@ -67,8 +67,8 @@
 </description>
 				
 				<pubDate>Tue, 01 Feb 2022 21:30:00 -0500</pubDate>
-				<link>/wheredle/</link>
-				<guid isPermaLink="true">/wheredle/</guid>
+				<link>http://localhost:4000/wheredle/</link>
+				<guid isPermaLink="true">http://localhost:4000/wheredle/</guid>
 			</item>
 		
 			<item>
@@ -80,8 +80,8 @@
 </description>
 				
 				<pubDate>Sat, 20 Jun 2020 15:36:00 -0400</pubDate>
-				<link>/scavenger/</link>
-				<guid isPermaLink="true">/scavenger/</guid>
+				<link>http://localhost:4000/scavenger/</link>
+				<guid isPermaLink="true">http://localhost:4000/scavenger/</guid>
 			</item>
 		
 			<item>
@@ -93,8 +93,8 @@
 </description>
 				
 				<pubDate>Wed, 29 Apr 2020 13:45:00 -0400</pubDate>
-				<link>/x-z-genesis/</link>
-				<guid isPermaLink="true">/x-z-genesis/</guid>
+				<link>http://localhost:4000/x-z-genesis/</link>
+				<guid isPermaLink="true">http://localhost:4000/x-z-genesis/</guid>
 			</item>
 		
 			<item>
@@ -106,8 +106,8 @@
 </description>
 				
 				<pubDate>Tue, 28 Apr 2020 13:45:00 -0400</pubDate>
-				<link>/saga/</link>
-				<guid isPermaLink="true">/saga/</guid>
+				<link>http://localhost:4000/saga/</link>
+				<guid isPermaLink="true">http://localhost:4000/saga/</guid>
 			</item>
 		
 			<item>
@@ -119,8 +119,8 @@
 </description>
 				
 				<pubDate>Sat, 28 Sep 2019 19:58:00 -0400</pubDate>
-				<link>/information/</link>
-				<guid isPermaLink="true">/information/</guid>
+				<link>http://localhost:4000/information/</link>
+				<guid isPermaLink="true">http://localhost:4000/information/</guid>
 			</item>
 		
 			<item>
@@ -132,8 +132,8 @@
 </description>
 				
 				<pubDate>Fri, 27 Sep 2019 19:58:00 -0400</pubDate>
-				<link>/sampling/</link>
-				<guid isPermaLink="true">/sampling/</guid>
+				<link>http://localhost:4000/sampling/</link>
+				<guid isPermaLink="true">http://localhost:4000/sampling/</guid>
 			</item>
 		
 			<item>
@@ -144,8 +144,8 @@
 </description>
 				
 				<pubDate>Mon, 22 May 2017 11:28:30 -0400</pubDate>
-				<link>/destruction/</link>
-				<guid isPermaLink="true">/destruction/</guid>
+				<link>http://localhost:4000/destruction/</link>
+				<guid isPermaLink="true">http://localhost:4000/destruction/</guid>
 			</item>
 		
 			<item>
@@ -157,8 +157,8 @@
 </description>
 				
 				<pubDate>Thu, 04 May 2017 01:36:00 -0400</pubDate>
-				<link>/visiblity/</link>
-				<guid isPermaLink="true">/visiblity/</guid>
+				<link>http://localhost:4000/visiblity/</link>
+				<guid isPermaLink="true">http://localhost:4000/visiblity/</guid>
 			</item>
 		
 			<item>
@@ -169,8 +169,8 @@
 </description>
 				
 				<pubDate>Thu, 20 Apr 2017 13:00:21 -0400</pubDate>
-				<link>/metropolitan/</link>
-				<guid isPermaLink="true">/metropolitan/</guid>
+				<link>http://localhost:4000/metropolitan/</link>
+				<guid isPermaLink="true">http://localhost:4000/metropolitan/</guid>
 			</item>
 		
 			<item>
@@ -182,8 +182,8 @@
 </description>
 				
 				<pubDate>Sun, 16 Apr 2017 00:04:00 -0400</pubDate>
-				<link>/post-apocalyptic-LOTR/</link>
-				<guid isPermaLink="true">/post-apocalyptic-LOTR/</guid>
+				<link>http://localhost:4000/post-apocalyptic-LOTR/</link>
+				<guid isPermaLink="true">http://localhost:4000/post-apocalyptic-LOTR/</guid>
 			</item>
 		
 			<item>
@@ -194,8 +194,8 @@
 </description>
 				
 				<pubDate>Sun, 23 Oct 2016 19:16:21 -0400</pubDate>
-				<link>/lonely-photographer/</link>
-				<guid isPermaLink="true">/lonely-photographer/</guid>
+				<link>http://localhost:4000/lonely-photographer/</link>
+				<guid isPermaLink="true">http://localhost:4000/lonely-photographer/</guid>
 			</item>
 		
 			<item>
@@ -206,8 +206,8 @@
 </description>
 				
 				<pubDate>Sun, 23 Oct 2016 14:57:21 -0400</pubDate>
-				<link>/valuable-humans/</link>
-				<guid isPermaLink="true">/valuable-humans/</guid>
+				<link>http://localhost:4000/valuable-humans/</link>
+				<guid isPermaLink="true">http://localhost:4000/valuable-humans/</guid>
 			</item>
 		
 			<item>
@@ -219,8 +219,8 @@
 </description>
 				
 				<pubDate>Sat, 14 Nov 2015 17:26:28 -0500</pubDate>
-				<link>/jabberwocky/</link>
-				<guid isPermaLink="true">/jabberwocky/</guid>
+				<link>http://localhost:4000/jabberwocky/</link>
+				<guid isPermaLink="true">http://localhost:4000/jabberwocky/</guid>
 			</item>
 		
 			<item>
@@ -232,8 +232,8 @@
 </description>
 				
 				<pubDate>Mon, 21 Oct 2013 08:49:21 -0400</pubDate>
-				<link>/inscrutablity/</link>
-				<guid isPermaLink="true">/inscrutablity/</guid>
+				<link>http://localhost:4000/inscrutablity/</link>
+				<guid isPermaLink="true">http://localhost:4000/inscrutablity/</guid>
 			</item>
 		
 			<item>
@@ -245,8 +245,8 @@
 </description>
 				
 				<pubDate>Sat, 22 Dec 2012 14:41:45 -0500</pubDate>
-				<link>/ambigrams/</link>
-				<guid isPermaLink="true">/ambigrams/</guid>
+				<link>http://localhost:4000/ambigrams/</link>
+				<guid isPermaLink="true">http://localhost:4000/ambigrams/</guid>
 			</item>
 		
 	</channel>
