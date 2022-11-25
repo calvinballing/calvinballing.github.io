@@ -19,10 +19,15 @@ markdown: kramdown
 #theme: twister_theme
 plugins:
   - jekyll-feed
+  - jekyll-responsive-image
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+whitelist:
+  - jekyll-feed
+  - jekyll-responsive-image
 
 future: true
 
