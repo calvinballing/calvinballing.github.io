@@ -1,4 +1,4 @@
 # calvinballing.github.io
-1000 Possible Worlds
+The Corollary Zone
 
-My Jekyll website using the Twister theme.
+Jekyll website using the Twister theme.

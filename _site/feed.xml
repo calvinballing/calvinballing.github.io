@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>1000 Possible Worlds</title>
+		<title>The Corollary Zone</title>
 		<description>A collection of media by Jim Hays; recordings and writings.</description>
 		<link></link>
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
@@ -30,6 +30,19 @@
 				<pubDate>Mon, 10 Oct 2022 22:30:00 -0400</pubDate>
 				<link>/fruit-emoji/</link>
 				<guid isPermaLink="true">/fruit-emoji/</guid>
+			</item>
+		
+			<item>
+				<title>Puzzled Pint</title>
+				
+				
+					<description>&lt;p&gt;I was the author of the most recent &lt;a href=&quot;http://puzzledpint.com/index.php?cID=1274&quot;&gt;Puzzled Pint set for July 2022&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 12 Jul 2022 13:00:00 -0400</pubDate>
+				<link>/squid-game/</link>
+				<guid isPermaLink="true">/squid-game/</guid>
 			</item>
 		
 			<item>
