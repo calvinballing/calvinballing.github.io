@@ -50,7 +50,10 @@
                         </div>
                         {% if page.type == "standard" %}
                             {% if page.featimg %}
-                                <img class="featimg" src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ page.featimg }}" alt="{{ page.featimg }}">
+                                {% responsive_image_block %}
+                                    path: {{ site.media_folder | prepend: base | replace: '//', '/'}}/{{page.featimg}}
+                                    alt: {{page.featimg}}
+                                {% endresponsive_image_block %}
                             {% endif %}
                         {% endif %}
                         <div class="post_content">
