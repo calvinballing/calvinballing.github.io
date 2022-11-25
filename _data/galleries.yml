@@ -1,5 +1,5 @@
 - id: gallery
-  imagefolder: /img/galleries/gallery-standard-post
+  imagefolder: img/galleries/gallery-standard-post
   images:
   - filename: 1.jpg
     alttext: Bloom Flat
@@ -7,7 +7,7 @@
     alttext: Bloom
 
 - id: ambigrams
-  imagefolder: /img/galleries/ambigrams
+  imagefolder: img/galleries/ambigrams
   images:
   - filename: LoriAndJohn.png
     alttext: Lori and John
