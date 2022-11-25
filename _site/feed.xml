@@ -3,8 +3,21 @@
 	<channel>
 		<title>1000 Possible Worlds</title>
 		<description>A collection of media by Jim Hays; recordings and writings.</description>
-		<link>http://localhost:4000</link>
-		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<link></link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Super Sharp</title>
+				
+				
+					<description>&lt;p&gt;Lately I’ve been enjoing replaying through an iOS game that came out in 2015 called &lt;a href=&quot;https://apps.apple.com/us/app/super-sharp/id1033873301&quot;&gt;Super Sharp&lt;/a&gt;.  With a lot of lateral thinking, patience, and luck, I’ve been optimizing the levels to solve them with as few cuts as possible.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 08 Nov 2022 12:00:00 -0500</pubDate>
+				<link>/super-sharp/</link>
+				<guid isPermaLink="true">/super-sharp/</guid>
+			</item>
 		
 			<item>
 				<title>Fruit Emoji Puzzle</title>
@@ -15,20 +28,34 @@
 </description>
 				
 				<pubDate>Mon, 10 Oct 2022 22:30:00 -0400</pubDate>
-				<link>http://localhost:4000/fruit-emoji/</link>
-				<guid isPermaLink="true">http://localhost:4000/fruit-emoji/</guid>
+				<link>/fruit-emoji/</link>
+				<guid isPermaLink="true">/fruit-emoji/</guid>
+			</item>
+		
+			<item>
+				<title>Whodle</title>
+				
+				
+					<description>&lt;p&gt;As a follow-up to &lt;a href=&quot;/wheredle&quot;&gt;Wheredle&lt;/a&gt;, I’ve also created &lt;a href=&quot;https://calvinballing.github.io/whodle/&quot;&gt;Whodle&lt;/a&gt;.  It uses the same rule set as Wordle but instead of guessing a five-letter word you guess a five-letter name.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Fri, 04 Feb 2022 12:00:00 -0500</pubDate>
+				<link>/whodle/</link>
+				<guid isPermaLink="true">/whodle/</guid>
 			</item>
 		
 			<item>
 				<title>Wheredle</title>
 				
 				
-					<description>&lt;p&gt;With the Wordle craze in full bloom, I’ve decided to add my own contribution, &lt;a href=&quot;https://calvinballing.github.io/wheredle/&quot;&gt;Wheredle&lt;/a&gt;.  It’s effectively the same as Wordle still guessing a five-letter word using the same answer list and dictionary, except you also have to guess &lt;strong&gt;where&lt;/strong&gt; the word appears in a series of ten blanks.&lt;/p&gt;
+					<description>&lt;p&gt;With the Wordle craze in full bloom, I’ve decided to add my own contribution, &lt;a href=&quot;https://calvinballing.github.io/wheredle/&quot;&gt;Wheredle&lt;/a&gt;.  It’s effectively the same as Wordle still guessing a five-letter word using the same answer list and dictionary, except you also have to guess &lt;strong&gt;where&lt;/strong&gt; the word appears in a series of ten blanks. I also give one extra guess (7 instead of 6).&lt;/p&gt;
+
 </description>
 				
 				<pubDate>Tue, 01 Feb 2022 21:30:00 -0500</pubDate>
-				<link>http://localhost:4000/wheredle/</link>
-				<guid isPermaLink="true">http://localhost:4000/wheredle/</guid>
+				<link>/wheredle/</link>
+				<guid isPermaLink="true">/wheredle/</guid>
 			</item>
 		
 			<item>
@@ -40,8 +67,8 @@
 </description>
 				
 				<pubDate>Sat, 20 Jun 2020 15:36:00 -0400</pubDate>
-				<link>http://localhost:4000/scavenger/</link>
-				<guid isPermaLink="true">http://localhost:4000/scavenger/</guid>
+				<link>/scavenger/</link>
+				<guid isPermaLink="true">/scavenger/</guid>
 			</item>
 		
 			<item>
@@ -53,8 +80,8 @@
 </description>
 				
 				<pubDate>Wed, 29 Apr 2020 13:45:00 -0400</pubDate>
-				<link>http://localhost:4000/x-z-genesis/</link>
-				<guid isPermaLink="true">http://localhost:4000/x-z-genesis/</guid>
+				<link>/x-z-genesis/</link>
+				<guid isPermaLink="true">/x-z-genesis/</guid>
 			</item>
 		
 			<item>
@@ -66,8 +93,8 @@
 </description>
 				
 				<pubDate>Tue, 28 Apr 2020 13:45:00 -0400</pubDate>
-				<link>http://localhost:4000/saga/</link>
-				<guid isPermaLink="true">http://localhost:4000/saga/</guid>
+				<link>/saga/</link>
+				<guid isPermaLink="true">/saga/</guid>
 			</item>
 		
 			<item>
@@ -79,8 +106,8 @@
 </description>
 				
 				<pubDate>Sat, 28 Sep 2019 19:58:00 -0400</pubDate>
-				<link>http://localhost:4000/information/</link>
-				<guid isPermaLink="true">http://localhost:4000/information/</guid>
+				<link>/information/</link>
+				<guid isPermaLink="true">/information/</guid>
 			</item>
 		
 			<item>
@@ -92,8 +119,8 @@
 </description>
 				
 				<pubDate>Fri, 27 Sep 2019 19:58:00 -0400</pubDate>
-				<link>http://localhost:4000/sampling/</link>
-				<guid isPermaLink="true">http://localhost:4000/sampling/</guid>
+				<link>/sampling/</link>
+				<guid isPermaLink="true">/sampling/</guid>
 			</item>
 		
 			<item>
@@ -104,8 +131,8 @@
 </description>
 				
 				<pubDate>Mon, 22 May 2017 11:28:30 -0400</pubDate>
-				<link>http://localhost:4000/destruction/</link>
-				<guid isPermaLink="true">http://localhost:4000/destruction/</guid>
+				<link>/destruction/</link>
+				<guid isPermaLink="true">/destruction/</guid>
 			</item>
 		
 			<item>
@@ -117,8 +144,8 @@
 </description>
 				
 				<pubDate>Thu, 04 May 2017 01:36:00 -0400</pubDate>
-				<link>http://localhost:4000/visiblity/</link>
-				<guid isPermaLink="true">http://localhost:4000/visiblity/</guid>
+				<link>/visiblity/</link>
+				<guid isPermaLink="true">/visiblity/</guid>
 			</item>
 		
 			<item>
@@ -129,8 +156,8 @@
 </description>
 				
 				<pubDate>Thu, 20 Apr 2017 13:00:21 -0400</pubDate>
-				<link>http://localhost:4000/metropolitan/</link>
-				<guid isPermaLink="true">http://localhost:4000/metropolitan/</guid>
+				<link>/metropolitan/</link>
+				<guid isPermaLink="true">/metropolitan/</guid>
 			</item>
 		
 			<item>
@@ -142,8 +169,8 @@
 </description>
 				
 				<pubDate>Sun, 16 Apr 2017 00:04:00 -0400</pubDate>
-				<link>http://localhost:4000/post-apocalyptic-LOTR/</link>
-				<guid isPermaLink="true">http://localhost:4000/post-apocalyptic-LOTR/</guid>
+				<link>/post-apocalyptic-LOTR/</link>
+				<guid isPermaLink="true">/post-apocalyptic-LOTR/</guid>
 			</item>
 		
 			<item>
@@ -154,8 +181,8 @@
 </description>
 				
 				<pubDate>Sun, 23 Oct 2016 19:16:21 -0400</pubDate>
-				<link>http://localhost:4000/lonely-photographer/</link>
-				<guid isPermaLink="true">http://localhost:4000/lonely-photographer/</guid>
+				<link>/lonely-photographer/</link>
+				<guid isPermaLink="true">/lonely-photographer/</guid>
 			</item>
 		
 			<item>
@@ -166,8 +193,8 @@
 </description>
 				
 				<pubDate>Sun, 23 Oct 2016 14:57:21 -0400</pubDate>
-				<link>http://localhost:4000/valuable-humans/</link>
-				<guid isPermaLink="true">http://localhost:4000/valuable-humans/</guid>
+				<link>/valuable-humans/</link>
+				<guid isPermaLink="true">/valuable-humans/</guid>
 			</item>
 		
 			<item>
@@ -179,8 +206,8 @@
 </description>
 				
 				<pubDate>Sat, 14 Nov 2015 17:26:28 -0500</pubDate>
-				<link>http://localhost:4000/jabberwocky/</link>
-				<guid isPermaLink="true">http://localhost:4000/jabberwocky/</guid>
+				<link>/jabberwocky/</link>
+				<guid isPermaLink="true">/jabberwocky/</guid>
 			</item>
 		
 			<item>
@@ -192,8 +219,8 @@
 </description>
 				
 				<pubDate>Mon, 21 Oct 2013 08:49:21 -0400</pubDate>
-				<link>http://localhost:4000/inscrutablity/</link>
-				<guid isPermaLink="true">http://localhost:4000/inscrutablity/</guid>
+				<link>/inscrutablity/</link>
+				<guid isPermaLink="true">/inscrutablity/</guid>
 			</item>
 		
 			<item>
@@ -205,8 +232,8 @@
 </description>
 				
 				<pubDate>Sat, 22 Dec 2012 14:41:45 -0500</pubDate>
-				<link>http://localhost:4000/ambigrams/</link>
-				<guid isPermaLink="true">http://localhost:4000/ambigrams/</guid>
+				<link>/ambigrams/</link>
+				<guid isPermaLink="true">/ambigrams/</guid>
 			</item>
 		
 	</channel>
