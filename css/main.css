@@ -3076,6 +3076,8 @@ article ol {
 
 .content_container {
     width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1330px) {
