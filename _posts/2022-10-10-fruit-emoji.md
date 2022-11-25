@@ -5,7 +5,7 @@ title: Fruit Emoji Puzzle
 homedisplay: featimg
 description: Puzzles Fun Party Fruit
 comments: true
-date:   2022-11-23 21:30:00 -0500
+date:   2022-10-10 21:30:00 -0500
 ---
 For our child's first birthday, we celebrated with a fruit-themed party!  Among other things, this included a fruit puzzle.  The objective is to identify the fruit from the emoji, which is my own contribution to the guess-the-thing-from-the-emoji genre of puzzle.  (Other entries in the genre include movies, children's books, tv shows, Halloween candy, bands, and many more)
 
