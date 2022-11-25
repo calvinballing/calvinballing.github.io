@@ -18,7 +18,8 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-      - name: Install imagemagick 6
+      - uses: actions/cache@v2
+        name: Install imagemagick 6
         run: |
             brew install imagemagick@6
             brew link imagemagick@6 --force
