@@ -14,9 +14,21 @@
 
 </description>
 				
-				<pubDate>Wed, 23 Nov 2022 21:30:00 -0500</pubDate>
+				<pubDate>Mon, 10 Oct 2022 22:30:00 -0400</pubDate>
 				<link>http://localhost:4000/fruit-emoji/</link>
 				<guid isPermaLink="true">http://localhost:4000/fruit-emoji/</guid>
+			</item>
+		
+			<item>
+				<title>Wheredle</title>
+				
+				
+					<description>&lt;p&gt;With the Wordle craze in full bloom, I’ve decided to add my own contribution, &lt;a href=&quot;https://calvinballing.github.io/wheredle/&quot;&gt;Wheredle&lt;/a&gt;.  It’s effectively the same as Wordle still guessing a five-letter word using the same answer list and dictionary, except you also have to guess &lt;strong&gt;where&lt;/strong&gt; the word appears in a series of ten blanks.&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 01 Feb 2022 21:30:00 -0500</pubDate>
+				<link>http://localhost:4000/wheredle/</link>
+				<guid isPermaLink="true">http://localhost:4000/wheredle/</guid>
 			</item>
 		
 			<item>
