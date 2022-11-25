@@ -3,7 +3,10 @@
         {% if gallery.id == page.gallery-id %}
             {% for image in gallery.images %}
             <b>{{ image.alttext }}</b>
-            <img src="{{ gallery.imagefolder | prepend: site.baseurl | replace: '//', '/' }}/{{ image.filename }}" alt="{{ image.alttext }}">
+            {% responsive_image_block %}
+                path: {{ gallery.imagefolder | prepend: site.baseurl | replace: '//', '/'}}/{{image.filename}}
+                alt: {{image.alttext}}
+            {% endresponsive_image_block %}
 {% endfor %}
 {% endif %}
 {% endfor %}
