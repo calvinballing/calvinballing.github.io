@@ -20,6 +20,7 @@ jobs:
             ${{ runner.os }}-gems-
       - name: Install imagemagick 6
         run: |
+            brew unlink imagemagick
             brew install imagemagick@6
             brew link imagemagick@6 --force
 
