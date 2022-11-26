@@ -29,7 +29,7 @@ exclude:
   
 
 future: true
-  
+
 title: 1000 Possible Worlds
 name: 1000 Possible Worlds
 author: Jim
@@ -155,3 +155,9 @@ prose:
           help: "Set post type to youtube in order for this to work. Do not set featured image, as the youtube video thumbnail will be used"
           type: "text"
 
+responsive_image:
+  template: _includes/responsive_image.html
+  sizes:
+    - width: 320
+    - width: 480
+    - width: 800
