@@ -8,7 +8,7 @@ permalink: /links/
 - [Wait but Why](http://waitbutwhy.com) - Longform posts on a variety of topics
 - [Vi Hart](https://www.youtube.com/user/Vihart) - Math YouTube videos
 - [qntm](qntm.com) - Blog of a writer & software developer
-- [Slate Star Codex](https://slatestarcodex.com/) - Longform blog posts 
+- [Slate Star Codex](https://slatestarcodex.com/) - Longform blog posts
 - [Explorable Explanations by Nicky Case](https://explorabl.es/) - Interactive learning tools
 
 ## Podcasts
@@ -30,10 +30,10 @@ permalink: /links/
 - [Unsong](http://unsongbook.com/)
 
 ## Friends
-- [Brad Greco - Misc. coding projects](http://bgreco.net) 
-- [Sam McConnell and Amanda Hays - The Broken Book Bible Podcast](http://www.brokenbookpodcast.com/67135) 
+- [Brad Greco - Misc. coding projects](http://bgreco.net)
+- [Sam McConnell and Amanda Hays - The Broken Book Bible Podcast](https://www.buzzsprout.com/67135)
 - [Peter Plantinga - Misc. coding projects](http://massey-plantinga.com)
-- [Justin Siebert - MemPhys - High school physics videos](https://www.youtube.com/channel/UCly58gB7268VKzsH4zlMMvQ)
+- [Justin Siebert - Siebert Science - High school science videos](https://www.youtube.com/channel/UCly58gB7268VKzsH4zlMMvQ)
 - [Alyssa Massey - Renegade sheep designs - Board game jewelry](http://www.etsy.com/shop/renegadesheepdesigns)
 - [Paul Martin - DIY electronics videos](https://www.youtube.com/user/ukrcamilio)
 - [Natalie Hart - Blogger](http://nataliehart.com/)
