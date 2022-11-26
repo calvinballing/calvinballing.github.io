@@ -43,6 +43,18 @@
 			</item>
 		
 			<item>
+				<title>Wormle</title>
+				
+				
+					<description>&lt;p&gt;Since &lt;em&gt;Baba is You&lt;/em&gt; has a &lt;a href=&quot;https://hempuli.itch.io/baba-is-you-level-editor-beta&quot;&gt;level editor&lt;/a&gt;, it seemed too good an opportunity to pass up making a version of Wordle in &lt;em&gt;Baba is You&lt;/em&gt;.  Unfortunately it’s a bit laggy.  Maybe someone else can find a different implementation that is more efficient, or dynamic (the answer to this puzzle is static).&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 05 Feb 2022 17:00:00 +0000</pubDate>
+				<link>/wormle/</link>
+				<guid isPermaLink="true">/wormle/</guid>
+			</item>
+		
+			<item>
 				<title>Whodle</title>
 				
 				
