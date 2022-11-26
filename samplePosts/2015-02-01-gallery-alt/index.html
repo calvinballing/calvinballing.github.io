@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-<title>The Corollary Zone - Oops! </title>
+<title>The Corollary Zone - Gallery Alternative </title>
 
 <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
 <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:500,600' rel='stylesheet' type='text/css'>
@@ -32,10 +32,10 @@ ga('send', 'pageview');
 <!-- End Google Analytics -->
     </head>
 
-    <body class="index">
+    <body>
         <!-- used to have a logo-->
-       <header class="head">
-           <div class="row">
+        <header class="head">
+            <div class="row">
     <a href="/" class="logo noline">
         <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 227.27984 28.97019" class="ts_full">
   <g transform="translate(-292.0152,-375.88218)">
@@ -64,7 +64,7 @@ ga('send', 'pageview');
     </a>
 </div>
 
-           <section class="main_menu">
+            <section class="main_menu">
     <div class="content">
         <nav id="menu">
             <a class="toggle_link noline"><i class="fa fa-close fa-lg"></i></a>
@@ -145,92 +145,132 @@ ga('send', 'pageview');
 </div>
 
         <section class="margin">
-            <div class="content">
-                <p class="switch">switch layout: <span id="grid">Grid</span> &bull; <span id="classic">Classic</span></p>
-                <h1 class="title">Oops!</h1>
-                <div class="articles">
-                    <p>Something seems to have gone wrong here.
-Try heading back to the <a href="/">homepage</a> instead.</p>
+            <div class="content full">
+                <div class="content_container">
+                    <article>
+                        
+                            
+                                
 
-                </div>
-                <!--<div class="sidebar">
-    <div class="widget">
-        <h3 class="title">Categories</h3>
-        <ul class="category_list">
-            
-            
-                
-            
-            
-        </ul>
-    </div>
-    <div class="widget">
-        <h3 class="title">Tags</h3>
-        <ul class="tag_list">
-            
-            
-                
-            
-            
-        </ul>
-    </div>
 
-    <div class="widget">
-        <h3 class="title">Authors</h3>
-        <ul class="author_list">
-            
-                <li>
-                    <a href="/author/">
-                        
+<img src='/assets/resized/2-800x533.jpg' alt="galleries/gallery-standard-post/2.jpg" srcset="    /assets/resized/2-320x213.jpg 320w,    /assets/resized/2-480x320.jpg 480w,    /assets/resized/2-800x533.jpg 800w, /img/galleries/gallery-standard-post/2.jpg 1100w">
+
                             
                         
-                    </a>
-                </li>
-            
-                <li>
-                    <a href="/author/">
-                        
+
+                        <h1 class="post_title">
+                            Gallery Alternative
+                        </h1>
+                        <div class="meta">
                             
+
+    <span class="author">Posted by
+        
+        
+    </span>
+
+ &bull;
+                            <span class="date">
+                                Published on 
+                            </span>
+                        </div>
                         
-                    </a>
-                </li>
+                        <div class="post_content">
+                            <p>An alternative to the simple gallery would be this version, which displays the post ins a lightbox.
+The setup basically is the same, the include makes all the difference.</p>
+
+<p>Galleries are defined in a data-sheet, set type and gallery-id in front matter and include <code class="language-plaintext highlighter-rouge">gallery_lightbox.html</code> within the content.
+<br /></p>
+
+<h6 id="_datagalleriesyml">_data/galleries.yml</h6>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">id</span><span class="pi">:</span> <span class="s">gallery</span>
+  <span class="na">imagefolder</span><span class="pi">:</span> <span class="s">galleries/gallery-standard-post</span>
+  <span class="na">images</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">filename</span><span class="pi">:</span> <span class="s">1.jpg</span>
+    <span class="na">alttext</span><span class="pi">:</span> <span class="s">Bloom Flat</span>
+  <span class="pi">-</span> <span class="na">filename</span><span class="pi">:</span> <span class="s">2.jpg</span>
+    <span class="na">alttext</span><span class="pi">:</span> <span class="s">Bloom</span>
+</code></pre></div></div>
+<p><br /></p>
+
+<h6 id="front-matter">front matter</h6>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post_full</span>
+<span class="na">type</span><span class="pi">:</span> <span class="s">gallery</span>
+<span class="na">gallery-id</span><span class="pi">:</span> <span class="s">gallery</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+<p><br /></p>
+
+<h6 id="post-content">post content</h6>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>gallery_lightbox.html<span class="w"> </span><span class="p">%}</span>
+
+</code></pre></div></div>
+
+<div class="masonry">
+    
+        
             
-                <li>
-                    <a href="/author/">
-                        
-                            
-                        
-                    </a>
-                </li>
+                <a href="img/galleries/gallery-standard-post/1.jpg" data-imagelightbox="f" class="noline">
+                    
+
+
+<img src="/assets/resized/1-800x533.jpg" alt="Bloom Flat" srcset="    /assets/resized/1-320x213.jpg 320w,    /assets/resized/1-480x320.jpg 480w,    /assets/resized/1-800x533.jpg 800w, /img/galleries/gallery-standard-post/1.jpg 1100w" />
+
+                </a>
             
-                <li>
-                    <a href="/author/">
-                        
-                            
-                        
-                    </a>
-                </li>
+                <a href="img/galleries/gallery-standard-post/2.jpg" data-imagelightbox="f" class="noline">
+                    
+
+
+<img src="/assets/resized/2-800x533.jpg" alt="Bloom" srcset="    /assets/resized/2-320x213.jpg 320w,    /assets/resized/2-480x320.jpg 480w,    /assets/resized/2-800x533.jpg 800w, /img/galleries/gallery-standard-post/2.jpg 1100w" />
+
+                </a>
             
-                <li>
-                    <a href="/author/">
-                        
-                            
-                        
-                    </a>
-                </li>
-            
-                <li>
-                    <a href="/author/">
-                        
-                            
-                        
-                    </a>
-                </li>
-            
-        </ul>
-    </div>
+        
+    
+        
+    
 </div>
-  Leave out until sidebar fixed -->
+
+                        </div>
+						<!--	LEAVE TAGS OFF UNTIL FIXED
+                        
+                        <div class="catsandtags">
+                            
+                            <p class="category">
+                                <span class="name">Categories:</span>
+                                
+                            </p>
+                            
+                            
+                            <p class="tags">
+                                <span class="name">Tags:</span>
+                                
+                                    <a href="/tag/gallery">gallery</a>
+                                
+                                    <a href="/tag/image">image</a>
+                                
+                            </p>
+                            
+                        </div>
+                        
+						-->
+                    </article>
+
+	                <div id="disqus_thread"></div>
+	<script>
+	          
+
+                    <div class="post_nav">
+                        
+                        
+                    </div>
+                </div>
             </div>
         </section>
         <footer>
@@ -241,5 +281,6 @@ Try heading back to the <a href="/">homepage</a> instead.</p>
 </footer>
 
         <script src="/js/build/global.min.js"></script>
+		<script id="dsq-count-scr" src="//1000-possible-worlds.disqus.com/count.js" async></script>
     </body>
 </html>
