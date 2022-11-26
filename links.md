@@ -14,7 +14,7 @@ permalink: /links/
 ## Podcasts
 - [Science Mike](http://mikemchargue.com/) - Q&A show on science, faith, and life
 - [The Liturgists](http://www.theliturgists.com/podcast/) - Discussion rooted in art, science, and faith, from a post-faith reconstruction viewpoint
-- [Rationally Speaking](http://rationallyspeakingpodcast.org/) - Challenging interviews on wide-ranging science and pseudoscience topics
+- [Rationally Speaking](http://rationallyspeakingpodcast.org/) - Rigorous, nuanced interviews on a wide range of important topics
 - [Stuff Mom Never Told You](www.stuffmomnevertoldyou.com/) - Research-based discussion around feminism's impact on everyday life
 
 ## Tools
