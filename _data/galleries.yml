@@ -1,5 +1,5 @@
 - id: ambigrams
-  imagefolder: img/galleries/ambigrams
+  imagefolder: galleries/ambigrams
   images:
   - filename: LoriAndJohn.png
     alttext: Lori and John

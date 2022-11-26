@@ -4,7 +4,7 @@
             {% for image in gallery.images %}
             <b>{{ image.alttext }}</b>
                 {% responsive_image_block %}
-                    path: {{ gallery.imagefolder | prepend: site.baseurl | replace: '//', '/'}}/{{image.filename}}
+                    path: {{ site.media_folder}}/{{ gallery.imagefolder | prepend: site.baseurl | replace: '//', '/'}}/{{image.filename}}
                     alt: {{image.alttext}}
                 {% endresponsive_image_block %}
             {% endfor %}
