@@ -13,13 +13,13 @@ description: the good site of life
             {% if paginator.page == 1 %}
                 <span class="disabled"><i class="fa fa-angle-double-left"></i></span>
             {% else %}
-                <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-double-left"></i></a>
+                <a href="{{ '/' | relative_url }}"><i class="fa fa-angle-double-left"></i></a>
             {% endif %}
         {% endif %}
 
         <!-- previous link -->
         {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-left"></i></a>
+            <a href="{{ paginator.previous_page_path | relative_url }}"><i class="fa fa-angle-left"></i></a>
         {% else %}
             <span class="disabled"><i class="fa fa-angle-left"></i></span>
         {% endif %}
@@ -43,7 +43,7 @@ description: the good site of life
 
         <!-- next link -->
         {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-right"></i></a>
+            <a href="{{ paginator.next_page_path | relative_url }}"><i class="fa fa-angle-right"></i></a>
         {% else %}
             <span class="disabled"><i class="fa fa-angle-right"></i></span>
         {% endif %}

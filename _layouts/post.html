@@ -30,7 +30,7 @@
                         {% elsif page.type == "image" or page.type == "gallery" %}
                             {% if page.featimg %}
                                 {% responsive_image_block %}
-                                    path: {{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{page.featimg}}
+                                    path: {{ site.media_folder }}/{{page.featimg}}
                                     alt: {{page.featimg}}
                                 {% endresponsive_image_block %}
                             {% endif %}
@@ -51,7 +51,7 @@
                         {% if page.type == "standard" %}
                             {% if page.featimg %}
                                 {% responsive_image_block %}
-                                    path: {{ site.media_folder | prepend: base | replace: '//', '/'}}/{{page.featimg}}
+                                    path: {{ site.media_folder }}/{{page.featimg}}
                                     alt: {{page.featimg}}
                                 {% endresponsive_image_block %}
                             {% endif %}
@@ -73,7 +73,7 @@
                             <p class="tags">
                                 <span class="name">Tags:</span>
                                 {% for tag in page.tags %}
-                                    <a href="{{ site.tag_dir | prepend: site.baseurl | replace: '//', '/' }}/{{ tag }}">{{ tag }}</a>
+                                    <a href="{{ site.tag_dir | relative_url }}/{{ tag }}">{{ tag }}</a>
                                 {% endfor %}
                             </p>
                             {% endif %}
@@ -89,10 +89,10 @@
 
                     <div class="post_nav">
                         {% if page.previous.url %}
-                        <a class="prev" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-left"></i><span class="short"> prev</span><span class="long">ious post</span></a>
+                        <a class="prev" href="{{ page.previous.url | relative_url }}"><i class="fa fa-angle-left"></i><span class="short"> prev</span><span class="long">ious post</span></a>
                         {% endif %}
                         {% if page.next.url %}
-                        <a class="next" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"><span class="short">next </span><span class="long">post </span><i class="fa fa-angle-right"></i></a>
+                        <a class="next" href="{{ page.next.url | relative_url }}"><span class="short">next </span><span class="long">post </span><i class="fa fa-angle-right"></i></a>
                         {% endif %}
                     </div>
                 </div>

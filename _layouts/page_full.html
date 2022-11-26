@@ -17,7 +17,7 @@
                     <article>
                         {% if page.featimg %}
                             {% responsive_image_block %}
-                                path: {{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{page.featimg}}
+                                path: {{ site.media_folder }}/{{ page.featimg }}
                                 alt: {{page.featimg}}
                             {% endresponsive_image_block %}
                         {% endif %}

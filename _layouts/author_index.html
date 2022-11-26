@@ -6,7 +6,7 @@ layout: index
 <div class="authorbox">
     <div class="avatar">
         {% if author.avatar %}
-            <img src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}{{ author.avatar }}" alt="{{ author.id }} avatar">
+            <img src="{{ site.media_folder | relative_url}}{{ author.avatar }}" alt="{{ author.id }} avatar">
         {% else %}
             <img src="{{ site.baseurl | replace: '//', '/' }}/{{ site.media_folder | replace: '//', '/'}}/{{ site.author_default_avatar }}" alt="avatar">
         {% endif %}

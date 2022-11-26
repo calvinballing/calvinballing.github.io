@@ -20,7 +20,7 @@
             {% if post.featimg %}
                 <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
                     {% responsive_image_block %}
-                        path: {{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{post.featimg}}
+                        path: {{ site.media_folder }}/{{ post.featimg }}
                         alt: {{post.featimg}}
                     {% endresponsive_image_block %}
                 </a>
@@ -29,7 +29,7 @@
     {% else %}
         {% if post.type == "youtube" %}
             {% if post.yt-video-id %}
-                <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
+                <a href="{{ post.url | relative_url}}" class="noline">
                     <img src="http://img.youtube.com/vi/{{ post.yt-video-id }}/0.jpg" alt="{{ post.title }} thumbnail">
                 </a>
             {% endif %}
@@ -37,7 +37,7 @@
             {% if post.featimg %}
                 <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
                     {% responsive_image_block %}
-                        path: {{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{post.featimg}}
+                        path: {{ site.media_folder }}/{{ post.featimg }}
                         alt: {{post.featimg}}
                     {% endresponsive_image_block %}
                 </a>
@@ -49,7 +49,7 @@
             {{ post.category }}
         </span>
     {% endif %}
-    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}">
+    <a href="{{ post.url | relative_url}}">
         <h1>{{ post.title }}</h1>
     </a>
     <p class="post_content">{{ post.content | strip_html | truncatewords: 15 }}</p>
