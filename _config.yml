@@ -19,6 +19,7 @@ markdown: kramdown
 #theme: twister_theme
 plugins:
   - jekyll-feed
+  - jekyll-postcss
 exclude:
   - Gemfile
   - Gemfile.lock
