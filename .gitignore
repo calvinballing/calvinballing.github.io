@@ -7,3 +7,4 @@ archive
 sass
 twister_theme
 _site/
+.DS_Store
