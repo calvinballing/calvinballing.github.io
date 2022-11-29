@@ -21,6 +21,8 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
 
       # See https://github.com/bglw/jekyll-postcss-v2 for example GitHub Action
       # Install Node as this is needed for PostCSS
