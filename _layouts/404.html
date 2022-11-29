@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+    </head>
+
+    <body class="index">
+        {% include svg.html %}
+       <header class="head">
+           {% include header.html %}
+           {% include nav.html %}
+        </header>
+        {% include search.html %}
+        <section class="margin">
+            <div class="content">
+                    {{ content }}
+                <!--{% include sidebar.html %}  Leave out until sidebar fixed -->
+            </div>
+        </section>
+        {% include footer.html %}
+        <script src="{{ site.baseurl | replace: '//', '/' }}/js/build/global.min.js"></script>
+    </body>
+</html>
