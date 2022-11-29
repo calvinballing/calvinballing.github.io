@@ -2850,26 +2850,6 @@ body.overflow {
         transform: translate(-50%, -50%) scale(1);
     }
 
-.switch {
-    width: 100%;
-    font-size: 0.8em;
-    margin-bottom: 10px;
-}
-
-@media screen and (max-width: 530px) {
-    .switch {
-        display: none;
-    }
-}
-
-.switch span {
-    color: #505879;
-}
-
-    .switch span:hover {
-        color: #AEB9A0;
-        cursor: pointer;
-    }
 
 .title {
     width: 100%;
