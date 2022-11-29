@@ -22,6 +22,14 @@ jobs:
         with:
           ruby-version: 2.7
 
+      # See https://github.com/bglw/jekyll-postcss-v2 for example GitHub Action
+      # Install Node as this is needed for PostCSS
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      # Install PostCSS plugins (from your package.json)
       - name: npm install
         run: npm install
 
