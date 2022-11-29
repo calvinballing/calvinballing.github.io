@@ -22,6 +22,9 @@ jobs:
         with:
           ruby-version: 2.7
 
+      - name: npm install
+        run: npm install
+
       - name: 🔨 install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
         with:
