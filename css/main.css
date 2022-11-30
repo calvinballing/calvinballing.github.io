@@ -480,6 +480,9 @@ video {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
+.block {
+  display: block;
+}
 .grid {
   display: grid;
 }
