@@ -20,7 +20,7 @@ jobs:
       - name: 💎 setup ruby
         uses: ruby/setup-ruby@v1
         with:
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          bundler-cache: false # runs 'bundle install' and caches installed gems automatically
 
 
       # See https://github.com/bglw/jekyll-postcss-v2 for example GitHub Action
@@ -37,7 +37,7 @@ jobs:
       - name: 🔨 install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
         with:
-          enable_cache: true
+          enable_cache: false
 
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
