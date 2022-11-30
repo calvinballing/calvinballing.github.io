@@ -48,13 +48,6 @@ $(document).ready(function() {
         $("#switch_style").attr("href", "/css/" + id + ".css");
     });
 
-    if($('.articles').find('div.wrapper').length != 0){
-        $('.switch').hide();
-    }else{
-        $('.switch').show();
-    }});
-
-
 $(window).scroll(function() {
     var $shrunkheight = $('.head').innerHeight();
 
