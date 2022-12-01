@@ -1,6 +1,7 @@
 ---
 type: standard
 featimg: fireworks.jpg
+featimgclass: object-top
 title: Everything is Information
 homedisplay: featimg
 description: Board Games Hanabi
@@ -14,7 +15,7 @@ While I haven't played this game nearly as much as the folks over at [Hanabi Liv
 
 * A player who is new to the game looks around at the cards and asks "What's the other color besides red, green, yellow, and white?" *I can't see any blue cards.*
 
-* After Player A draws a new card, Players B & C stare at it for an unusually long time. *The card that you just drew is important in some way.  Either it's a card that you will need to play eventually, or it makes it harder to give you a clue that had been planned.* 
+* After Player A draws a new card, Players B & C stare at it for an unusually long time. *The card that you just drew is important in some way.  Either it's a card that you will need to play eventually, or it makes it harder to give you a clue that had been planned.*
 
 * After Player A draws a new card, Player B glances at it, then immediately glances at Player C's hand. *The card that you just drew is related to something in Player C's hand.*
 
@@ -28,4 +29,4 @@ While I haven't played this game nearly as much as the folks over at [Hanabi Liv
 
 Effectively, if you want to make sure that the only information you give is contained within the clues, then absolutely everything else has to be completely consistent.  No reactions (positive or negative) to anything anyone else does in the form of speech, facial expressions, eye movements, etc.  No commentary related to the game either. Even if you try to do all this, some things just can't be avoided if you're playing in person: how long you spend deciding on an action won't always be the same; you have to look at your teammates' cards to know what they are; etc.
 
-Hanabi demonstrates the difficulty of secret-keeping.  If possible, providing no information is the best way to avoid accidentally providing information that you don't mean to, at least in situations where providing no information isn't inherently suspicious.  
+Hanabi demonstrates the difficulty of secret-keeping.  If possible, providing no information is the best way to avoid accidentally providing information that you don't mean to, at least in situations where providing no information isn't inherently suspicious.

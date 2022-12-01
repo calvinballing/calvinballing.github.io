@@ -1,6 +1,7 @@
 ---
 type: standard
 featimg: jelly-game-squid-game.png
+featimgclass: object-top
 title: Jelly Game
 homedisplay: featimg
 description: Puzzles Fun BabaIsYou

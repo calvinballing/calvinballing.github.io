@@ -1,6 +1,7 @@
 ---
 type: standard
 featimg: sauron.jpg
+featimgclass: object-[0,10%]
 title: Lord of the Rings as our Post-Apocalyptic Future
 homedisplay: featimg
 description: Lord of the Rings
@@ -16,15 +17,15 @@ Why are there different races?  Humanity was just beginning the gene-editing rev
 
 Wizards
 =======
-What do we know of the magic of wizards?  Gandalf really does seem to be quite the impotent wizard.  His wizardry consists of such things as reading books (a rather scientific thing to do), launching fireworks (gunpowder is not such an advanced concept, especially if you are one of the few people who spends time in a library), fighting a Balrog (potentially a pre-arranged stunt), escaping Orthanc with the help of the Eagles (we only have his word to go on here).  
+What do we know of the magic of wizards?  Gandalf really does seem to be quite the impotent wizard.  His wizardry consists of such things as reading books (a rather scientific thing to do), launching fireworks (gunpowder is not such an advanced concept, especially if you are one of the few people who spends time in a library), fighting a Balrog (potentially a pre-arranged stunt), escaping Orthanc with the help of the Eagles (we only have his word to go on here).
 
-Saruman, who has worked together with Gandalf, also knows how to use explosives, and puts them to great effect at Helm's Deep.  
+Saruman, who has worked together with Gandalf, also knows how to use explosives, and puts them to great effect at Helm's Deep.
 
 Particulars
 ===========
 
 ## "Would you look into the mirror?"
-Galadriel has a powerful persona, and if she has access to hallucinogens, combining that with the [power of suggestion](https://www.aaas.org/abstract/power-suggestion-memory-manipulation) could account for the visions the main characters see.  
+Galadriel has a powerful persona, and if she has access to hallucinogens, combining that with the [power of suggestion](https://www.aaas.org/abstract/power-suggestion-memory-manipulation) could account for the visions the main characters see.
 
 ## Ring Invisibility
 Bilbo potentially has help from Gandalf to pull off his famous party trick.  [Misdirection](http://www.spring.org.uk/2008/08/psychology-of-magic-3-critical.php) is nothing new to magicians.

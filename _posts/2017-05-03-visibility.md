@@ -1,6 +1,7 @@
 ---
 type: standard
 featimg: spectrum.jpg
+featimgclass: object-top
 title: Non-Overlapping Visibility
 homedisplay: featimg
 description: Visible Light
