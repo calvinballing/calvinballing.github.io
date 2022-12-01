@@ -489,6 +489,9 @@ video {
 .hidden {
   display: none;
 }
+.aspect-\[5\/2\] {
+  aspect-ratio: 5/2;
+}
 .w-full {
   width: 100%;
 }
@@ -497,6 +500,14 @@ video {
 }
 .cursor-pointer {
   cursor: pointer;
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.object-top {
+  -o-object-position: top;
+     object-position: top;
 }
 .text-xs {
   font-size: 0.75rem;
