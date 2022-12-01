@@ -468,6 +468,23 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.aspect-w-5 {
+  position: relative;
+  padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  --tw-aspect-w: 5;
+}
+.aspect-w-5 > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.aspect-h-2 {
+  --tw-aspect-h: 2;
+}
 .visible {
   visibility: visible;
 }
@@ -489,9 +506,6 @@ video {
 .hidden {
   display: none;
 }
-.aspect-\[5\/2\] {
-  aspect-ratio: 5/2;
-}
 .w-full {
   width: 100%;
 }
@@ -504,6 +518,14 @@ video {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+.object-left {
+  -o-object-position: left;
+     object-position: left;
+}
+.object-\[0\2c 10\%\] {
+  -o-object-position: 0 10%;
+     object-position: 0 10%;
 }
 .object-top {
   -o-object-position: top;
