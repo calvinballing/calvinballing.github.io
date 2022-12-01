@@ -32,6 +32,7 @@
                                 {% responsive_image_block %}
                                     path: {{ site.media_folder }}/{{ page.featimg }}
                                     alt: {{page.featimg}}
+                                    class: 'aspect-[5/2] object-cover object-top'
                                 {% endresponsive_image_block %}
                             {% endif %}
                         {% elsif page.type == "audio" %}
@@ -54,6 +55,7 @@
                                 {% responsive_image_block %}
                                     path: {{ site.media_folder }}/{{ page.featimg }}
                                     alt: {{page.featimg}}
+                                    class: 'aspect-[5/2] object-cover object-top'
                                 {% endresponsive_image_block %}
                             {% endif %}
                         {% endif %}
