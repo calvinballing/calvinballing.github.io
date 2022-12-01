@@ -22,7 +22,8 @@
                     {% responsive_image_block %}
                         path: {{ site.media_folder }}/{{ post.featimg }}
                         alt: {{post.featimg}}
-                        class: 'aspect-w-5 aspect-h-2 object-cover object-top'
+                        parent-class: 'aspect-w-5 aspect-h-2'
+                        class: 'object-cover {{ post.featimgclass }}'
                     {% endresponsive_image_block %}
                 </a>
             {% endif %}
@@ -40,7 +41,8 @@
                     {% responsive_image_block %}
                         path: {{ site.media_folder }}/{{ post.featimg }}
                         alt: {{post.featimg}}
-                        class: 'aspect-w-5 aspect-h-2 object-cover object-top'
+                        parent-class: 'aspect-w-5 aspect-h-2'
+                        class: 'object-cover {{ post.featimgclass }}'
                     {% endresponsive_image_block %}
                 </a>
             {% endif %}

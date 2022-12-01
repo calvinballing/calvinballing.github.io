@@ -5,4 +5,6 @@
 {% endfor %}
 {% endcapture %}
 
-<img src='/{{ largest.path }}' class="{{ class }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w">
+<div class="{{ parent-class }}">
+    <img src='/{{ largest.path }}' class="{{ class }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w">
+</div>

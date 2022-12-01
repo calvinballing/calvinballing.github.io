@@ -32,7 +32,8 @@
                                 {% responsive_image_block %}
                                     path: {{ site.media_folder }}/{{ page.featimg }}
                                     alt: {{page.featimg}}
-                                    class: 'aspect-w-5 aspect-h-2 object-cover object-top'
+                                    parent-class: 'aspect-w-5 aspect-h-2'
+                                    class: 'object-cover {{ page.featimgclass }}'
                                 {% endresponsive_image_block %}
                             {% endif %}
                         {% elsif page.type == "audio" %}
@@ -55,7 +56,8 @@
                                 {% responsive_image_block %}
                                     path: {{ site.media_folder }}/{{ page.featimg }}
                                     alt: {{page.featimg}}
-                                    class: 'aspect-w-5 aspect-h-2 object-cover object-top'
+                                    parent-class: 'aspect-w-5 aspect-h-2'
+                                    class: 'object-cover {{ page.featimgclass }}'
                                 {% endresponsive_image_block %}
                             {% endif %}
                         {% endif %}
