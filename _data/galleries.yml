@@ -7,3 +7,17 @@
     alttext: Montague
   - filename: PeterAndAlyssa.png
     alttext: Peter and Alyssa
+
+- id: botw-recreations
+  imagefolder: galleries/botw-recreations
+  images:
+  - filename: impression-sunrise.webp
+    alttext: Impression Sunrise - Claude Monet
+  - filename: starry-night.webp
+    alttext: Starry Night - Vincent Van Gogh
+  - filename: son-of-man.webp
+    alttext: The Son of Man - René Magritte
+  - filename: stacks.webp
+    alttext: Stacks, End of Summer - Claude Monet
+  - filename: wanderer.webp
+    alttext: Wanderer above the Sea of Fog - Caspar David Friedrich
