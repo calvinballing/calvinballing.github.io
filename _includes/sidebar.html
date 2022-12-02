@@ -31,21 +31,23 @@
             {% assign tag_list = nil %}
         </ul>
     </div>
+<!--
 
     <div class="widget">
         <h3 class="title">Authors</h3>
         <ul class="author_list">
             {% for author in site.data.authors %}
-                <li>
-                    <a href="{{ site.author_dir | relative_url }}/{{ author.id }}">
-                        {% if author.name %}
-                            {{ author.name }}
-                        {% else %}
-                            {{ author.id }}
-                        {% endif %}
-                    </a>
-                </li>
+            <li>
+                <a href="{{ site.author_dir | relative_url }}/{{ author.id }}">
+                    {% if author.name %}
+                    {{ author.name }}
+                    {% else %}
+                    {{ author.id }}
+                    {% endif %}
+                </a>
+            </li>
             {% endfor %}
         </ul>
     </div>
+Comment out until if/when there are multiple authors-->
 </div>
