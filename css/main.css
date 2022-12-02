@@ -534,6 +534,9 @@ video {
 .pb-4 {
   padding-bottom: 1rem;
 }
+.pt-8 {
+  padding-top: 2rem;
+}
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
