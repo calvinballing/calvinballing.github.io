@@ -2,11 +2,13 @@
     {% for gallery in site.data.galleries %}
         {% if gallery.id == page.gallery-id %}
             {% for image in gallery.images %}
-            <b>{{ image.alttext }}</b>
+            <div class="pb-4">
+                <b>{{ image.alttext }}</b>
                 {% responsive_image_block %}
                     path: {{ site.media_folder}}/{{ gallery.imagefolder | prepend: site.baseurl | replace: '//', '/'}}/{{image.filename}}
                     alt: {{image.alttext}}
                 {% endresponsive_image_block %}
+            </div>
             {% endfor %}
         {% endif %}
     {% endfor %}
