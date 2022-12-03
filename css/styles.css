@@ -2155,10 +2155,6 @@ i, em {
     margin: 0;
 }
 
-.blogger-clickTrap {
-    display: none;
-}
-
 @font-face {
     font-family: 'Roboto';
     src: url('../fonts/Roboto-MediumItalic-webfont.eot');
