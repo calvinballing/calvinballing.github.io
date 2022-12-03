@@ -20,6 +20,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-postcss-v2
+  - jekyll-archives
 postcss:
   cache: false
 
@@ -158,3 +159,14 @@ responsive_image:
     - width: 320
     - width: 480
     - width: 800
+
+jekyll-archives:
+  enabled:
+    - tags
+  layout: tag_index
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'

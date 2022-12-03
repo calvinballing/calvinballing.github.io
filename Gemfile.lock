@@ -47,6 +47,8 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-archives (2.2.1)
+      jekyll (>= 3.6, < 5.0)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
@@ -104,6 +106,7 @@ PLATFORMS
 DEPENDENCIES
   guard-livereload (~> 2.5, >= 2.5.2)
   jekyll (~> 4.0)
+  jekyll-archives
   jekyll-feed (~> 0.6)
   jekyll-paginate
   jekyll-postcss-v2
