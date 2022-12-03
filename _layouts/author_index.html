@@ -24,16 +24,9 @@ layout: index
         {% endif %}
         {% if author.facebook or author.twitter or author.instagram or author.email %}
             <p class="social">
-                {% if author.facebook %}
-                    <a href="{{ author.facebook }}" target="_blank" class="noline"><i class="fa fa-facebook"></i></a>
-                {% endif %}
 
                 {% if author.twitter %}
                     <a href="{{ author.twitter }}" target="_blank" class="noline"><i class="fa fa-twitter"></i></a>
-                {% endif %}
-
-                {% if author.instagram %}
-                    <a href="{{ author.instagram }}" target="_blank" class="noline"><i class="fa fa-instagram"></i></a>
                 {% endif %}
 
                 {% if author.email %}
