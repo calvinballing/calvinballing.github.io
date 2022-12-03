@@ -3194,11 +3194,6 @@ footer {
         font-weight: 300;
     }
 
-    .widget ul {
-        list-style: armenian;
-        padding: 0 25px;
-    }
-
         .widget ul li {
             padding-left: 0px;
         }
