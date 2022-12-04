@@ -2,7 +2,8 @@
 type: youtube
 title: Super Sharp
 yt-video-id: _GXy0QY5ClA
-description: Puzzles Fun
+description: Puzzles Fun Games
+tags: Puzzles Fun Games
 comments: true
 date:   2022-11-08 12:00:00 -0500
 ---

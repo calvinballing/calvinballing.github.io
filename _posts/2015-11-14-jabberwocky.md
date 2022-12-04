@@ -4,6 +4,7 @@ featimg: jabberwocky.jpg
 title: Jabber&shy;wocky in Common Words
 homedisplay: featimg
 description: The Jabberwocky Lewis Carroll UpGoer Five Ten Hundred Words xkcd
+tags: Humor Fun Poetry
 comments: true
 date:   2015-11-14 17:26:28 -0500
 ---

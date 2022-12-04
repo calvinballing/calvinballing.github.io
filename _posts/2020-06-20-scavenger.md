@@ -4,6 +4,7 @@ featimg: color-wheel.png
 title: Photo Scavenger Hunts
 homedisplay: featimg
 description: Photography Activities Fun
+tags: Fun Games
 comments: true
 date:   2020-06-20 14:36:00 -0500
 ---

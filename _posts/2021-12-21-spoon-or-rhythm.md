@@ -5,6 +5,7 @@ featimgclass: content-right
 title: Spoon or Rhythm
 homedisplay: featimg
 description: Puzzles Fun
+tags: Puzzles Fun
 comments: true
 date:   2021-12-21 12:00:00 -0500
 ---

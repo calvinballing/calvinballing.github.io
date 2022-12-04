@@ -4,6 +4,7 @@ featimg: wheredle.png
 title: Wheredle
 homedisplay: featimg
 description: Puzzles Fun Wordle
+tags: Puzzles Fun Wordle Games Coding
 comments: true
 date:   2022-02-01 21:30:00 -0500
 ---

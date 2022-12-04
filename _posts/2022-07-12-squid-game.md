@@ -4,6 +4,7 @@ featimg: squid-game.png
 title: Puzzled Pint
 homedisplay: featimg
 description: Puzzles Fun
+tags: [Puzzles, Fun, Squid Game]
 comments: true
 date:   2022-07-12 12:00:00 -0500
 ---

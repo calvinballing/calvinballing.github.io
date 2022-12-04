@@ -6,7 +6,7 @@ title:  "Valuable Humans in Transit"
 comments: true
 date:   2016-10-23 13:57:21 -0500
 description: A short story about a super-intelligent AI and imminent danger for humanity
-
+tags: [Audio Recordings]
 ---
 
 A short story about a super-intelligent AI and imminent danger for humanity, written by [Sam Hughes](https://qntm.org/transit), read by Jim Hays

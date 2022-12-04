@@ -5,6 +5,7 @@ featimgclass: object-top
 title: Non-Overlapping Visibility
 homedisplay: featimg
 description: Visible Light
+tags: Musings
 comments: true
 date:   2017-05-04 00:36:00 -0500
 ---

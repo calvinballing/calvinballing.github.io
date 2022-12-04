@@ -5,6 +5,7 @@ featimgclass: object-left
 title: Greek to Me
 homedisplay: featimg
 description: Language Chinese Greek Flowchart
+tags: Humor Fun
 comments: true
 date:   2013-10-21 07:49:21 -0500
 ---

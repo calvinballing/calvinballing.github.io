@@ -5,6 +5,7 @@ gallery-id: botw-recreations
 featimg: galleries/botw-recreations/son-of-man.webp
 featimgclass: object-top
 description: BotW Games Fun Art
+tags: Art Games Fun
 comments: true
 date:   2020-09-26 16:00:00 -0500
 ---

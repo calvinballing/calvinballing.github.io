@@ -5,6 +5,7 @@ title: X & Z Creation Myths
 homedisplay: featimg
 description: Poetry Bible Genesis Christianity
 comments: true
+tags: Poetry
 date:   2020-04-29 12:45:00 -0500
 ---
 
@@ -14,7 +15,7 @@ When beginning [Saga's Start](/saga), a version of Genesis 1 using only words st
 
 [X-rays](https://en.wikipedia.org/wiki/X-ray)!
 
-[Xenon](https://en.wikipedia.org/wiki/Xenon) / [Xingu](https://en.wikipedia.org/wiki/Xingu_River)! 
+[Xenon](https://en.wikipedia.org/wiki/Xenon) / [Xingu](https://en.wikipedia.org/wiki/Xingu_River)!
 
 [Xiushan](https://www.google.com/maps/place/Xiushan+Island/@30.1671164,122.1673497,13z/data=!4m5!3m4!1s0x3452cd9b3055439d:0x4b30f600cbdc4582!8m2!3d30.151014!4d122.162715) [xerosere](https://en.wikipedia.org/wiki/Xerosere)!
 

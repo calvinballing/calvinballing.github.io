@@ -6,7 +6,7 @@ title:  "Lonely Photo&shy;grapher"
 comments: true
 date:   2016-10-23 18:16:21 -0500
 description: A short story documenting a Lonely Photographer
-
+tags: [Audio Recordings]
 ---
 
 A short story documenting a Lonely Photographer, written by [Sam Hughes](https://qntm.org/lonely), read by Jim Hays

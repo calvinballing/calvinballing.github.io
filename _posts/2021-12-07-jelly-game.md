@@ -5,6 +5,7 @@ featimgclass: object-top
 title: Jelly Game
 homedisplay: featimg
 description: Puzzles Fun BabaIsYou
+tags: [Baba Is You, Puzzles, Games, Fun, Squid Game]
 comments: true
 date:   2021-12-07 12:00:00 -0500
 ---

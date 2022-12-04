@@ -4,6 +4,7 @@ featimg: fruit-emoji.png
 title: Fruit Emoji Puzzle
 homedisplay: featimg
 description: Puzzles Fun Party Fruit
+tags: Puzzles Fun Games
 comments: true
 date:   2022-10-10 21:30:00 -0500
 ---

@@ -4,6 +4,7 @@ featimg: super-baba.png
 title: Super Baba Bros
 homedisplay: featimg
 description: Puzzles Fun BabaIsYou
+tags: [Baba Is You, Puzzles, Games, Fun]
 comments: true
 date:   2021-12-21 12:00:00 -0500
 ---

@@ -4,6 +4,7 @@ title: Ambigrams
 gallery-id: ambigrams
 featimg: ambigram.png
 description: ambigrams design svg art rotation
+tags: Art
 comments: true
 date:   2012-12-22 14:41:45 -0500
 ---

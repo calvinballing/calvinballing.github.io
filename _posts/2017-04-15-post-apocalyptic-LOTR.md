@@ -5,6 +5,7 @@ featimgclass: object-[0,10%]
 title: Lord of the Rings as our Post-Apocalyptic Future
 homedisplay: featimg
 description: Lord of the Rings
+tags: Musings
 comments: true
 date:   2017-04-15 23:04:00 -0500
 ---

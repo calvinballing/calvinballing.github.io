@@ -5,6 +5,7 @@ featimgclass: object-top
 title: Everything is Information
 homedisplay: featimg
 description: Board Games Hanabi
+tags: Musings Games
 comments: true
 date:   2019-09-28 18:58:00 -0500
 ---
