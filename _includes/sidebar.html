@@ -1,7 +1,8 @@
 <div class="sidebar">
+    <!-- Hide Categories
     <div class="widget">
         <h3 class="title">Categories</h3>
-        <ul class="category_list">
+            <ul class="category_list">
             {% assign category_list = site.categories %}
             {% if category_list.first[0] == null %}
                 {% for category in category_list %}
@@ -15,6 +16,7 @@
             {% assign category_list = nil %}
         </ul>
     </div>
+    -->
     <div class="widget">
         <h3 class="title">Tags</h3>
         <ul class="tags">
