@@ -29,4 +29,4 @@ I've been playing around with *Baba is You*'s [level editor](https://hempuli.itc
 # Squid Game: NRR9-J7UJ
 ![Squid Game](/img/jelly-game-squid-game.png){:class="img-responsive"}
 
-I've uploaded a [solution vidoo on YouTube for Glass Stepping Stones](https://www.youtube.com/watch?v=ECBTN9VKpiU) .
+I've uploaded a [solution video on YouTube for Glass Stepping Stones](https://www.youtube.com/watch?v=ECBTN9VKpiU) .

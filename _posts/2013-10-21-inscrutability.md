@@ -10,7 +10,7 @@ comments: true
 date:   2013-10-21 07:49:21 -0500
 ---
 
-In English, the expresion goes ["It's all Greek to me!"](https://en.wikipedia.org/wiki/Greek_to_me), but in Greek the expression is basically "It's all Turkish to me!"
+In English, the expression goes ["It's all Greek to me!"](https://en.wikipedia.org/wiki/Greek_to_me), but in Greek the expression is basically "It's all Turkish to me!"
 
 Without further ado, I present, *The Relative Inscrutability of Languages*
 

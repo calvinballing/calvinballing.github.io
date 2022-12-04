@@ -4,8 +4,8 @@
         <h2>{{ post.date | date: '%Y' }}</h2>
     {% else %}
         {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-        {% if year != nyear %}
+        {% capture next_post_year %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != next_post_year %}
             <h2>{{ post.date | date: '%Y' }}</h2>
         {% endif %}
     {% endunless %}

@@ -20,7 +20,7 @@ With the pandemic, it's nice to have some ways to connect with friends and famil
  - [Hanab (Hanabi)](https://hanab.live/)
  - [Kenan Games](https://games.gc.my/)
  - [Scattergories](https://scattergoriesonline.net/)
- - [skribbl (pictonary)](https://skribbl.io/)
+ - [skribbl (pictionary)](https://skribbl.io/)
  - [Spyfall](https://www.spyfall.app/)
  - [Tank Wars](https://dosgames.com/game/tank-wars/)
  - [Telephone Pictionary](https://garticphone.com/)

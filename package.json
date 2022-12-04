@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
+    "cspell": "^6.16.0",
     "grunt": "^1.5.3",
     "grunt-autoprefixer": "^3.0.4",
     "grunt-build-control": "^0.7.1",

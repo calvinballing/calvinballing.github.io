@@ -42,7 +42,7 @@ For our child's first birthday, we celebrated with a fruit-themed party!  Among 
 1. Grape Fruit
 1. Pineapple
 1. Pear
-1. Cantelope
+1. Cantaloupe
 1. Boysenberry
 1. Pink Lady
 1. Zucchini

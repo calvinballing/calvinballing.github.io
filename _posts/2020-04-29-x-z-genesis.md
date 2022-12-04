@@ -9,7 +9,7 @@ tags: Poetry
 date:   2020-04-29 12:45:00 -0500
 ---
 
-When beginning [Saga's Start](/saga), a version of Genesis 1 using only words starting with `S`, I settled on `S` as it seemed like one of the easist letters to do, and something I could accomplish using the tools I had on hand, rather than needing to create awesome new tooling as Doug Summers-Stay did for [ALPHA (A TRANSLATION OF GENESIS 1)](http://llamasandmystegosaurus.blogspot.com/2017/05/alpha.html).  Afterwards, I was wondering if it would be possible to do a version with a more constricting letter, so I took a crack at both X and Z.  It actually ended up being easier in some ways; with fewer options, many of the decisions are already made.
+When beginning [Saga's Start](/saga), a version of Genesis 1 using only words starting with `S`, I settled on `S` as it seemed like one of the easiest letters to do, and something I could accomplish using the tools I had on hand, rather than needing to create awesome new tooling as Doug Summers-Stay did for [ALPHA (A TRANSLATION OF GENESIS 1)](http://llamasandmystegosaurus.blogspot.com/2017/05/alpha.html).  Afterwards, I was wondering if it would be possible to do a version with a more constricting letter, so I took a crack at both X and Z.  It actually ended up being easier in some ways; with fewer options, many of the decisions are already made.
 
 ## X-nihilo
 
