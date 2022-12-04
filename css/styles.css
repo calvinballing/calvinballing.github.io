@@ -2151,10 +2151,6 @@ i, em {
     margin: 0;
 }
 
-.widget {
-    margin: 0;
-}
-
 @font-face {
     font-family: 'Roboto';
     src: url('../fonts/Roboto-MediumItalic-webfont.eot');
@@ -3173,26 +3169,6 @@ footer {
     footer .backtotop:hover {
         cursor: pointer;
     }
-
-.widget {
-    background: #FDFDFD;
-    box-sizing: border-box;
-    padding: 10px;
-    border: 1px solid #E6DED6;
-    margin-bottom: 20px;
-}
-
-    .widget:last-of-type {
-        margin-bottom: 0px;
-    }
-
-    .widget .title {
-        font-weight: 300;
-    }
-
-        .widget ul li {
-            padding-left: 0px;
-        }
 
 @-webkit-keyframes clockwise {
     0% {
