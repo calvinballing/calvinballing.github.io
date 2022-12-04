@@ -37,5 +37,5 @@ permalink: /links/
 - [Alyssa Massey - Renegade sheep designs - Board game jewelry](http://www.etsy.com/shop/renegadesheepdesigns)
 - [Paul Martin - DIY electronics videos](https://www.youtube.com/user/ukrcamilio)
 - [Natalie Hart - Blogger](http://nataliehart.com/)
-- [Kenan Schaefkofer - Online games](https://games.gc.my/)
+- [Kenan Schaefkofer - Online games and projects](https://kenan.schaefkofer.com/)
 - [Russell Emmer Harms - Misc. coding projects](https://russelleh.io/)
