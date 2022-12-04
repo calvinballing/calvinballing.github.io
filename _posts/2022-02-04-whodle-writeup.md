@@ -1,6 +1,7 @@
 ---
-type: standard
+type: image
 featimg: whodle.png
+featimgclass: object-top
 title: Whodle
 homedisplay: featimg
 description: Puzzles Fun Wordle

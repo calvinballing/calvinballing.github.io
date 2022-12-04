@@ -1,6 +1,6 @@
 ---
-type: standard
-featimg: super-baba.png
+type: image
+featimg: super-baba-bros.png
 title: Super Baba Bros
 homedisplay: featimg
 description: Puzzles Fun BabaIsYou

@@ -1,6 +1,7 @@
 ---
-type: standard
+type: image
 featimg: wheredle.png
+featimgclass: object-top
 title: Wheredle
 homedisplay: featimg
 description: Puzzles Fun Wordle
