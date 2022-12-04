@@ -19,6 +19,7 @@
 }
 
 .articles article #aspect-ratio-container-parent,
+.articles article #youtube-thumbnail,
 .articles article>iframe {
 	width: 30%;
 }
@@ -29,6 +30,7 @@
 
 @media screen and (max-width: 775px) {
 	.articles article div,
+	.articles article img,
 	.articles article>iframe {
 		width: 100%;
 	}

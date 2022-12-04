@@ -32,7 +32,7 @@
         {% if post.type == "youtube" %}
             {% if post.yt-video-id %}
                 <a href="{{ post.url | relative_url}}" class="noline">
-                    <img src="http://img.youtube.com/vi/{{ post.yt-video-id }}/0.jpg" alt="{{ post.title }} thumbnail">
+                    <img src="http://img.youtube.com/vi/{{ post.yt-video-id }}/0.jpg" alt="{{ post.title }} thumbnail" id="youtube-thumbnail">
                 </a>
             {% endif %}
         {% else %}
