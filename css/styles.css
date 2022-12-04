@@ -2883,10 +2883,6 @@ article a:hover img, article a:hover footer .backtotop:hover, footer article a:h
     opacity: 0.5;
 }
 
-article .category, article .tags {
-    text-transform: uppercase;
-}
-
 .index article .category, .index article .tags {
     font-size: 0.7em;
     opacity: 0.6;
