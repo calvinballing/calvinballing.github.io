@@ -5,6 +5,8 @@
 {% endfor %}
 {% endcapture %}
 
-<div class="{{ parent-class }}">
-    <img src='/{{ largest.path }}' class="{{ class }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w">
+<div id='aspect-ratio-container-parent'>
+    <div id='aspect-ratio-container' class="{{ parent-class }}">
+        <img src='/{{ largest.path }}' class="{{ class }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w">
+    </div>
 </div>
