@@ -44,21 +44,14 @@
 }
 
 @media screen and (min-width: 776px) {
-	.articles article:nth-of-type(even) div,
-	.articles article:nth-of-type(even) img,
-	.articles article:nth-of-type(even)>iframe,
-	.articles article:nth-of-type(even) .video_container {
+	.articles article div,
+	.articles article img,
+	.articles article>iframe,
+	.articles article .video_container {
 		float: left;
 		margin-right: 15px;
 	}
-	.articles article:nth-of-type(even) .date {
+	.articles article .date {
 		left: calc(30% + 5px);
-	}
-	.articles article:nth-of-type(odd) div,
-	.articles article:nth-of-type(odd) img,
-	.articles article:nth-of-type(odd)>iframe,
-	.articles article:nth-of-type(odd) .video_container {
-		float: right;
-		margin-left: 15px;
 	}
 }
