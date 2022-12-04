@@ -28,7 +28,7 @@
             {% assign sorted_tags = tags | split: ',' | sort_natural %}
 
             {% for tag in sorted_tags %}
-                <a href="{{ site.tag_dir | relative_url }}/{{ tag | replace: ' ', '-' }}">{{ tag }}</a>
+                <a href="{{ site.tag_dir | relative_url }}/{{ tag | replace: ' ', '-' | downcase }}">{{ tag }}</a>
             {% endfor %}
         </ul>
     </div>
