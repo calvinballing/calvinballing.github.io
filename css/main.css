@@ -503,6 +503,9 @@ video {
 .block {
   display: block;
 }
+.table {
+  display: table;
+}
 .grid {
   display: grid;
 }
@@ -538,6 +541,10 @@ video {
   -o-object-position: top;
      object-position: top;
 }
+.object-right {
+  -o-object-position: right;
+     object-position: right;
+}
 .p-2\.5 {
   padding: 0.625rem;
 }
@@ -550,8 +557,8 @@ video {
 .pb-10 {
   padding-bottom: 2.5rem;
 }
-.pt-8 {
-  padding-top: 2rem;
+.pt-4 {
+  padding-top: 1rem;
 }
 .text-xs {
   font-size: 0.75rem;
