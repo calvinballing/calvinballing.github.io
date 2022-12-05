@@ -17,7 +17,6 @@ date:   2021-03-11 12:00:00 -0500
 \
 Another Quora user (Matúš Koprda) answered the above Quora question, and provided instructions on how to generate the list of keywords to replicate the process. However, that answer was written 4 years ago, and since that time the list of flairs has almost doubled. I followed Matúš's steps to extract the updated list of English keyword strings that generate flair. The first item in each line is the flair's ID, followed by the keyword strings that trigger the matching flair.
 
-\
  - [**americanfootball**](https://ssl.gstatic.com/tmly/f8944938hffheth4ew890ht4i8/flairs/xxhdpi/img_americanfootball.jpg): American Football, Football, Super Bowl, Superbowl
  - [**archery**](https://ssl.gstatic.com/tmly/f8944938hffheth4ew890ht4i8/flairs/xxhdpi/img_archery.jpg): archery
  - [**art**](https://ssl.gstatic.com/tmly/f8944938hffheth4ew890ht4i8/flairs/xxhdpi/img_art.jpg): art workshop, art workshops, drawing workshop, painting, sketching workshop
@@ -120,7 +119,6 @@ To see full-sized versions of the images on the web, go the link below, swapping
 https://ssl.gstatic.com/tmly/f8944938hffheth4ew890ht4i8/flairs/xxhdpi/img_americanfootball.jpg
 
 \
-
 A few fun tidbits I noticed while working on this:
 1. Now, since only one flair is ever selected... how to handle collisions?  When starting this project, I was hoping for a juicy scoop about the importance ranking of holidays according to Google.  Unfortunately, the results were much less dramatic, as they are based instead on word count, keyword order, and re-use of substrings across multiple keyword.
  - If part of a keyword string is used for multiple flairs, that keyword string has priority over keyword strings that don’t. So “Clean the house for the Christmas Party” will resolve to **xmasparty** because “Christmas Party” has the word “Christmas” (which is also part of a keyword string for **xmas**) while “Clean the house” does not have any “ambiguous” words.
