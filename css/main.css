@@ -2734,7 +2734,8 @@ article {
     padding: 20px;
 }
 .content_container article p {
-        padding: 0;
+        padding-top: 6px;
+        padding-bottom: 6px;
     }
 .index article h1, .index article p, .index article span {
     padding: 10px;
