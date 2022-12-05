@@ -1,13 +1,14 @@
 ---
 type: standard
 featimg: online-games.png
-title: Multiplayer Online Games
+title: Multiplayer Online Game List
 homedisplay: featimg
 description: Games Fun
 tags: Games Fun
 comments: true
 date:   2021-01-20 12:00:00 -0500
 ---
+
 With the pandemic, it's nice to have some ways to connect with friends and family online.  Here are some free multiplayer online games you can check out:
 
  - [All Bad Cards (Cards Against Humanity)](https://allbad.cards/)
