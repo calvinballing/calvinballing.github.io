@@ -503,6 +503,9 @@ video {
 .block {
   display: block;
 }
+.inline-block {
+  display: inline-block;
+}
 .table {
   display: table;
 }
@@ -511,6 +514,9 @@ video {
 }
 .hidden {
   display: none;
+}
+.w-14 {
+  width: 3.5rem;
 }
 .w-full {
   width: 100%;
@@ -566,6 +572,9 @@ video {
 }
 .pt-4 {
   padding-top: 1rem;
+}
+.text-right {
+  text-align: right;
 }
 .text-xs {
   font-size: 0.75rem;
