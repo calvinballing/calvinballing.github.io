@@ -39,3 +39,23 @@
     alttext: Campbell’s Soup Cans - Andy Warhol
   - filename: orange-and-yellow.webp
     alttext: Orange and Yellow - Mark Rothko
+
+- id: botw-movies
+  imagefolder: galleries/botw-movies
+  images:
+  - filename: cliffs-of-insanity.webp
+    alttext: The Princess Bride
+  - filename: peter-pan.webp
+    alttext: Peter Pan
+  - filename: indiana-jones.webp
+    alttext: Indiana Jones
+  - filename: the-matrix.webp
+    alttext: The Matrix
+  - filename: the-sound-of-music.webp
+    alttext: The Sound of Music
+  - filename: 2001.webp
+    alttext: 2001 - A Space Odyssey
+  - filename: wall-e.webp
+    alttext: Wall-E
+  - filename: lotr.jpeg
+    alttext: LOTR - Return of the King
