@@ -521,6 +521,9 @@ video {
 .cursor-pointer {
   cursor: pointer;
 }
+.break-words {
+  overflow-wrap: break-word;
+}
 .bg-\[\#FDFDFD\] {
   --tw-bg-opacity: 1;
   background-color: rgb(253 253 253 / var(--tw-bg-opacity));
@@ -540,6 +543,10 @@ video {
 .object-top {
   -o-object-position: top;
      object-position: top;
+}
+.object-center {
+  -o-object-position: center;
+     object-position: center;
 }
 .object-right {
   -o-object-position: right;
