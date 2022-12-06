@@ -491,8 +491,23 @@ video {
 .static {
   position: static;
 }
+.m-4 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 0.5rem;
+}
+.m-6 {
+  margin: 1.5rem;
+}
 .m-0 {
   margin: 0px;
+}
+.m-28 {
+  margin: 7rem;
+}
+.m-52 {
+  margin: 13rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
