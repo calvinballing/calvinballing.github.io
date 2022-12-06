@@ -2121,10 +2121,6 @@ body {
     line-height: 1;
 }
 
-ul {
-    list-style: none;
-}
-
 blockquote, q {
     quotes: none;
 }
@@ -2898,7 +2894,7 @@ article a:hover img, article a:hover footer .backtotop:hover, footer article a:h
 }
 
 article ul, article ol {
-    list-style: circle;
+    list-style: disc;
     padding: 0 35px;
 }
 
