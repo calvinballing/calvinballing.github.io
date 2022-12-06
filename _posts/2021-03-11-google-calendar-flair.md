@@ -14,7 +14,7 @@ date:   2021-03-11 12:00:00 -0500
 
 [Originally written for Quora](https://www.quora.com/What-are-all-the-keywords-for-the-new-Google-Calendar-Android-app-that-will-generate-those-beautiful-images-in-the-agenda-view/answer/Jim-Hays), modified slightly for this format.
 
-\
+
 Another Quora user (Matúš Koprda) answered the above Quora question, and provided instructions on how to generate the list of keywords to replicate the process. However, that answer was written 4 years ago, and since that time the list of flairs has almost doubled. I followed Matúš's steps to extract the updated list of English keyword strings that generate flair. The first item in each line is the flair's ID, followed by the keyword strings that trigger the matching flair.
 
 [**americanfootball**](https://ssl.gstatic.com/tmly/f8944938hffheth4ew890ht4i8/flairs/xxhdpi/img_americanfootball.jpg): American Football, Football, Super Bowl, Superbowl
