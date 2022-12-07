@@ -1,12 +1,40 @@
 {% assign largest = resized | sort: 'width' | last %}
+
 {% capture srcset %}
 {% for i in resized %}
     /{{ i.path }} {{ i.width }}w,
 {% endfor %}
 {% endcapture %}
 
+{% assign webppath = path | replace: ".png", ".webp" | replace: ".jpeg", ".webp" | replace: ".jpg", ".webp" | replace: ".tiff", ".webp" %}
+
+{% capture webpsrcset %}
+{% for i in resized %}
+    /{{ i.path | replace: ".png", ".webp" | replace: ".jpeg", ".webp" | replace: ".jpg", ".webp" | replace: ".tiff", ".webp" }} {{ i.width }}w,
+{% endfor %}
+{% endcapture %}
+
 <div id='aspect-ratio-container-parent'>
     <div id='aspect-ratio-container' class="{{ parent-class }}">
-        <img src='/{{ largest.path }}' class="{{ class }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w">
+        <picture  class="{{ parent-class }}">
+            <source
+                srcset="{{ webpsrcset | strip_newlines }} /{{ webppath }} {{ original.width }}w "
+                type="image/webp"
+                sizes=" (max-width: 320px) 320px,
+                        (max-width: 480px) 480px,
+                        (max-width: 800px) 800px,
+                        100vw"
+            >
+            <img
+            src='/{{ largest.path }}'
+            class="{{ class }}"
+            alt="{{ alt }}"
+            srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w"
+            sizes=" (max-width: 320px) 320px,
+                    (max-width: 480px) 480px,
+                    (max-width: 800px) 800px,
+                    100vw"
+            >
+        </picture>
     </div>
 </div>
