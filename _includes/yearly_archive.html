@@ -1,4 +1,4 @@
-<ul class="archive">
+<ul class="archive list-none p-0">
   {% for post in site.posts %}
     {% unless post.next %}
         <h2>{{ post.date | date: '%Y' }}</h2>
@@ -9,6 +9,6 @@
             <h2>{{ post.date | date: '%Y' }}</h2>
         {% endif %}
     {% endunless %}
-    <li><span class="date inline-block w-14 text-right">{{ post.date | date:"%d %b." }}</span> <a href="{{ post.url | relative_url}}">{{ post.title }}</a></li>
+    <li class="flex flex-row"><span class="date inline-block w-14 shrink-0 text-right">{{ post.date | date:"%d %b." }}</span> <a href="{{ post.url | relative_url}}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>

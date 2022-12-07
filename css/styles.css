@@ -178,18 +178,17 @@ a, footer .backtotop {
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
     color: #75535F;
-    text-decoration: none;
-    border-bottom: #505879 1px solid;
+    text-decoration: underline;
 }
 
     a:hover, footer .backtotop:hover {
         transition: 0.3s all;
         color: #505879;
-        border-bottom: transparent 1px solid;
+        text-decoration: none;
     }
 
     a.noline, footer .noline.backtotop, nav a, nav footer .backtotop, footer nav .backtotop {
-        border-bottom: 0px solid transparent;
+        text-decoration: none;
     }
 
 img {
@@ -263,20 +262,6 @@ iframe {
     box-sizing: border-box;
     background: #FDFDFD;
     border: 1px solid #E6DED6;
-}
-
-article .archive {
-    list-style: none;
-    padding: 0;
-}
-
-.archive .date {
-    opacity: 0.5;
-    font-size: 0.8em;
-}
-
-.archive h3 {
-    padding: 10px;
 }
 
 blockquote {

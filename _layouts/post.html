@@ -76,7 +76,7 @@
                             <p class="tags">
                                 <span class="name">Tags:</span>
                                 {% for tag in page.tags %}
-                                    <a href="{{ site.tag_dir | relative_url }}/{{ tag | replace: ' ', '-' | downcase }}">{{ tag }}</a>
+                                    <a href="{{ site.tag_dir | relative_url }}/{{ tag | replace: ' ', '-' | downcase }}" class="no-underline">{{ tag }}</a>
                                 {% endfor %}
                             </p>
                             {% endif %}
