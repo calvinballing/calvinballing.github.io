@@ -1,7 +1,7 @@
 ---
 type: image
 title: BotW Memes
-featimg: bazz.webp
+featimg: bazz.png
 featimgclass: object-center
 description: BotW Games Fun Art
 tags: BotW Art Games Fun Humor
@@ -32,7 +32,7 @@ ___
 ![This is fine](/img/this-is-fine.webp)
 
 
-![This is fine](/img/bazz.webp)
+![This is fine](/img/bazz.png)
 
 
 [Reddit: This is Fine](https://www.reddit.com/r/Breath_of_the_Wild/comments/j948uy/sorry_zora_guard_your_dialogue_was_just_asking/)
