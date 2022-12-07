@@ -134,9 +134,33 @@ ga('send', 'pageview');
                                 
 
 
+
+
+
+
+
 <div id='aspect-ratio-container-parent'>
     <div id='aspect-ratio-container' class="">
-        <img src='/assets/resized/agudas-achim-800x618.png' class="object-cover object-top" alt="agudas-achim.png" srcset="    /assets/resized/agudas-achim-320x247.png 320w,    /assets/resized/agudas-achim-480x371.png 480w,    /assets/resized/agudas-achim-800x618.png 800w, /img/agudas-achim.png 1056w">
+        <picture  class="">
+            <source
+                srcset="    /assets/resized/agudas-achim-320x247.webp 320w,    /assets/resized/agudas-achim-480x371.webp 480w,    /assets/resized/agudas-achim-800x618.webp 800w, /img/agudas-achim.webp 1056w "
+                type="image/webp"
+                sizes=" (max-width: 320px) 320px,
+                        (max-width: 480px) 480px,
+                        (max-width: 800px) 800px,
+                        100vw"
+            >
+            <img
+            src='/assets/resized/agudas-achim-800x618.png'
+            class="object-cover object-top"
+            alt="agudas-achim.png"
+            srcset="    /assets/resized/agudas-achim-320x247.png 320w,    /assets/resized/agudas-achim-480x371.png 480w,    /assets/resized/agudas-achim-800x618.png 800w, /img/agudas-achim.png 1056w"
+            sizes=" (max-width: 320px) 320px,
+                    (max-width: 480px) 480px,
+                    (max-width: 800px) 800px,
+                    100vw"
+            >
+        </picture>
     </div>
 </div>
 
@@ -174,13 +198,13 @@ ga('send', 'pageview');
                             <p class="tags">
                                 <span class="name">Tags:</span>
                                 
-                                    <a href="/tag/puzzles">Puzzles</a>
+                                    <a href="/tag/puzzles" class="no-underline">Puzzles</a>
                                 
-                                    <a href="/tag/fun">Fun</a>
+                                    <a href="/tag/fun" class="no-underline">Fun</a>
                                 
-                                    <a href="/tag/columbus">Columbus</a>
+                                    <a href="/tag/columbus" class="no-underline">Columbus</a>
                                 
-                                    <a href="/tag/letterboxing">Letterboxing</a>
+                                    <a href="/tag/letterboxing" class="no-underline">Letterboxing</a>
                                 
                             </p>
                             

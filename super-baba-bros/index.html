@@ -134,9 +134,33 @@ ga('send', 'pageview');
                                 
 
 
+
+
+
+
+
 <div id='aspect-ratio-container-parent'>
     <div id='aspect-ratio-container' class="">
-        <img src='/assets/resized/super-baba-bros-800x436.png' class="object-cover " alt="super-baba-bros.png" srcset="    /assets/resized/super-baba-bros-320x175.png 320w,    /assets/resized/super-baba-bros-480x262.png 480w,    /assets/resized/super-baba-bros-800x436.png 800w, /img/super-baba-bros.png 3204w">
+        <picture  class="">
+            <source
+                srcset="    /assets/resized/super-baba-bros-320x175.webp 320w,    /assets/resized/super-baba-bros-480x262.webp 480w,    /assets/resized/super-baba-bros-800x436.webp 800w, /img/super-baba-bros.webp 3204w "
+                type="image/webp"
+                sizes=" (max-width: 320px) 320px,
+                        (max-width: 480px) 480px,
+                        (max-width: 800px) 800px,
+                        100vw"
+            >
+            <img
+            src='/assets/resized/super-baba-bros-800x436.png'
+            class="object-cover "
+            alt="super-baba-bros.png"
+            srcset="    /assets/resized/super-baba-bros-320x175.png 320w,    /assets/resized/super-baba-bros-480x262.png 480w,    /assets/resized/super-baba-bros-800x436.png 800w, /img/super-baba-bros.png 3204w"
+            sizes=" (max-width: 320px) 320px,
+                    (max-width: 480px) 480px,
+                    (max-width: 800px) 800px,
+                    100vw"
+            >
+        </picture>
     </div>
 </div>
 
@@ -197,13 +221,13 @@ ga('send', 'pageview');
                             <p class="tags">
                                 <span class="name">Tags:</span>
                                 
-                                    <a href="/tag/baba-is-you">Baba Is You</a>
+                                    <a href="/tag/baba-is-you" class="no-underline">Baba Is You</a>
                                 
-                                    <a href="/tag/puzzles">Puzzles</a>
+                                    <a href="/tag/puzzles" class="no-underline">Puzzles</a>
                                 
-                                    <a href="/tag/games">Games</a>
+                                    <a href="/tag/games" class="no-underline">Games</a>
                                 
-                                    <a href="/tag/fun">Fun</a>
+                                    <a href="/tag/fun" class="no-underline">Fun</a>
                                 
                             </p>
                             
