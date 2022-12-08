@@ -494,6 +494,9 @@ video {
 .m-4 {
   margin: 1rem;
 }
+.m-7 {
+  margin: 1.75rem;
+}
 .m-2 {
   margin: 0.5rem;
 }
@@ -1686,6 +1689,10 @@ sup { top: -0.5em; }
     font-weight: 900;
     font-style: normal;
  }
+.hover\:bg-\[\#EEF\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 238 255 / var(--tw-bg-opacity));
+}
 .hover\:text-\[\#AEB9A0\]:hover {
   --tw-text-opacity: 1;
   color: rgb(174 185 160 / var(--tw-text-opacity));
