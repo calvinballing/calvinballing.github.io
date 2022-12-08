@@ -10,4 +10,6 @@ comments: true
 date:   2021-12-07 17:50:00 -0500
 ---
 
-I made a Squid Game infographic showing the progress of the players across the Glass Stepping Stones throughout the episode
+I made a Squid Game infographic showing the progress of the players across the Glass Stepping Stones throughout the episode.
+
+[Full size Infographic](/img/glass-stepping-stones.webp)
