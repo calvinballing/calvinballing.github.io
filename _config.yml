@@ -78,7 +78,7 @@ responsive_image:
   sizes:
     - width: 320
     - width: 480
-    - width: 800
+    - width: 960
 
 jekyll-archives:
   enabled:

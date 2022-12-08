@@ -6,8 +6,6 @@
 {% endfor %}
 {% endcapture %}
 
-{% assign webppath = path | replace: ".png", ".webp" | replace: ".jpeg", ".webp" | replace: ".jpg", ".webp" | replace: ".tiff", ".webp" %}
-
 {% capture webpsrcset %}
 {% for i in resized %}
     /{{ i.path | replace: ".png", ".webp" | replace: ".jpeg", ".webp" | replace: ".jpg", ".webp" | replace: ".tiff", ".webp" }} {{ i.width }}w,
@@ -27,12 +25,7 @@
             ,480px
         {% else %}
             ,(max-width: 480px) 480px
-            {% if max-width <= 800 %}
-                ,800px
-            {% else %}
-                ,(max-width: 800px) 800px
-                ,100vw
-            {% endif %}
+            ,100vw
         {% endif %}
     {% endif %}
 {% endcapture sizes %}
@@ -41,7 +34,7 @@
     <div id='aspect-ratio-container' class="{{ parent-class }}">
         <picture  class="{{ parent-class }}">
             <source
-                srcset="{{ webpsrcset | strip_newlines }} /{{ webppath }} {{ original.width }}w "
+                srcset="{{ webpsrcset | strip_newlines }}"
                 type="image/webp"
                 sizes="{{sizes}}"
             >
@@ -49,7 +42,7 @@
             src='/{{ largest.path }}'
             class="{{ class }}"
             alt="{{ alt }}"
-            srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w"
+            srcset="{{ srcset | strip_newlines }}"
             sizes="{{sizes}}"
             >
         </picture>
