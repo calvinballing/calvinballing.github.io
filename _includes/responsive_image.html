@@ -14,26 +14,43 @@
 {% endfor %}
 {% endcapture %}
 
+{% if max-width == blank %}
+    {% assign max-width = 9999 %}
+{% endif %}
+
+{% capture sizes %}
+    {% if max-width <= 320 %}
+        320px
+    {% else %}
+        (max-width: 320px) 320px
+        {% if max-width <= 480 %}
+            ,480px
+        {% else %}
+            ,(max-width: 480px) 480px
+            {% if max-width <= 800 %}
+                ,800px
+            {% else %}
+                ,(max-width: 800px) 800px
+                ,100vw
+            {% endif %}
+        {% endif %}
+    {% endif %}
+{% endcapture sizes %}
+
 <div id='aspect-ratio-container-parent'>
     <div id='aspect-ratio-container' class="{{ parent-class }}">
         <picture  class="{{ parent-class }}">
             <source
                 srcset="{{ webpsrcset | strip_newlines }} /{{ webppath }} {{ original.width }}w "
                 type="image/webp"
-                sizes=" (max-width: 320px) 320px,
-                        (max-width: 480px) 480px,
-                        (max-width: 800px) 800px,
-                        100vw"
+                sizes="{{sizes}}"
             >
             <img
             src='/{{ largest.path }}'
             class="{{ class }}"
             alt="{{ alt }}"
             srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w"
-            sizes=" (max-width: 320px) 320px,
-                    (max-width: 480px) 480px,
-                    (max-width: 800px) 800px,
-                    100vw"
+            sizes="{{sizes}}"
             >
         </picture>
     </div>
