@@ -58,6 +58,19 @@
     <a href="{{ post.url | relative_url}}" class="noline">
         <h1>{{ post.title }}</h1>
     </a>
-    <p class="post_content">{{ post.content | strip_html | truncatewords: 15 }}</p>
+
+        {% assign preprocessed_content=post.content | replace: '<em>', '__em__' %}
+        {% assign preprocessed_content=preprocessed_content | replace: '</em>', '__/em__' %}
+        {% assign preprocessed_content=preprocessed_content | replace: '<sup>', '__sup__' %}
+        {% assign preprocessed_content=preprocessed_content | replace: '</sup>', '__/sup__' %}
+
+        {% assign truncated_content=preprocessed_content | strip_html | truncatewords:15 %}
+
+        {% assign cleaned_content=truncated_content | replace: '__em__', '<em>' %}
+        {% assign cleaned_content=cleaned_content | replace: '__/em__', '</em>' %}
+        {% assign cleaned_content=cleaned_content | replace: '__sup__', '<sup>' %}
+        {% assign cleaned_content=cleaned_content | replace: '__/sup__', '</sup>' %}
+
+    <p class="post_content">{{ cleaned_content }}</p>
     <span class="date"><i class="fa fa-calendar"></i> {{ post.date | date: '%B %d, %Y' }}</span>
 </article>
