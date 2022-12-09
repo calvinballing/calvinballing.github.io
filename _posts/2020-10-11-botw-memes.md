@@ -8,7 +8,7 @@ tags: BotW Art Games Fun Humor
 comments: true
 date:   2020-10-11 08:30:00 -0500
 ---
-Following up on [BotW painting-recrations](/botw-recreations), I also decided to go in for some meme-creation!
+Following up on [BotW painting-recreations](/botw-recreations), I also decided to go in for some meme-creation!
 
 ___
 ![Confused Anime Guy](/img/confused-anime-guy.webp)

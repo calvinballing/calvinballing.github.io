@@ -9,6 +9,6 @@ tags: BotW Art Games Fun
 comments: true
 date:   2020-10-11 08:30:00 -0500
 ---
-Following up on [BotW painting-recrations](/botw-recreations) and [BotW memes](/botw-memes), I've now recreated some famous movie scenes!
+Following up on [BotW painting-recreations](/botw-recreations) and [BotW memes](/botw-memes), I've now recreated some famous movie scenes!
 
 {% include gallery.html %}
