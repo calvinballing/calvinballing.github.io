@@ -295,12 +295,6 @@ code {
     width: 100%;
 }
 
-@media screen and (max-width: 368px) {
-    .iconnav .tumblr, .iconnav .instagram, .iconnav .twitter, .iconnav .youtube {
-        display: none;
-    }
-}
-
 .iconnav ul {
     list-style: none;
 }
