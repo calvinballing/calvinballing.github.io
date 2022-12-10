@@ -801,7 +801,7 @@ article ol {
     text-align: center;
 }
 
-    .pagination a {
+    .pagination a, .pagination span {
         padding: 5px 10px;
         border: 1px solid #E6DED6;
         background: #FDFDFD;
