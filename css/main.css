@@ -536,11 +536,11 @@ video {
 .hidden {
   display: none;
 }
-.w-14 {
-  width: 3.5rem;
-}
 .w-full {
   width: 100%;
+}
+.w-14 {
+  width: 3.5rem;
 }
 .shrink-0 {
   flex-shrink: 0;
@@ -557,8 +557,18 @@ video {
 .flex-row {
   flex-direction: row;
 }
+.justify-end {
+  justify-content: flex-end;
+}
 .break-words {
   overflow-wrap: break-word;
+}
+.border-solid {
+  border-style: solid;
+}
+.border-\[\#E6DED6\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(230 222 214 / var(--tw-border-opacity));
 }
 .bg-\[\#FDFDFD\] {
   --tw-bg-opacity: 1;
@@ -587,6 +597,9 @@ video {
 .object-right {
   -o-object-position: right;
      object-position: right;
+}
+.p-4 {
+  padding: 1rem;
 }
 .p-2\.5 {
   padding: 0.625rem;
@@ -620,6 +633,9 @@ video {
   --tw-text-opacity: 1;
   color: rgb(80 88 121 / var(--tw-text-opacity));
 }
+.underline {
+  text-decoration-line: underline;
+}
 .no-underline {
   text-decoration-line: none;
 }
@@ -633,7 +649,15 @@ video {
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
-html, body, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, .highlight pre, .highlight .hll, a, footer .backtotop, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ul, li, fieldset, form, label, legend, caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-300 {
+  transition-duration: 300ms;
+}
+html, body, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, .highlight pre, .highlight .hll, a, footer, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ul, li, fieldset, form, label, legend, caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -784,17 +808,17 @@ h5 {
 h6 {
     font-size: 0.75em;
 }
-a, footer .backtotop {
+a {
     transition: 0.3s all;
     color: #75535F;
     text-decoration: underline;
 }
-a:hover, footer .backtotop:hover {
+a:hover {
         transition: 0.3s all;
         color: #505879;
         text-decoration: none;
     }
-a.noline, footer .noline.backtotop, nav a, nav footer .backtotop, footer nav .backtotop {
+a.noline, nav a {
         text-decoration: none;
     }
 img {
@@ -866,46 +890,9 @@ code {
         list-style: none;
         display: inline-block;
     }
-.iconnav ul li a, .iconnav ul li footer .backtotop, footer .iconnav ul li .backtotop {
+.iconnav ul li a {
             padding: 0 3px;
         }
-.icon {
-    fill: #505879;
-    fill-rule: nonzero;
-    stroke: #9BA4B5;
-    stroke-width: 0.05;
-    stroke-miterlimit: 4;
-    stroke-opacity: 0.94117647;
-    stroke-dasharray: none;
-    transition: 0.3s all ease;
-}
-.twister {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 125%;
-    fill: #4A4240;
-    font-family: "Roboto","Calibri","Arial",sans-serif;
-    text-transform: uppercase;
-    transition: 0.3s all ease;
-}
-.slogan {
-    font-size: 7px;
-    font-weight: 200;
-    line-height: 125%;
-    fill: #75535F;
-    font-family: "Roboto","Calibri","Arial",sans-serif;
-    transition: 0.3s all ease;
-}
-a:hover svg .icon, a:hover svg footer .backtotop:hover, footer a:hover svg .backtotop:hover {
-    fill: #75535F;
-    stroke: #4A4240;
-}
-a:hover svg .twister, a:hover svg footer .backtotop:hover, footer a:hover svg .backtotop:hover {
-    fill: #505879;
-}
-a:hover svg .slogan, a:hover svg footer .backtotop:hover, footer a:hover svg .backtotop:hover {
-    fill: #9BA4B5;
-}
 body.overflow {
     overflow: hidden;
 }
@@ -967,10 +954,10 @@ body.overflow {
     font-size: 1em;
     z-index: 105;
 }
-#menu a, #menu footer .backtotop, footer #menu .backtotop {
+#menu a {
         color: #75535F;
     }
-#menu a:hover, #menu footer .backtotop:hover, footer #menu .backtotop:hover {
+#menu a:hover {
             color: #505879;
         }
 #menu .toggle_link {
@@ -984,21 +971,21 @@ body.overflow {
         padding: 20px 7px;
         transition: 0.3s all linear;
     }
-#menu li > a, #menu li > footer .backtotop, footer #menu li > .backtotop {
+#menu li > a {
             width: 100%;
             display: block;
         }
 #menu li:hover {
             transition: 0.3s all linear;
         }
-#menu li:hover > a, #menu li:hover > footer .backtotop, footer #menu li:hover > .backtotop {
+#menu li:hover > a {
                 color: #505879;
             }
 #menu .parent {
         margin-left: 0;
         position: relative;
     }
-#menu .parent > a:before, #menu .parent > footer .backtotop:before, footer #menu .parent > .backtotop:before {
+#menu .parent > a:before {
             content: "+ ";
         }
 #menu .parent > ul {
@@ -1226,7 +1213,7 @@ article {
 article img {
     transition: 0.3s all ease;
 }
-article a:hover img, article a:hover footer .backtotop:hover, footer article a:hover .backtotop:hover {
+article a:hover img {
     opacity: 0.5;
 }
 .index article .category, .index article .tags {
@@ -1267,12 +1254,12 @@ article ol {
 .short:hover {
         background: #f5f5f5;
     }
-.short a, .short footer .backtotop, footer .short .backtotop {
+.short a {
         display: block;
         width: 100%;
         padding: 10px;
     }
-.short a .shortdate, .short a footer .backtotop, footer .short a .backtotop {
+.short a .shortdate {
             font-size: 0.8em;
             opacity: 0.8;
             padding-right: 10px;
@@ -1291,7 +1278,7 @@ article ol {
     box-sizing: border-box;
     text-align: center;
 }
-.pagination a, .pagination footer .backtotop, footer .pagination .backtotop, .pagination span {
+.pagination a {
         padding: 5px 10px;
         border: 1px solid #E6DED6;
         background: #FDFDFD;
@@ -1382,7 +1369,7 @@ article ol {
         font-weight: 500;
         padding: 5px;
     }
-.content_container .catsandtags a, .content_container .catsandtags footer .backtotop, footer .content_container .catsandtags .backtotop {
+.content_container .catsandtags a {
         padding: 5px;
         background: #FDFDFD;
         border: 1px solid #E6DED6;
@@ -1390,7 +1377,7 @@ article ol {
 .content_container .post_nav {
     margin: 20px 0;
 }
-.content_container .post_nav a, .content_container .post_nav footer .backtotop, footer .content_container .post_nav .backtotop {
+.content_container .post_nav a {
         padding: 5px 10px;
         border: 1px solid #E6DED6;
         background: #FDFDFD;
@@ -1421,13 +1408,9 @@ article ol {
 
 }
 footer {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 20px;
-    border-top: 1px solid #E6DED6;
-    background: #FDFDFD;
     font-size: 0.8em;
-    align-self: flex-end;
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
 }
 footer .content {
         display: flex;
@@ -1435,9 +1418,6 @@ footer .content {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-    }
-footer .backtotop:hover {
-        cursor: pointer;
     }
 @keyframes clockwise {
     0% {
@@ -1643,18 +1623,18 @@ footer .backtotop:hover {
     box-sizing: border-box;
     background: 900;
 }
-.masonry a, .masonry footer .backtotop, footer .masonry .backtotop {
+.masonry a {
         width: calc((100% / 3) - 20px);
         padding: 0;
         margin: 10px;
         line-height: 0;
         font-size: 0;
     }
-.masonry a img, .masonry a footer .backtotop, footer .masonry a .backtotop {
+.masonry a img {
             width: 100%;
             opacity: 0.8;
         }
-.masonry a:hover img, .masonry a:hover footer .backtotop:hover, footer .masonry a:hover .backtotop:hover {
+.masonry a:hover img {
             opacity: 1;
         }
 sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
@@ -1709,6 +1689,9 @@ sup { top: -0.5em; }
 .hover\:text-\[\#AEB9A0\]:hover {
   --tw-text-opacity: 1;
   color: rgb(174 185 160 / var(--tw-text-opacity));
+}
+.hover\:no-underline:hover {
+  text-decoration-line: none;
 }
 @media (min-width: 640px) {
 
