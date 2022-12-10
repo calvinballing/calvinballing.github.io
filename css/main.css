@@ -594,13 +594,17 @@ video {
   -o-object-position: center;
      object-position: center;
 }
-.object-right {
-  -o-object-position: right;
-     object-position: right;
+.object-\[0\2c 60\%\] {
+  -o-object-position: 0 60%;
+     object-position: 0 60%;
 }
 .object-\[0\2c 39\%\] {
   -o-object-position: 0 39%;
      object-position: 0 39%;
+}
+.object-right {
+  -o-object-position: right;
+     object-position: right;
 }
 .p-4 {
   padding: 1rem;
