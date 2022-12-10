@@ -314,52 +314,6 @@ code {
             padding: 0 3px;
         }
 
-.icon {
-    fill: #505879;
-    fill-rule: nonzero;
-    stroke: #9BA4B5;
-    stroke-width: 0.05;
-    stroke-miterlimit: 4;
-    stroke-opacity: 0.94117647;
-    stroke-dasharray: none;
-    -webkit-transition: 0.3s all ease;
-    transition: 0.3s all ease;
-}
-
-.twister {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 125%;
-    fill: #4A4240;
-    font-family: "Roboto","Calibri","Arial",sans-serif;
-    text-transform: uppercase;
-    -webkit-transition: 0.3s all ease;
-    transition: 0.3s all ease;
-}
-
-.slogan {
-    font-size: 7px;
-    font-weight: 200;
-    line-height: 125%;
-    fill: #75535F;
-    font-family: "Roboto","Calibri","Arial",sans-serif;
-    -webkit-transition: 0.3s all ease;
-    transition: 0.3s all ease;
-}
-
-a:hover svg .icon {
-    fill: #75535F;
-    stroke: #4A4240;
-}
-
-a:hover svg .twister {
-    fill: #505879;
-}
-
-a:hover svg .slogan {
-    fill: #9BA4B5;
-}
-
 body.overflow {
     overflow: hidden;
 }
