@@ -598,6 +598,10 @@ video {
   -o-object-position: right;
      object-position: right;
 }
+.object-\[0\2c 39\%\] {
+  -o-object-position: 0 39%;
+     object-position: 0 39%;
+}
 .p-4 {
   padding: 1rem;
 }
@@ -877,11 +881,6 @@ code {
 }
 .featimg {
     width: 100%;
-}
-@media screen and (max-width: 368px) {
-    .iconnav .tumblr, .iconnav .instagram, .iconnav .twitter, .iconnav .youtube {
-        display: none;
-    }
 }
 .iconnav ul {
     list-style: none;
@@ -1278,7 +1277,7 @@ article ol {
     box-sizing: border-box;
     text-align: center;
 }
-.pagination a {
+.pagination a, .pagination span {
         padding: 5px 10px;
         border: 1px solid #E6DED6;
         background: #FDFDFD;
