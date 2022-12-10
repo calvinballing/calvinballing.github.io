@@ -1,7 +1,8 @@
 ---
 type: image
 featimg: fireworks.jpg
-featimgclass: object-top
+preventwebp: false
+featimgclass: object-center
 title: Sample Image Post
 homedisplay: featimg
 description: My Sample Description

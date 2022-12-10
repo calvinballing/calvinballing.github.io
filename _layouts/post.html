@@ -33,6 +33,7 @@
                                     path: {{ site.media_folder }}/{{page.featimg}}
                                     alt: {{page.featimg}}
                                     class: 'object-cover {{ page.featimgclass }}'
+                                    preventwebp: '{{page.preventwebp}}'
                                 {% endresponsive_image_block %}
                             {% endif %}
                         {% elsif page.type == "audio" %}
@@ -56,6 +57,7 @@
                                     alt: {{page.featimg}}
                                     parent-class: 'aspect-w-5 aspect-h-2'
                                     class: 'object-cover {{ page.featimgclass }}'
+                                    preventwebp: '{{page.preventwebp}}'
                                 {% endresponsive_image_block %}
                             {% endif %}
                         {% endif %}

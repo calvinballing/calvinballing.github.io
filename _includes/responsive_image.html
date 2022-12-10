@@ -33,11 +33,13 @@
 <div id='aspect-ratio-container-parent'>
     <div id='aspect-ratio-container' class="{{ parent-class }}">
         <picture  class="{{ parent-class }}">
-            <source
-                srcset="{{ webpsrcset | strip_newlines }}"
-                type="image/webp"
-                sizes="{{sizes}}"
-            >
+            {% unless preventwebp %}
+                <source
+                    srcset="{{ webpsrcset | strip_newlines }}"
+                    type="image/webp"
+                    sizes="{{sizes}}"
+                >
+            {% endunless %}
             <img
             src='/{{ largest.path }}'
             class="{{ class }}"
