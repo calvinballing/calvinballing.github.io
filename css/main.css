@@ -582,6 +582,10 @@ video {
   -o-object-position: left;
      object-position: left;
 }
+.object-center {
+  -o-object-position: center;
+     object-position: center;
+}
 .object-\[0\2c 10\%\] {
   -o-object-position: 0 10%;
      object-position: 0 10%;
@@ -589,10 +593,6 @@ video {
 .object-top {
   -o-object-position: top;
      object-position: top;
-}
-.object-center {
-  -o-object-position: center;
-     object-position: center;
 }
 .object-\[0\2c 60\%\] {
   -o-object-position: 0 60%;
