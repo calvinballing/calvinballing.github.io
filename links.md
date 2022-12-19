@@ -5,17 +5,15 @@ permalink: /links/
 ---
 
 ## General Interest Content
-- [Wait but Why](http://waitbutwhy.com) - Long-form posts on a variety of topics
-- [Vi Hart](https://www.youtube.com/user/Vihart) - Math YouTube videos
-- [qntm](qntm.com) - Blog of a writer & software developer
 - [Slate Star Codex](https://slatestarcodex.com/) - Long-form blog posts
 - [Explorable Explanations by Nicky Case](https://explorabl.es/) - Interactive learning tools
+- [qntm](qntm.com) - Blog of a writer & software developer
+- [Vi Hart](https://www.youtube.com/user/Vihart) - Math YouTube videos
 
 ## Podcasts
-- [Science Mike](http://mikemchargue.com/) - Q&A show on science, faith, and life
-- [The Liturgists](http://www.theliturgists.com/podcast/) - Discussion rooted in art, science, and faith, from a post-faith reconstruction viewpoint
 - [Rationally Speaking](http://rationallyspeakingpodcast.org/) - Rigorous, nuanced interviews on a wide range of important topics
 - [Stuff Mom Never Told You](www.stuffmomnevertoldyou.com/) - Research-based discussion around feminism's impact on everyday life
+- [Science Mike](http://mikemchargue.com/) - Q&A show on science, faith, and life
 
 ## Tools
 - [Word Pattern Matcher Tool](https://www.quinapalus.com/cgi-bin/match?pat=*)
