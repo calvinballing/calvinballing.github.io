@@ -59,3 +59,27 @@
     alttext: Wall-E
   - filename: lotr.jpeg
     alttext: LOTR - Return of the King
+
+- id: fairy-doors
+  imagefolder: galleries/fairy-doors
+  images:
+  - filename: toadstool-way.jpg
+    alttext: 397 Toadstool Way
+  - filename: door-with-blue.jpg
+    alttext: Acorn Cap Road
+  - filename: door-with-flags.jpg
+    alttext: Mouse Castle
+  - filename: door-of-rock.png
+    alttext: The Rock Gnomes
+  - filename: door-with-string.jpg
+    alttext: Weaver's Home
+  - filename: door-with-ribbon.jpg
+    alttext: Witches' Hut
+  - filename: door-round.jpg
+    alttext: Hobbit House
+  - filename: door-with-foil.jpg
+    alttext: Sprite Cottage
+  - filename: mailbox.png
+    alttext: Mailbox
+  - filename: yard-decorations.png
+    alttext: Yard Decorations
