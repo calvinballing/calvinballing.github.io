@@ -16,6 +16,9 @@ For our child's first birthday, we celebrated with a fruit-themed party!  Among 
 
 # Solutions
 
+<details markdown="1">
+<summary>Click to reveal</summary>
+
 1. Tomato
 1. Apple
 1. Starfruit
@@ -46,3 +49,5 @@ For our child's first birthday, we celebrated with a fruit-themed party!  Among 
 1. Boysenberry
 1. Pink Lady
 1. Zucchini
+
+</details>
