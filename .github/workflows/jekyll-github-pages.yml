@@ -22,6 +22,11 @@ jobs:
         with:
           bundler-cache: false # runs 'bundle install' and caches installed gems automatically
 
+      # Install ImageMagick for rmagick gem
+      - name: 🖼️ Install ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libmagickwand-dev imagemagick
 
       # See https://github.com/bglw/jekyll-postcss-v2 for example GitHub Action
       # Install Node as this is needed for PostCSS
