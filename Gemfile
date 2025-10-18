@@ -18,8 +18,6 @@ gem 'jekyll', '~> 4.0'
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 
-#for not needing to refresh so much
-gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -33,5 +31,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
 gem 'webrick'
