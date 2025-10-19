@@ -10,17 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 📂 setup
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
         # include the lines below if you are using jekyll-last-modified-at
         # or if you would otherwise need to fetch the full commit history
         # however this may be very slow for large repositories!
         # with:
         # fetch-depth: '0'
+      
       - name: 💎 setup ruby
         uses: ruby/setup-ruby@v1
         with:
-          bundler-cache: false # runs 'bundle install' and caches installed gems automatically
+          ruby-version: '3.3'
+          bundler-cache: true
 
       # Install ImageMagick for rmagick gem
       - name: 🖼️ Install ImageMagick
@@ -31,9 +33,9 @@ jobs:
       # See https://github.com/bglw/jekyll-postcss-v2 for example GitHub Action
       # Install Node as this is needed for PostCSS
       - name: Setup Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: '18'
 
       # Install PostCSS plugins (from your package.json)
       - name: npm install
