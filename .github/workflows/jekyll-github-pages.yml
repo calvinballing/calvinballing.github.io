@@ -17,18 +17,21 @@ jobs:
         # however this may be very slow for large repositories!
         # with:
         # fetch-depth: '0'
-      
       - name: 💎 setup ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
-          bundler-cache: true
+          bundler-cache: false
 
       # Install ImageMagick for rmagick gem
       - name: 🖼️ Install ImageMagick
         run: |
           sudo apt-get update
           sudo apt-get install -y libmagickwand-dev imagemagick
+
+      # Manual bundle install
+      - name: 📦 Install Ruby dependencies
+        run: bundle install --jobs 4 --retry 3
 
       # See https://github.com/bglw/jekyll-postcss-v2 for example GitHub Action
       # Install Node as this is needed for PostCSS
