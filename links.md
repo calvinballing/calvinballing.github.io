@@ -22,7 +22,7 @@ permalink: /links/
 - [Sign up for mobile alerts when the International Space Station is overhead](https://www.nasa.gov/spot-the-station/)
 
 ## Fiction
-- [Methods of Rationality Podcast](hpmor.com)
+- [Methods of Rationality Podcast](https://hpmor.com/)
 - [Worth the Candle](https://www.royalroad.com/fiction/25137/worth-the-candle)
 - [Worm](https://parahumans.wordpress.com/)
 - [Alexander Wales](https://www.fanfiction.net/u/4976703/alexanderwales), especially [The Metropolitan Man](https://www.fanfiction.net/s/10360716/1/The-Metropolitan-Man)
