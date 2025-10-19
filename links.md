@@ -5,24 +5,25 @@ permalink: /links/
 ---
 
 ## General Interest Content
-- [Slate Star Codex](https://slatestarcodex.com/) - Long-form blog posts
+- [Astral Codex Ten](https://www.astralcodexten.com//) - Long-form blog posts
 - [Explorable Explanations by Nicky Case](https://explorabl.es/) - Interactive learning tools
-- [qntm](qntm.com) - Blog of a writer & software developer
-- [Vi Hart](https://www.youtube.com/user/Vihart) - Math YouTube videos
+- [qntm](https://qntm.org) - Blog of a writer & software developer
+- [Vi Hart](https://vimeo.com/vihart) - Creative Math videos
 
 ## Podcasts
+- [Lateral](https://lateralcast.com/)
 - [Rationally Speaking](http://rationallyspeakingpodcast.org/) - Rigorous, nuanced interviews on a wide range of important topics
-- [Stuff Mom Never Told You](www.stuffmomnevertoldyou.com/) - Research-based discussion around feminism's impact on everyday life
-- [Science Mike](http://mikemchargue.com/) - Q&A show on science, faith, and life
+- [Stuff Mom Never Told You](https://www.stuffmomnevertoldyou.com/) - Research-based discussion around feminism's impact on everyday life
 
 ## Tools
-- [Word Pattern Matcher Tool](https://www.quinapalus.com/cgi-bin/match?pat=*)
+- [Word Pattern Matcher Tool (nutrimatic)](https://nutrimatic.org/2024/)
+- [Word Pattern Matcher Tool (Quinapalus)](https://www.quinapalus.com/cgi-bin/match?pat=*)
 - [Solar System Scale Model Calculator](https://thinkzone.wlonk.com/SS/SolarSystemModel.php)
-- [Sign up for mobile alerts when the International Space Station is overhead](https://spotthestation.nasa.gov/signup.cfm)
+- [Sign up for mobile alerts when the International Space Station is overhead](https://www.nasa.gov/spot-the-station/)
 
 ## Fiction
 - [Methods of Rationality Podcast](hpmor.com)
-- [Worth the Candle](https://archiveofourown.org/works/11478249)
+- [Worth the Candle](https://www.royalroad.com/fiction/25137/worth-the-candle)
 - [Worm](https://parahumans.wordpress.com/)
 - [Alexander Wales](https://www.fanfiction.net/u/4976703/alexanderwales), especially [The Metropolitan Man](https://www.fanfiction.net/s/10360716/1/The-Metropolitan-Man)
 - [Unsong](http://unsongbook.com/)
@@ -31,9 +32,7 @@ permalink: /links/
 - [Brad Greco - Misc. coding projects](http://bgreco.net)
 - [Sam McConnell and Amanda Hays - The Broken Book Bible Podcast](https://www.buzzsprout.com/67135)
 - [Peter Plantinga - Misc. coding projects](http://massey-plantinga.com)
-- [Justin Siebert - Siebert Science - High school science videos](https://www.youtube.com/channel/UCly58gB7268VKzsH4zlMMvQ)
-- [Alyssa Massey - Renegade sheep designs - Board game jewelry](http://www.etsy.com/shop/renegadesheepdesigns)
+- [Justin Siebert - Siebert Science - High school science videos](https://www.youtube.com/@SiebertScience)
 - [Paul Martin - DIY electronics videos](https://www.youtube.com/user/ukrcamilio)
 - [Natalie Hart - Blogger](http://nataliehart.com/)
 - [Kenan Schaefkofer - Online games and projects](https://kenan.schaefkofer.com/)
-- [Russell Emmer Harms - Misc. coding projects](https://russelleh.io/)
