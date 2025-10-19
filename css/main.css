@@ -105,7 +105,7 @@
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }/*
-! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.18 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -615,6 +615,10 @@ video {
 .object-\[0\2c 60\%\] {
   -o-object-position: 0 60%;
      object-position: 0 60%;
+}
+.object-bottom {
+  -o-object-position: bottom;
+     object-position: bottom;
 }
 .object-center {
   -o-object-position: center;
@@ -1425,13 +1429,7 @@ article ol {
     }
 }
 .sidebar {
-    width: calc(25% - 20px);
-}
-@media screen and (max-width: 1330px) {
-    .sidebar {
-        width: 100%;
-    }
-
+    width: 100%;
 }
 footer {
     font-size: 0.8em;

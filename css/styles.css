@@ -963,14 +963,7 @@ article ol {
 }
 
 .sidebar {
-    width: calc(25% - 20px);
-}
-
-@media screen and (max-width: 1330px) {
-    .sidebar {
-        width: 100%;
-    }
-
+    width: 100%;
 }
 
 footer {
