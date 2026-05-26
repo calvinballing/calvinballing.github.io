@@ -48,7 +48,7 @@
                         <div class="meta">
                             {% include author.html%} &bull;
                             <span class="date">
-                                Published on {{ page.date | date: '%B %d, %Y' }}
+                                {{ page.date | date: '%B %d, %Y' }}
                             </span>
                         </div>
                         {% if page.type == "standard" %}
