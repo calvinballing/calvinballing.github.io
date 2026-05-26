@@ -7,6 +7,18 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>MITMH 2026</title>
+				
+				
+					<description>&lt;h1 id=&quot;mit-mystery-hunt-2026&quot;&gt;MIT Mystery Hunt 2026&lt;/h1&gt;
+</description>
+				
+				<pubDate>Thu, 22 Jan 2026 17:13:05 +0000</pubDate>
+				<link>/mystery-hunt-2026/</link>
+				<guid isPermaLink="true">/mystery-hunt-2026/</guid>
+			</item>
+		
+			<item>
 				<title>“Boda Borg” 2025</title>
 				
 				
@@ -16,6 +28,18 @@
 				<pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
 				<link>/boda-borg-2025/</link>
 				<guid isPermaLink="true">/boda-borg-2025/</guid>
+			</item>
+		
+			<item>
+				<title>Alphabet Games</title>
+				
+				
+					<description>&lt;p&gt;For those not familiar, the Alphabet Game is a classic road trip game, played by children before the invention of the iPad. In it, participants try to find consecutive letters of the alphabet, working all the way from A to Z as quickly as possible.  Sounds simple, but there is lot’s of room for house rules and variations.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 25 Oct 2025 02:30:00 +0000</pubDate>
+				<link>/alphabet-games/</link>
+				<guid isPermaLink="true">/alphabet-games/</guid>
 			</item>
 		
 			<item>
@@ -64,6 +88,20 @@
 				<pubDate>Wed, 01 Jan 2025 17:00:00 +0000</pubDate>
 				<link>/life-size-tapple/</link>
 				<guid isPermaLink="true">/life-size-tapple/</guid>
+			</item>
+		
+			<item>
+				<title>MIT Mystery Hunt 2024</title>
+				
+				
+					<description>&lt;h1 id=&quot;mit-mystery-hunt&quot;&gt;MIT Mystery Hunt&lt;/h1&gt;
+&lt;h2 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;The reflections below are my own.  I do not speak on behalf of TTBNL or any other team.&lt;/em&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 31 Jan 2024 17:00:00 +0000</pubDate>
+				<link>/mystery-hunt/</link>
+				<guid isPermaLink="true">/mystery-hunt/</guid>
 			</item>
 		
 			<item>
