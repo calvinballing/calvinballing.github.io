@@ -9,19 +9,13 @@ description: Jim Hays's blog on puzzles, games, ideas, etc.
 {% if paginator.total_pages > 1 %}
     <div class="pagination">
         <!-- link to first page -->
-        {% if paginator.total_pages > 3 %}
-            {% if paginator.page == 1 %}
-                <span class="disabled"><i class="fa fa-angle-double-left"></i></span>
-            {% else %}
-                <a href="{{ '/' | relative_url }}" class="hover:bg-[#EEF]"><i class="fa fa-angle-double-left"></i></a>
-            {% endif %}
+        {% if paginator.page > 2 %}
+            <a href="{{ '/' | relative_url }}" class="hover:bg-[#EEF]"><i class="fa fa-angle-double-left"></i></a>
         {% endif %}
 
         <!-- previous link -->
         {% if paginator.previous_page %}
             <a href="{{ paginator.previous_page_path | relative_url }}" class="hover:bg-[#EEF]"><i class="fa fa-angle-left"></i></a>
-        {% else %}
-            <span class="disabled"><i class="fa fa-angle-left"></i></span>
         {% endif %}
 
         <!-- number links -->
@@ -44,17 +38,12 @@ description: Jim Hays's blog on puzzles, games, ideas, etc.
         <!-- next link -->
         {% if paginator.next_page %}
             <a href="{{ paginator.next_page_path | relative_url }}" class="hover:bg-[#EEF]"><i class="fa fa-angle-right"></i></a>
-        {% else %}
-            <span class="disabled"><i class="fa fa-angle-right"></i></span>
         {% endif %}
 
         <!-- last page link -->
-        {% if paginator.total_pages > 3 %}
-            {% if paginator.page == paginator.total_pages %}
-                <span class="disabled"><i class="fa fa-angle-double-right"></i></span>
-            {% else %}
-                <a href="{{ site.baseurl | replace: '//', '/' }}/page/{{paginator.total_pages}}" class="hover:bg-[#EEF]"><i class="fa fa-angle-double-right"></i></a>
-            {% endif %}
+        {% assign pages_remaining = paginator.total_pages | minus: paginator.page %}
+        {% if pages_remaining >= 2 %}
+            <a href="{{ site.baseurl | replace: '//', '/' }}/page/{{paginator.total_pages}}" class="hover:bg-[#EEF]"><i class="fa fa-angle-double-right"></i></a>
         {% endif %}
     </div>
 {% endif %}
