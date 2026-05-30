@@ -59,17 +59,47 @@
         <h1>{{ post.title }}</h1>
     </a>
 
-        {% assign preprocessed_content=post.content | replace: '<em>', '__em__' %}
-        {% assign preprocessed_content=preprocessed_content | replace: '</em>', '__/em__' %}
-        {% assign preprocessed_content=preprocessed_content | replace: '<sup>', '__sup__' %}
-        {% assign preprocessed_content=preprocessed_content | replace: '</sup>', '__/sup__' %}
+    {% assign preprocessed_content = post.content | replace: '<em>', '__em__' | replace: '</em>', '__/em__' | replace: '<sup>', '__sup__' | replace: '</sup>', '__/sup__' %}
 
-        {% assign truncated_content=preprocessed_content | strip_html | truncatewords:15 %}
+    {% assign truncated_content = preprocessed_content | strip_html | truncatewords: 15 %}
 
-        {% assign cleaned_content=truncated_content | replace: '__em__', '<em>' %}
-        {% assign cleaned_content=cleaned_content | replace: '__/em__', '</em>' %}
-        {% assign cleaned_content=cleaned_content | replace: '__sup__', '<sup>' %}
-        {% assign cleaned_content=cleaned_content | replace: '__/sup__', '</sup>' %}
+    {% assign cleaned_content = truncated_content | replace: '__em__', '<em>' | replace: '__/em__', '</em>' | replace: '__sup__', '<sup>' | replace: '__/sup__', '</sup>' %}
+
+    {% comment %} Append dummy string for accurate splitting {% endcomment %}
+    {% assign dummy_content = cleaned_content | append: "|||" %}
+
+    {% comment %} Determine which tags are left open {% endcomment %}
+    {% assign open_em_count = dummy_content | split: '<em>' | size %}
+    {% assign close_em_count = dummy_content | split: '</em>' | size %}
+    {% assign needs_em = false %}
+    {% if open_em_count > close_em_count %}
+    {% assign needs_em = true %}
+    {% endif %}
+
+    {% assign open_sup_count = dummy_content | split: '<sup>' | size %}
+    {% assign close_sup_count = dummy_content | split: '</sup>' | size %}
+    {% assign needs_sup = false %}
+    {% if open_sup_count > close_sup_count %}
+    {% assign needs_sup = true %}
+    {% endif %}
+
+    {% comment %} Append closing tags in the correct LIFO order {% endcomment %}
+    {% if needs_em and needs_sup %}
+    {% assign last_em_block = dummy_content | split: '<em>' | last %}
+    
+    {% if last_em_block contains '<sup>' %}
+        {% comment %} <sup> was opened INSIDE/AFTER the last <em> {% endcomment %}
+        {% assign cleaned_content = cleaned_content | append: '</sup></em>' %}
+    {% else %}
+        {% comment %} <em> was opened AFTER the last <sup> {% endcomment %}
+        {% assign cleaned_content = cleaned_content | append: '</em></sup>' %}
+    {% endif %}
+    
+    {% elsif needs_em %}
+    {% assign cleaned_content = cleaned_content | append: '</em>' %}
+    {% elsif needs_sup %}
+    {% assign cleaned_content = cleaned_content | append: '</sup>' %}
+    {% endif %}
 
     <p class="post_content">{{ cleaned_content }}</p>
     <span class="date"><i class="fa fa-calendar"></i> {{ post.date | date: '%B %d, %Y' }}</span>
