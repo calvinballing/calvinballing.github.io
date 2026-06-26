@@ -7,6 +7,18 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Dino-moji Puzzle</title>
+				
+				
+					<description>&lt;p&gt;For our second child’s second birthday, we are celebrating with a dinosaur-themed party, so I wrote a dinosaur puzzle.  The objective is to identify the dinosaur names (some are real, some fictional, some are modern avian dinosaurs, and one is dino-adjacent) from the emoji.  I’ve previously made Emoji puzzles for &lt;a href=&quot;/fruit-emoji&quot;&gt;fruit&lt;/a&gt;, &lt;a href=&quot;/bug-emoji&quot;&gt;bugs&lt;/a&gt;, and &lt;a href=&quot;/bee-moji&quot;&gt;bees&lt;/a&gt;.&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 26 Jun 2026 12:25:00 +0000</pubDate>
+				<link>/dino-moji/</link>
+				<guid isPermaLink="true">/dino-moji/</guid>
+			</item>
+		
+			<item>
 				<title>MITMH 2026</title>
 				
 				
